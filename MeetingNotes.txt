@@ -1,3 +1,9 @@
+30 November 2023
+from meeting with Reagan
+- Create phylogeny of apolipoprotein family in frogs (start with Xenopus and Bufo, look at other .gff files to see if they have apolipoprotein annotations)
+---   Add Rana sylvaticus version of fr10 to the alignment and see where it pops out
+- Reference this paper (in the literature folder): apoliporotein_phylogeny_2019.pdf
+
 6 November 2023
 from meeting with Reagan and Vicente
 - Reagan found a bunch of new genomes. He is now going to get a bunch of transcriptomes using the TSA (not the plane guys, the transcriptome guys)
