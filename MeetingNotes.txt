@@ -1,3 +1,10 @@
+6 November 2023
+from meeting with Reagan and Vicente
+- Reagan found a bunch of new genomes. He is now going to get a bunch of transcriptomes using the TSA (not the plane guys, the transcriptome guys)
+-- link: https://www.ncbi.nlm.nih.gov/Traces/wgs/?page=1&view=TSA
+- Reagan is organizing script environment to make things more traceable
+
+
 20 October 2023
 from meeting with Vicente
 - Vicente prepared letters for 9 institutions. We are now figuring out how to reach out to the collections managers at these institutions:
