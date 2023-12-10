@@ -1,0 +1,15 @@
+# STOCKHOLM 1.0
+
+#=GS CM053038.1_Lithobates_sylvaticus DE Hit for: U44831
+#=GS MGYP000199268642/11-59           DE [subseq from] FL=0
+#=GS MGYP000199268642/79-109          DE [subseq from] FL=0
+#=GS MGYP000199268642/161-204         DE [subseq from] FL=0
+#=GS MGYP000199268642/218-264         DE [subseq from] FL=0
+
+CM053038.1_Lithobates_sylvaticus         MKVLALVVLVIAISGLEAGVVKRDAQDPLQQITDIFQGISKTLQEKFANAEIPSQTQE-LGAK-IQAHGETISASIQKWIEEMVALSKQKLS
+MGYP000199268642/11-59                   -----------------------SATDTLQSASDTLQSVSDTLQSASDTLQPASDTLQ-SGSDTLQSASDTLQ-------------------
+MGYP000199268642/79-109                  ---------------------LQSATDTLQSASDILQSVSDTLQSASDTLQS----------------------------------------
+MGYP000199268642/161-204                 --------------------------DTLPSASDTLQSVSDTLQSASETLQSASDTLQ-SGSDTLQSASDT---------------------
+MGYP000199268642/218-264                 --------------------TLQSATDTLQSASDILQSVSDTLQSASDTLQSASDTLQSASDT-LQSA------------------------
+#=GC RF                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

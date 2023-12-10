@@ -1,0 +1,27 @@
+# STOCKHOLM 1.0
+
+#=GS KZ369603.1_Rana_catesbeiana   DE Hit for: U44831_merged_LIAG021239457.1_Aquarana_catesbeiana Hit for: U44831_merged_lcl|KZ369603.1_cds_PIO09969.1_24625_[locus_tag=AB205_0185210]_[protein=hypothetical Hit for: U44831_merged_lcl|KZ369603.1_mrna_AB205_0185210_24625_[locus_tag=AB205_0185210]_[product=hypothetical Hit for: U44831
+#=GS UniRef90_Q91335/1-90          DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-101    DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_UPI00235A7A2A/1-98   DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A553MQ52/18-97     DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A553MQ52/159-239   DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A7J6C6W2/45-133    DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_A0A7J6C6W2/198-286   DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_UPI001ABDBE56/31-122 DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A974CAB9/1-81      DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_O73676/1-85          DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+
+KZ369603.1_Rana_catesbeiana           MKVLALVVLVIAISGLEAGVVKRDAQ--D-P-LQQISDIFQG-ISKSI----Q-------E----QIA---N---A---EIPSQAQDLGTKLQEQGATISASIQKWIEELVALSKQKLS
+UniRef90_Q91335/1-90                  MKVLALVVLVIAISGLEAGVVKRDAQ--D-P-LQQITDIFQG-ISKTL----Q-------E----KFA---N---A---EIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKEKLS
+UniRef90_A0A2G9Q2Y2/27-101            ---------------LPAGVVKRDAQ--D-P-LQQISDIFQG-ISKSI----Q-------E----QIA---N---A---EIPSQAQDLGTKLQEQGATISASIQKWIEELVALSKQKLS
+UniRef90_UPI00235A7A2A/1-98           MKVLALVVLIIAVSGLEAGLVKREAA--NIPNLDQITQIFNA-WAETI----KSSTQDLIE----KIK---S---G---EAQSHAEQYLEQTKAQAEPLKAEMEKWISQIVEKSKQAF-
+UniRef90_A0A553MQ52/18-97             -SVIAVLVVALAIGSESASLVKRDAS--A-E-LDKIAKYFQD-FV---------------D----NLK---N---V---EGPELVSKANTYLEQSRAQFQPMVEKLHEQLKPLS-----
+UniRef90_A0A553MQ52/159-239           -SVIAVLVVALAIGSESASLVKRDAS--A-E-LDKIAKYFQD-FV---------------D----NLK---N---V---EGPELVSKANTYLEQSRAQFQPMVEKLHEQLKPLSS----
+UniRef90_A0A7J6C6W2/45-133            --LVAVLVVALAIGSESASLVKRDAP--A-E-LDKIAKYFQD-LVDNL----K-------NVEGPELA---NKANAYFEQSKAQLQPMVEKLQEQLKPLSSNIEDHIKPL---------
+UniRef90_A0A7J6C6W2/198-286           --LIAILLVALAIGSESASLVKRDAP--A-E-LEKIAKYFQD-LVDNL----K-------NVEGPELA---NKANAYFEQSRAQFQPMVEKLQEQLKPLSGNIEDHIKPL---------
+UniRef90_UPI001ABDBE56/31-122         MKVLALAVLILAISGLEAGVVKREVP--N---AEQVSEFFNS-WFETL----KTN---AEEW-AKKIQ---N---G---EIQAQAGQVLEQTKTQTEPIKAELEKFFATILEAGK----
+UniRef90_A0A974CAB9/1-81              MKVLALVVLVIAISGMEAGVVKREVP--N---LDEFTKIFSS-WADTLKTQTQ-------E----WIAKIQN---G---EVKAQTEEIFAQVKTQMEPLQGHFQ---------------
+UniRef90_O73676/1-85                  MKVLALVVLVIAVSGLEAGVVKREVPSLD-E-LTKILSTWADTVKTQT----Q-------EW-IDKVQ---N---G---EVKAQTEEILAQVKSHMEPIQGQFQEIFS-----------
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxxxx..x.x.xxxxxxxxxx.xxxxx....x.......x....xxx...x...x...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
