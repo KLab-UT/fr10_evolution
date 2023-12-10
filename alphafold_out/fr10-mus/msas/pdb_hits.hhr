@@ -1,0 +1,350 @@
+Query         CM055126.1_Rana_muscosa Hit for: U44831
+Match_columns 90
+No_of_seqs    11 out of 13
+Neff          2.43146
+Searched_HMMs 80799
+Date          Sat Dec  9 21:30:07 2023
+Command       /usr/bin/hhsearch -i /scratch/local/u6052680/8987469/tmpnvm7db47/query.a3m -o /scratch/local/u6052680/8987469/tmpnvm7db47/output.hhr -maxseq 1000000 -d /tmp/8987469/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6V7M_A Beta-lactoglobulin; pro  96.0 0.00031 3.9E-09   49.2   0.0   81    1-81      1-100 (100)
+  2 6NCO_A Apolipoprotein E; Lipid  75.4       2 2.4E-05   33.0   0.0   76   11-86     13-107 (185)
+  3 6NCN_A Apolipoprotein E; Lipid  71.3     2.9 3.6E-05   32.1   0.0   75   12-86     14-107 (185)
+  4 3R2P_A Apolipoprotein A-I; amp  70.6     3.1 3.9E-05   30.9   0.0   62   25-86      5-70  (185)
+  5 3K2S_B Apolipoprotein A-I; sup  64.1     5.2 6.5E-05   31.0   0.0   63   25-87      4-70  (243)
+  6 1OR3_A APOLIPOPROTEIN E; LIPID  63.4     5.5 6.8E-05   29.5   0.0   63   24-86     21-87  (165)
+  7 2KC3_A Apolipoprotein E; ApoE,  62.5     5.9 7.3E-05   30.1   0.0   63   24-86     22-88  (184)
+  8 1NFN_A APOLIPOPROTEIN E3; LIPI  61.5     6.3 7.8E-05   30.1   0.0   63   24-86     21-87  (191)
+  9 1GS9_A APOLIPOPROTEIN E; LIPID  61.4     6.4 7.9E-05   29.3   0.0   63   24-86     21-87  (165)
+ 10 1LE2_A APOLIPOPROTEIN-E2 (LDL   61.1     6.5   8E-05   28.0   0.0   61   26-86      1-65  (144)
+ 11 2L7B_A Apolipoprotein E; apoli  55.0     9.7 0.00012   31.2   0.0   63   24-86     29-95  (307)
+ 12 1EQ1_A NMR STRUCTURE OF AN EXC  49.5      14 0.00017   28.8   0.0   14   31-44     56-69  (166)
+ 13 6DVU_B Apolipoprotein C-I; lip  45.0      18 0.00022   26.0   0.0   39   34-72     35-77  (83)
+ 14 6DXR_B Apolipoprotein C-I; lip  45.0      18 0.00022   26.0   0.0   39   34-72     35-77  (83)
+ 15 2LEM_A Apolipoprotein A-I; LIP  42.6      21 0.00026   27.1   0.0   62   25-86      3-68  (216)
+ 16 2MAR_A SXP/RAL-2 family protei  30.0      45 0.00055   22.7   0.0    9   33-41     52-60  (134)
+ 17 1YA9_A Apolipoprotein E; Apoli  28.2      50 0.00062   24.7   0.0   64   21-86     11-78  (181)
+ 18 4ADN_A FAR1; ANTIBIOTIC RESIST  27.4      53 0.00066   26.7   0.0    6   72-77     83-88  (222)
+ 19 2RM8_A Sensory rhodopsin II tr  26.6      56 0.00069   18.4   0.0   23   64-86     40-62  (68)
+ 20 4E4B_A Far1; Zinc binding fold  25.4      61 0.00075   26.2   0.0    8   71-78     76-83  (216)
+ 21 4AUR_A LEOA; HYDROLASE, LT TOX  20.5      88  0.0011   24.7   0.0   25   59-83    524-548 (577)
+
+No 1
+>6V7M_A Beta-lactoglobulin; proteolysis, Alzheimers, lipid, lipoprotein, lipids; 2.0A {Homo sapiens}
+Probab=96.04  E-value=0.00031  Score=49.19  Aligned_cols=81  Identities=23%  Similarity=0.171  Sum_probs=54.1  Template_Neff=5.400
+
+Q CM055126.1_Ran    1 MKVLALVVLIIAISGLEAGVVKRD---------------AQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGA   61 (90)
+Q Consensus         1 mkVlAlvVlviAIsgleAgvVKRe---------------ap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a   61 (90)
+                      ||+++++|+|++++||||+++++|               +|++||+++++||+|+++++    +++++|++|+++||+++
+T Consensus         1 Mk~~~l~LaL~~ltGcqA~~~~~de~~~~~~~~~~~~~~~~s~~e~v~~~fw~Y~~~~~~~a~~~~e~l~~S~l~qEl~~   80 (100)
+T 6V7M_A            1 MKVLWAALLVTFLAGCQAKVEQAVETEPEPELRQQTEWQSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRA   80 (100)
+T ss_dssp             -----------------------------------CCCCCCCHHHHHHHHHHHHHHHHTTCCHHHHHHHHSSHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHhchhhhccCCCCCchHhhccccccCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHH
+Confidence            899999999999999999987777               67899999999999999998    89999999999999999
+
+
+Q CM055126.1_Ran   62 KIQEHGANLSAGIQKWIEEM   81 (90)
+Q Consensus        62 ~~q~~~~~~qa~~eK~~eql   81 (90)
+                      +|++++++++.|+++|++++
+T Consensus        81 li~dt~~~l~~y~~~L~~ql  100 (100)
+T 6V7M_A           81 LMDETMKELKAYKSELEEQL  100 (100)
+T ss_dssp             HHHHHHHHHHHHHHHHTTC-
+T ss_pred             HHHHHHHHHHHHHHHHHHhC
+Confidence            99999999999999999875
+
+
+No 2
+>6NCO_A Apolipoprotein E; Lipid Binding, LIPID TRANSPORT; HET: KQP; 1.707A {Homo sapiens}
+Probab=75.43  E-value=2  Score=32.98  Aligned_cols=76  Identities=17%  Similarity=0.101  Sum_probs=69.8  Template_Neff=6.200
+
+Q CM055126.1_Ran   11 IAISGLEAGVV---------------KRDAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLS   71 (90)
+Q Consensus        11 iAIsgleAgvV---------------KReap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~q   71 (90)
+                      ++-+||+|+++               ..|||++||+++++||+||++++    +++++|++|+++|||+.+|++++++++
+T Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~s~lE~v~d~fw~Y~~ql~~~ak~~ve~l~~Sel~qEL~~~i~~~l~~l~   92 (185)
+T 6NCO_A           13 LVPRGSHMKVEQAVETEPEPELRQQTEWQSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELK   92 (185)
+T ss_pred             CCCCcccCeecCCCCCCCCCccCCCCCCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHhhHHHHH
+Confidence            34689999987               33699999999999999999998    889999999999999999999999999
+
+
+Q CM055126.1_Ran   72 AGIQKWIEEMIALSK   86 (90)
+Q Consensus        72 a~~eK~~eql~~lSk   86 (90)
+                      .|+++|++++.|++.
+T Consensus        93 ~y~~~Lq~~l~P~a~  107 (185)
+T 6NCO_A           93 AYKSELEEQLTPVAE  107 (185)
+T ss_pred             HHHHHHHHHhhHHHH
+Confidence            999999999998864
+
+
+No 3
+>6NCN_A Apolipoprotein E; Lipid Binding Lipid Transport, LIPID; HET: KJM; 1.82A {Homo sapiens}
+Probab=71.35  E-value=2.9  Score=32.08  Aligned_cols=75  Identities=17%  Similarity=0.090  Sum_probs=57.8  Template_Neff=6.200
+
+Q CM055126.1_Ran   12 AISGLEAGVV---------------KRDAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSA   72 (90)
+Q Consensus        12 AIsgleAgvV---------------KReap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa   72 (90)
+                      +-+||+++.+               ..|||++||+++++||+||++++    +++++|++|+++|||+.+|++++++++.
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~s~lE~v~~~fw~Y~~ql~~~ak~~ve~l~~Sel~qEL~~~i~~~l~~l~~   93 (185)
+T 6NCN_A           14 VPRGSHMKVEQAVETEPEPELRQQTEWQSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKA   93 (185)
+T ss_dssp             ------------------------------CHHHHHHHHHHHHHHHHHHCCHHHHHHHHSSHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCccccccccccCCCCChhHhccccccCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHH
+Confidence            4689999987               33689999999999999999998    8899999999999999999999999999
+
+
+Q CM055126.1_Ran   73 GIQKWIEEMIALSK   86 (90)
+Q Consensus        73 ~~eK~~eql~~lSk   86 (90)
+                      |+++|++++.|++.
+T Consensus        94 y~~~Lq~~l~P~a~  107 (185)
+T 6NCN_A           94 YKSELEEQLTPVAE  107 (185)
+T ss_dssp             HHHHHTTSCCCCCH
+T ss_pred             HHHHHHHHhhHHHH
+Confidence            99999999988764
+
+
+No 4
+>3R2P_A Apolipoprotein A-I; amphipathic alpha-helix, major protein of; 2.2045A {Homo sapiens}
+Probab=70.62  E-value=3.1  Score=30.89  Aligned_cols=62  Identities=16%  Similarity=0.245  Sum_probs=59.6  Template_Neff=7.500
+
+Q CM055126.1_Ran   25 AQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        25 ap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      ||++||+++++||+||++++    +++++|++|++||||+++|++++++++.|+++|++++.|.+.
+T Consensus         5 p~~~~e~v~~~~w~Y~~q~~~~a~~~~~~l~~sel~qel~~~i~~~~~~~~~y~~~l~~~l~P~a~   70 (185)
+T 3R2P_A            5 PQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQ   70 (185)
+T ss_dssp             CCCTTHHHHHHHCCCCCHHHHHHHHHHHHHHHSHHHHHTTCCCCTTCSCSSCHHHHHHHHHCSCCH
+T ss_pred             CCChhHHHHHHHHHHHHHHHHHHHHHHHHHhhcHHHHHHHHHHHHhHHHHHHHHHHHHHhhchHHH
+Confidence            78899999999999999998    899999999999999999999999999999999999998865
+
+
+No 5
+>3K2S_B Apolipoprotein A-I; super double helix, amphipathic, Amyloid; HET: POV, CLR;{Homo sapiens}
+Probab=64.14  E-value=5.2  Score=30.96  Aligned_cols=63  Identities=16%  Similarity=0.250  Sum_probs=60.1  Template_Neff=7.500
+
+Q CM055126.1_Ran   25 AQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSKQ   87 (90)
+Q Consensus        25 ap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSkq   87 (90)
+                      ||++||+++++||+||++++    +++++|++|+++|||+++|++++++++.|+++|++++.|.+..
+T Consensus         4 ~~~~~e~v~~~fw~Y~~q~~~~a~~~~~~i~~sel~qel~~li~~~~~~~~~y~~~l~~~l~P~~~e   70 (243)
+T 3K2S_B            4 PQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQE   70 (243)
+T ss_dssp             CSCSSCCSSTTHHHHHHHCCCCCTHHHHHHHHHHSSSSCTTHHHHTTHHHHHHHHHHHHHTTTSSSS
+T ss_pred             CCChhHHHHHHHHHHHHHHHHHHHHHHHHhHhcHHHHHHHHHHHHcHHHHHHHHHHHHHhhchHHHH
+Confidence            78899999999999999999    8999999999999999999999999999999999999988653
+
+
+No 6
+>1OR3_A APOLIPOPROTEIN E; LIPID TRANSPORT, HEPARIN-BINDING, PLASMA PROTEIN; 1.73A {Homo sapiens} SCOP: a.24.1.1
+Probab=63.40  E-value=5.5  Score=29.52  Aligned_cols=63  Identities=17%  Similarity=0.098  Sum_probs=56.9  Template_Neff=7.000
+
+Q CM055126.1_Ran   24 DAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        24 eap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |||++||+++++||+||++++    +++++|++|+++|+|+.+|++++++++.|+++|++++.+.+.
+T Consensus        21 ~~~~~le~~~~~~w~Y~~q~~~~a~~~ve~l~~Sel~qeL~~~i~~~~~~l~~y~~~Lq~~l~P~a~   87 (165)
+T 1OR3_A           21 QSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   87 (165)
+T ss_dssp             -CTTHHHHHHHHHHHHHHHHHTCCHHHHHHHHTTHHHHHHHHHHHHHHHHHHHHHHHHHHHCC----
+T ss_pred             cCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHH
+Confidence            799999999999999999998    889999999999999999999999999999999999988764
+
+
+No 7
+>2KC3_A Apolipoprotein E; ApoE, LDLR, VLDLR, Receptor binding; NMR {Homo sapiens}
+Probab=62.51  E-value=5.9  Score=30.09  Aligned_cols=63  Identities=17%  Similarity=0.098  Sum_probs=60.7  Template_Neff=6.700
+
+Q CM055126.1_Ran   24 DAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        24 eap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      ||+++||+++++||+||++++    +++++|++|++|+|++.+|++++++++.|+++|++++.|++.
+T Consensus        22 e~~~~le~~~~~~w~Y~~q~~~~a~~~ve~l~~Sel~qel~~~i~~~l~~l~~y~~~Lq~ql~P~~~   88 (184)
+T 2KC3_A           22 QSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   88 (184)
+T ss_pred             CCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHHchHHHHHHHHHHHHHHhhHHHH
+Confidence            799999999999999999998    889999999999999999999999999999999999999875
+
+
+No 8
+>1NFN_A APOLIPOPROTEIN E3; LIPID TRANSPORT, HEPARIN-BINDING, PLASMA PROTEIN; 1.8A {Homo sapiens} SCOP: a.24.1.1
+Probab=61.47  E-value=6.3  Score=30.09  Aligned_cols=63  Identities=17%  Similarity=0.098  Sum_probs=60.6  Template_Neff=6.700
+
+Q CM055126.1_Ran   24 DAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        24 eap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |||++||+++++||+||++++    +++++|++|+++|+|+.+|++++++++.|+++|++++.+++.
+T Consensus        21 ~~~s~le~~~~~~w~Y~~q~~~~a~~~~e~l~~Sel~qel~~~i~~~l~~l~~y~~~Lq~~l~P~a~   87 (191)
+T 1NFN_A           21 QSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   87 (191)
+T ss_pred             CCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            799999999999999999998    889999999999999999999999999999999999998865
+
+
+No 9
+>1GS9_A APOLIPOPROTEIN E; LIPID TRANSPORT, HEPARIN-BINDING, PLASMA, LIPID; 1.7A {HOMO SAPIENS} SCOP: a.24.1.1
+Probab=61.41  E-value=6.4  Score=29.28  Aligned_cols=63  Identities=17%  Similarity=0.098  Sum_probs=59.7  Template_Neff=6.900
+
+Q CM055126.1_Ran   24 DAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        24 eap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |||++||+++++||+||++++    +++++|++|+++|+|+.+|++++++++.|.++|++++.+.+.
+T Consensus        21 e~~~~lE~~~~~~w~Y~~q~~~~a~~~ve~l~~Sel~qeL~~~i~~~~~~l~~y~~~Lq~~l~P~a~   87 (165)
+T 1GS9_A           21 QSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   87 (165)
+T ss_dssp             -CCCHHHHHHHHHHHHHHHHHHCCHHHHHHHHSSHHHHHHHHHHHHHHHHHHHHHHHHTTSCCCCCS
+T ss_pred             cCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHH
+Confidence            799999999999999999999    889999999999999999999999999999999999988864
+
+
+No 10
+>1LE2_A APOLIPOPROTEIN-E2 (LDL RECEPTOR BINDING DOMAIN); LIPOPROTEIN; 3.0A {Homo sapiens} SCOP: a.24.1.1
+Probab=61.14  E-value=6.5  Score=27.99  Aligned_cols=61  Identities=18%  Similarity=0.090  Sum_probs=58.2  Template_Neff=7.700
+
+Q CM055126.1_Ran   26 QDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        26 p~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |++||+++|+||+||++++    +++++|++|++|||++.+|++++++++.|.++|++++.|.+.
+T Consensus         1 ~~~~e~~~~~~w~Y~~q~~~~a~~~~~~i~~S~l~qel~~~i~~~~~~l~~y~~~L~~~l~P~a~   65 (144)
+T 1LE2_A            1 GQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   65 (144)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHCCHHHHHHHTSSHHHHHHHHHHHHHHHHHHHHHHHHTTTCCCCCT
+T ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHHHHHHHHHhccHHHH
+Confidence            5699999999999999998    889999999999999999999999999999999999998875
+
+
+No 11
+>2L7B_A Apolipoprotein E; apolipoprotein E, LIPID TRANSPORT, Atherosclerosis; NMR {Homo sapiens}
+Probab=54.98  E-value=9.7  Score=31.21  Aligned_cols=63  Identities=17%  Similarity=0.098  Sum_probs=60.8  Template_Neff=6.600
+
+Q CM055126.1_Ran   24 DAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        24 eap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      +|+++||+++++||+||++++    +++++|++|++||||+++|++++++++.|+++|++++.|.+.
+T Consensus        29 ~~~~~lE~v~~~~w~Y~~q~~~~a~~~ve~l~~Sel~qel~~~i~~~~~~l~~y~~~Lq~ql~P~~~   95 (307)
+T 2L7B_A           29 QSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTPVAE   95 (307)
+T ss_pred             CCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHHhhHHHHHHHHHHHHHHHhHHHH
+Confidence            689999999999999999998    999999999999999999999999999999999999998865
+
+
+No 12
+>1EQ1_A NMR STRUCTURE OF AN EXCHANGEABLE; Five helix-bundle, "helix-short helix-helix" recognition; NMR {Manduca sexta} SCOP: a.63.1.1
+Probab=49.47  E-value=14  Score=28.78  Aligned_cols=14  Identities=14%  Similarity=0.247  Sum_probs=6.8  Template_Neff=5.100
+
+Q CM055126.1_Ran   31 QLTDIFQGISKTLQ   44 (90)
+Q Consensus        31 qitkifq~~~~tlq   44 (90)
+                      .+...+.+|+..++
+T Consensus        56 ~~~~~lQe~~~~~~   69 (166)
+T 1EQ1_A           56 AFSSSLQGAISDAN   69 (166)
+T ss_dssp             HHHHHHHHHHTTCS
+T ss_pred             HHHHHHHHHHHHhh
+Confidence            44444455555444
+
+
+No 13
+>6DVU_B Apolipoprotein C-I; lipoprotein, alpha-helix, lipoprotein particles, lipid; 1.8A {Homo sapiens}
+Probab=45.04  E-value=18  Score=25.98  Aligned_cols=39  Identities=13%  Similarity=0.172  Sum_probs=27.7  Template_Neff=3.600
+
+Q CM055126.1_Ran   34 DIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSA   72 (90)
+Q Consensus        34 kifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa   72 (90)
+                      +.+.++=+.+.    .++++|++|++...-++-++++.+.+..
+T Consensus        35 ~~lkefg~~l~eKak~a~e~I~~Se~~~kTRnWfsE~f~kvK~   77 (83)
+T 6DVU_B           35 DKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKVKE   77 (83)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHH
+Confidence            44444444443    9999999999998888888877766543
+
+
+No 14
+>6DXR_B Apolipoprotein C-I; lipoprotein particles, lipids, alpha helix; HET: MPD; 2.0A {Homo sapiens}
+Probab=45.04  E-value=18  Score=25.98  Aligned_cols=39  Identities=13%  Similarity=0.172  Sum_probs=27.7  Template_Neff=3.600
+
+Q CM055126.1_Ran   34 DIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSA   72 (90)
+Q Consensus        34 kifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa   72 (90)
+                      +.+.++=+.+.    .++++|++|++...-++-++++.+.+..
+T Consensus        35 ~~lkefg~~l~eKak~a~e~I~~Se~~~kTRnWfsE~f~kvK~   77 (83)
+T 6DXR_B           35 DKLKEFGNTLEDKARELISRIKQSELSAKMREWFSETFQKVKE   77 (83)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhCcccHHHHHHHHHHHHHHHH
+Confidence            44444444443    9999999999998888888877766543
+
+
+No 15
+>2LEM_A Apolipoprotein A-I; LIPID TRANSPORT; NMR {Mus musculus}
+Probab=42.60  E-value=21  Score=27.10  Aligned_cols=62  Identities=15%  Similarity=0.215  Sum_probs=58.8  Template_Neff=7.800
+
+Q CM055126.1_Ran   25 AQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        25 ap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |+++||+++++||+||++++    +++++|+.|+++++|+.+++++++.++.|.++|++++.|.+.
+T Consensus         3 p~~~~e~v~~~~~~Y~~ql~~~a~~~~~~l~~s~l~qel~~~~~~~~~~l~~~~~~l~~~l~P~~~   68 (216)
+T 2LEM_A            3 PQSQWDKVKDFANVYVDAVKDSGRDYVSQFESSSLGQQLNLNLLENWDTLGSTVSQLQERLGPLTR   68 (216)
+T ss_dssp             CSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTCCCCCSSHHHHHHHHHH
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhHhccHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            78899999999999999998    889999999999999999999999999999999999887764
+
+
+No 16
+>2MAR_A SXP/RAL-2 family protein; UNKNOWN FUNCTION; NMR {Anisakis simplex}
+Probab=29.99  E-value=45  Score=22.73  Aligned_cols=9  Identities=22%  Similarity=0.357  Sum_probs=3.3  Template_Neff=8.800
+
+Q CM055126.1_Ran   33 TDIFQGISK   41 (90)
+Q Consensus        33 tkifq~~~~   41 (90)
+                      .+.|..|..
+T Consensus        52 ~~~y~~~~~   60 (134)
+T 2MAR_A           52 KAKFETFKK   60 (134)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            333333333
+
+
+No 17
+>1YA9_A Apolipoprotein E; Apolipoprotein E, LDL receptor binding; 2.09A {Mus musculus}
+Probab=28.22  E-value=50  Score=24.71  Aligned_cols=64  Identities=17%  Similarity=0.176  Sum_probs=59.0  Template_Neff=7.400
+
+Q CM055126.1_Ran   21 VKRDAQDPLQQLTDIFQGISKTLQ----EKFTNAEIPAQTQELGAKIQEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        21 VKReap~~Ldqitkifq~~~~tlq----eki~N~E~~aqa~~~~a~~q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      |++|  ++||+++++||+||++++    +++++|++|++|+||+++|+++++.++.|++++++++.+.+.
+T Consensus        11 ~q~~--~~~e~~~~~~w~Y~~q~~~~a~~~~~~i~~s~l~kel~~~i~~~~~~l~~y~~~l~~~l~p~~~   78 (181)
+T 1YA9_A           11 WQSN--QPWEQALNRFWDYLRWVQTLSDQVQEELQSSQVTQELTALMEDTMTEVKAYKKELEEQLGPVAE   78 (181)
+T ss_dssp             GGTT--HHHHHHHHHHHHHHHHHTTCCHHHHHHHHTTHHHHHHHHHHHHHHHHHHHHHHHHHHTCCSCCH
+T ss_pred             cccC--CCHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4444  699999999999999998    889999999999999999999999999999999999988764
+
+
+No 18
+>4ADN_A FAR1; ANTIBIOTIC RESISTANCE; HET: GOL, PEG, IMD; 1.65A {STAPHYLOCOCCUS AUREUS}
+Probab=27.36  E-value=53  Score=26.73  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=2.2  Template_Neff=5.200
+
+Q CM055126.1_Ran   72 AGIQKW   77 (90)
+Q Consensus        72 a~~eK~   77 (90)
+                      .|.+.|
+T Consensus        83 ~~L~~L   88 (222)
+T 4ADN_A           83 AILNKF   88 (222)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 19
+>2RM8_A Sensory rhodopsin II transducer; PROTEIN, Chemotaxis, Chromophore, Membrane, Methylation; NMR {Natronomonas pharaonis}
+Probab=26.59  E-value=56  Score=18.42  Aligned_cols=23  Identities=9%  Similarity=-0.007  Sum_probs=11.4  Template_Neff=10.300
+
+Q CM055126.1_Ran   64 QEHGANLSAGIQKWIEEMIALSK   86 (90)
+Q Consensus        64 q~~~~~~qa~~eK~~eql~~lSk   86 (90)
+                      .+....+....+.+...+.++..
+T Consensus        40 ~~~~~~l~~~~~~~~~~~~~~~~   62 (68)
+T 2RM8_A           40 KNAREDAEQAQKRAEEINTELLE   62 (68)
+T ss_dssp             HHHHHHHHHHHHGGGCTTGGGGT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhc
+Confidence            33344455555555555555543
+
+
+No 20
+>4E4B_A Far1; Zinc binding fold, Antibiotic resistance; 2.8A {Staphylococcus aureus}
+Probab=25.41  E-value=61  Score=26.20  Aligned_cols=8  Identities=25%  Similarity=0.468  Sum_probs=3.2  Template_Neff=5.400
+
+Q CM055126.1_Ran   71 SAGIQKWI   78 (90)
+Q Consensus        71 qa~~eK~~   78 (90)
+                      ..|.+.|+
+T Consensus        76 e~~l~~Lk   83 (216)
+T 4E4B_A           76 EAILNKFL   83 (216)
+T ss_dssp             TTTHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33444443
+
+
+No 21
+>4AUR_A LEOA; HYDROLASE, LT TOXIN; 2.7A {ESCHERICHIA COLI}
+Probab=20.49  E-value=88  Score=24.69  Aligned_cols=25  Identities=12%  Similarity=0.008  Sum_probs=11.2  Template_Neff=11.200
+
+Q CM055126.1_Ran   59 LGAKIQEHGANLSAGIQKWIEEMIA   83 (90)
+Q Consensus        59 ~~a~~q~~~~~~qa~~eK~~eql~~   83 (90)
+                      +...+.....++..+.++++..+..
+T Consensus       524 ~~~~~~~~~~~l~~~~~~l~~~~~~  548 (577)
+T 4AUR_A          524 MFAFFAPQIQQMEQVVTELAEKSQA  548 (577)
+T ss_dssp             HHHHHCHHHHHHHHHHHHHHHTTHH
+T ss_pred             HHHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            3344444444444444444444433
+
+

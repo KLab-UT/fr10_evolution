@@ -1,0 +1,27 @@
+# STOCKHOLM 1.0
+
+#=GS BLSH010535194.1+BLSH010011145.1_Glandirana_rugosa DE Hit for: U44831
+#=GS UniRef90_Q91335/1-57                              DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_Q91335/66-90                             DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-68                         DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_A0A2G9Q2Y2/78-101                        DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_UPI00235A7A2A/1-48                       DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A974CAB9/1-62                          DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_O73676/1-63                              DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+#=GS UniRef90_A0A974H6T0/1-63                          DE [subseq from] Ubiquitin-fold modifier-conjugating enzyme 1 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974H6T0_XENLA
+#=GS UniRef90_UPI001ABDBE56/31-74                      DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A1B8XYN1/1-43                          DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A1B8XYN1_XENTR
+
+BLSH010535194.1+BLSH010011145.1_Glandirana_rugosa         MKVLALVVLVIAISGLEAGVVKREAQ--D-P-LQHVADIFQGLAKTI-Q----E---KLANAEIPAQTQ--------HGATLSANFQKWWDEIIALSKQKLS
+UniRef90_Q91335/1-57                                      MKVLALVVLVIAISGLEAGVVKRDAQ--D-P-LQQITDIFQGISKTL-Q----E---KFANAEIPSQTQ---------------------------------
+UniRef90_Q91335/66-90                                     -----------------------------------------------------------------------------HGETISASIQKWIEEMVALSKEKLS
+UniRef90_A0A2G9Q2Y2/27-68                                 ---------------LPAGVVKRDAQ--D-P-LQQISDIFQGISKSI-Q----E---QIANAEIPSQAQ---------------------------------
+UniRef90_A0A2G9Q2Y2/78-101                                ------------------------------------------------------------------------------GATISASIQKWIEELVALSKQKLS
+UniRef90_UPI00235A7A2A/1-48                               MKVLALVVLIIAVSGLEAGLVKREAA--NIPNLDQITQIFNAWAETI-K----S---S--------------------------------------------
+UniRef90_A0A974CAB9/1-62                                  MKVLALVVLVIAISGMEAGVVKREVP--N---LDEFTKIFSSWADTL-KTQTQEWIAKIQNGEVKAQT----------------------------------
+UniRef90_O73676/1-63                                      MKVLALVVLVIAVSGLEAGVVKREVPSLD-E-LTKILSTWADTVKTQTQE-WID---KVQNGEVKAQTE---------------------------------
+UniRef90_A0A974H6T0/1-63                                  MKVLALVVLVIAVSGLEAGVVKREVPSLD-E-LTKILSTWADTVKTQTQE-WID---KVQNGEVKAQTE---------------------------------
+UniRef90_UPI001ABDBE56/31-74                              MKVLALAVLILAISGLEAGVVKREVP--N-A--EQVSEFFNSWFETL-K----T------------------------------------------------
+UniRef90_A0A1B8XYN1/1-43                                  MKVLALVVLVIAISGMEAGVVRREVP--S---VEELTKLIQTWAEYA-Q-----------------------------------------------------
+#=GC RF                                                   xxxxxxxxxxxxxxxxxxxxxxxxxx..x.x.xxxxxxxxxxxxxxx.x....x...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
