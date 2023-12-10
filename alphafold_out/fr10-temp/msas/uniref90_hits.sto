@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+
+#=GS LR991692.1+CAJIML010011253.1+VIAC01347839.1+VIAC01175670.1_Rana_temporaria DE Hit for: U44831
+#=GS UniRef90_Q91335/1-90                                                       DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-101                                                 DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_A0A974CAB9/1-79                                                   DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_O73676/1-82                                                       DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+#=GS UniRef90_UPI00235A7A2A/1-98                                                DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A553MQ52/18-93                                                  DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A553MQ52/159-235                                                DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A7J6C6W2/45-123                                                 DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_A0A7J6C6W2/198-272                                                DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_UPI001ABDBE56/31-118                                              DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A6I8RJ02/1-61                                                   DE [subseq from] Uncharacterized protein n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A6I8RJ02_XENTR
+#=GS UniRef90_A0A974H6T0/1-73                                                   DE [subseq from] Ubiquitin-fold modifier-conjugating enzyme 1 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974H6T0_XENLA
+#=GS UniRef90_A0A1B8XYN1/1-44                                                   DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A1B8XYN1_XENTR
+
+LR991692.1+CAJIML010011253.1+VIAC01347839.1+VIAC01175670.1_Rana_temporaria         MKVLALVVLVIAISGLEAGVVKRDAPD--QFQQITELFQGFSKTL----Q-------E---KFANAEIPAQTQEL-GAKIQEHGANLSAGIQKWIEEMIALSKQKLS
+UniRef90_Q91335/1-90                                                               MKVLALVVLVIAISGLEAGVVKRDAQD--PLQQITDIFQGISKTL----Q-------E---KFANAEIPSQTQEL-GAKIQAHGETISASIQKWIEEMVALSKEKLS
+UniRef90_A0A2G9Q2Y2/27-101                                                         ---------------LPAGVVKRDAQD--PLQQISDIFQGISKSI----Q-------E---QIANAEIPSQAQDL-GTKLQEQGATISASIQKWIEELVALSKQKLS
+UniRef90_A0A974CAB9/1-79                                                           MKVLALVVLVIAISGMEAGVVKREVPN---LDEFTKIFSSWADTLKTQTQ-------EWIAKIQNGEVKAQTEEI-FAQVKTQMEPLQGH-----------------
+UniRef90_O73676/1-82                                                               MKVLALVVLVIAVSGLEAGVVKREVPS---LDELTKILSTWADTV----KTQTQEWID---KVQNGEVKAQTEEI-LAQVKSHMEPIQGQFQE--------------
+UniRef90_UPI00235A7A2A/1-98                                                        MKVLALVVLIIAVSGLEAGLVKREAANIPNLDQITQIFNAWAETI----KSSTQDLIE---KIKSGEAQSHAEQY-LEQTKAQAEPLKAEMEKWISQIVEKSKQAF-
+UniRef90_A0A553MQ52/18-93                                                          -SVIAVLVVALAIGSESASLVKRDASA--ELDKIAKYFQDFVDNL----K--------------NVEGPELVSKA-NTYLEQSRAQFQPMVEKLHEQL---------
+UniRef90_A0A553MQ52/159-235                                                        -SVIAVLVVALAIGSESASLVKRDASA--ELDKIAKYFQDFVDNL------------------KNVEGPELVSKA-NTYLEQSRAQFQPMVEKLHEQLK--------
+UniRef90_A0A7J6C6W2/45-123                                                         --LVAVLVVALAIGSESASLVKRDAPA--ELDKIAKYFQDLV---------------D---NLKNVEGPELANKA-NAYFEQSKAQLQPMVEKLQEQLKPLS-----
+UniRef90_A0A7J6C6W2/198-272                                                        --LIAILLVALAIGSESASLVKRDAPA--ELEKIAKYFQDL--------V-------D---NLKNVEGPELANKA-NAYFEQSRAQFQPMVEKLQEQL---------
+UniRef90_UPI001ABDBE56/31-118                                                      MKVLALAVLILAISGLEAGVVKREVPN--A-EQVSEFFNSWFETL----KTNAEEWAK---KIQNGEIQAQAGQV-LEQTKTQTEPIKAELEKFFATIL--------
+UniRef90_A0A6I8RJ02/1-61                                                           MKVLALVVLVIAISGMEAGVVRREVPS---VEELTKLIQTWAEYA----Q-------T---Q---------AQEW-VAKIQNADINGQ-------------------
+UniRef90_A0A974H6T0/1-73                                                           MKVLALVVLVIAVSGLEAGVVKREVPS---LDELTKILSTWADTV----KTQTQEWID---KVQNGEVKAQTEPLCNCHLQPH------------------------
+UniRef90_A0A1B8XYN1/1-44                                                           MKVLALVVLVIAISGMEAGVVRREVPS---VEELTKLIQTWAEYA----Q-------T-------------------------------------------------
+#=GC RF                                                                            xxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxx....x.......x...xxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

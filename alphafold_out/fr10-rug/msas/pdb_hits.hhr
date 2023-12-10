@@ -3,8 +3,8 @@ Match_columns 82
 No_of_seqs    10 out of 10
 Neff          1.81577
 Searched_HMMs 80799
-Date          Sun Dec 10 10:01:39 2023
-Command       /usr/bin/hhsearch -i /scratch/local/u6052680/8991727/tmp4ey68tj1/query.a3m -o /scratch/local/u6052680/8991727/tmp4ey68tj1/output.hhr -maxseq 1000000 -d /tmp/8991727/pdb70/pdb70 
+Date          Sun Dec 10 10:34:02 2023
+Command       /usr/bin/hhsearch -i /scratch/local/u6052680/8991728/tmpnvbivqqh/query.a3m -o /scratch/local/u6052680/8991728/tmpnvbivqqh/output.hhr -maxseq 1000000 -d /scratch/general/vast/app-repo/alphafold/pdb70/pdb70 
 
  No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
   1 6V7M_A Beta-lactoglobulin; pro  92.4   0.042 5.1E-07   37.9   0.0   44    1-44      1-59  (100)
