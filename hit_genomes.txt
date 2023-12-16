@@ -1,5 +1,0 @@
-GCF_905171775.1_aRanTem1.1_genomic.fna
-GCA_018402905.1_Glandirana_rugosa_assembly_1.0_genomic.fna
-GCA_028564925.1_aRanSyl1.merge_genomic.fna
-GCA_002284835.2_RCv2.1_genomic.fna
-GCA_000935625.1_ASM93562v1_genomic.fna
