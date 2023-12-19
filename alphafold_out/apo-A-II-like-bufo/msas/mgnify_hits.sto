@@ -1,0 +1,15 @@
+# STOCKHOLM 1.0
+
+#=GS XP_040268376.1           DE apolipoprotein A-II-like [Bufo bufo]
+#=GS MGYP001095529814/413-457 DE [subseq from] FL=1
+#=GS MGYP001095529814/523-571 DE [subseq from] FL=1
+#=GS MGYP001095529814/627-684 DE [subseq from] FL=1
+#=GS MGYP001095529814/745-797 DE [subseq from] FL=1
+
+XP_040268376.1                   MGAHKELSLIPRNRGLPPDHYRSRETITSDMKVLALAVLILAISGLEAGVVKREVPNAEQVSEFFNSWFETLKTNAEEWAKKIQNGEIQAQAGQVLEQTKTQTEPIKAELEKFFATILEAGKKIAS
+MGYP001095529814/413-457         ------------------SYYSLQGTVTSNYKITSIKAEILTSSGGSTGITKTVKPNVTSYSL---------------------------------------------------------------
+MGYP001095529814/523-571         -----------------GSYYSLQGTVKSNYKITSIKAEILTSSGGSTGITKTVKPNVTSYSL-YDS-----------------------------------------------------------
+MGYP001095529814/627-684         ----------PRGTLTVGSYYSLQGTVTSNYKITSIKAEILTSSGGSTGITKTVKPNATSYS-LYNSDI---------------------------------------------------------
+MGYP001095529814/745-797         -----------------GSYYSLQGTVTSNYKITSIKAEILTSSGGSTGNTKTVSPNASSYS-FFGSAIDT-------------------------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
