@@ -1,0 +1,293 @@
+Query         CATNWA010016741.1_Staurois_parvus Hit for: U44831_merged_CATNWA010016741.1:56355-56456 Staurois parvus_merged_CATNWA010016741.1:53128-53247 Staurois parvus
+Match_columns 88
+No_of_seqs    8 out of 8
+Neff          2.03994
+Searched_HMMs 80799
+Date          Thu Dec 21 03:52:58 2023
+Command       /usr/bin/hhsearch -i /scratch/local/u6052680/26246/tmpdax2n5zs/query.a3m -o /scratch/local/u6052680/26246/tmpdax2n5zs/output.hhr -maxseq 1000000 -d /tmp/26246/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6V7M_A Beta-lactoglobulin; pro  94.9  0.0035 4.4E-08   43.7   0.0   63    1-63      1-80  (100)
+  2 6DVU_B Apolipoprotein C-I; lip  68.1     3.9 4.8E-05   29.1   0.0   21   68-88     60-80  (83)
+  3 6DXR_B Apolipoprotein C-I; lip  68.1     3.9 4.8E-05   29.1   0.0   21   68-88     60-80  (83)
+  4 1EQ1_A NMR STRUCTURE OF AN EXC  52.7      11 0.00014   29.0   0.0   54   28-81      8-70  (166)
+  5 4DND_A Syntaxin-10; STRUCTURAL  28.1      50 0.00062   23.5   0.0   25   20-44     31-55  (130)
+  6 6NCO_A Apolipoprotein E; Lipid  25.3      61 0.00076   24.9   0.0   23   24-46     41-63  (185)
+  7 1IOJ_A APOC-I; APOLIPOPROTEIN,  24.4      66 0.00081   21.7   0.0   45   30-87      9-53  (57)
+  8 1GW4_A APOA-I; HIGH DENSITY LI  24.2      66 0.00082   18.5   0.0   21   58-78      8-28  (46)
+  9 1LE2_A APOLIPOPROTEIN-E2 (LDL   23.1      72 0.00089   22.6   0.0   17   28-44      3-19  (144)
+ 10 2C5K_T VACUOLAR PROTEIN SORTIN  22.7      74 0.00092   21.0   0.0   22   20-41     10-31  (95)
+ 11 2F93_B Sensory rhodopsin II, S  22.6      75 0.00093   21.8   0.0   31   11-41     71-101 (122)
+ 12 5XWE_B Weak toxin DE-1 homolog  22.5      75 0.00093   19.5   0.0   10    1-10      1-10  (83)
+ 13 1YA9_A Apolipoprotein E; Apoli  21.8      79 0.00098   23.4   0.0   48   28-75     16-65  (181)
+ 14 6SKB_A Kallikrein-6 (E.C.3.4.2  21.2      83   0.001   22.2   0.0   16    1-16      1-16  (289)
+ 15 5JEQ_A Nitrate/nitrite sensor   20.8      86  0.0011   20.1   0.0   30   12-41    163-192 (236)
+ 16 6NCN_A Apolipoprotein E; Lipid  20.4      88  0.0011   24.1   0.0   23   24-46     41-63  (185)
+ 17 4J2C_A Syntaxin-6, Vacuolar pr  20.4      89  0.0011   21.1   0.0   26   20-45      9-34  (110)
+ 18 5IJI_A Nitrate/nitrite sensor   20.3      90  0.0011   20.0   0.0   30   12-41    163-192 (236)
+ 19 1GS9_A APOLIPOPROTEIN E; LIPID  20.2      90  0.0011   23.2   0.0   23   24-46     21-43  (165)
+
+No 1
+>6V7M_A Beta-lactoglobulin; proteolysis, Alzheimers, lipid, lipoprotein, lipids; 2.0A {Homo sapiens}
+Probab=94.91  E-value=0.0035  Score=43.69  Aligned_cols=63  Identities=17%  Similarity=0.252  Sum_probs=24.1  Template_Neff=5.400
+
+Q CATNWA01001674    1 MKVLALVVLVIAISGLEAGVVKRD---------------AEDPFQQMSDLFQNFAKTFQEKI--ITAGIPAQELGAKIQE   63 (88)
+Q Consensus         1 mkvlalvvlviaisglEAGVVKRe---------------~~~pl~qit~ifq~wa~t~q~ki--~~aeI~aqelga~~qe   63 (88)
+                      ||++++++.+..++|--|.+...|               .+.+.+++.+.|..+...+++.-  .-..|...+++.++..
+T Consensus         1 Mk~~~l~LaL~~ltGcqA~~~~~de~~~~~~~~~~~~~~~~s~~e~v~~~fw~Y~~~~~~~a~~~~e~l~~S~l~qEl~~   80 (100)
+T 6V7M_A            1 MKVLWAALLVTFLAGCQAKVEQAVETEPEPELRQQTEWQSGQRWELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRA   80 (100)
+T ss_dssp             -----------------------------------CCCCCCCHHHHHHHHHHHHHHHHTTCCHHHHHHHHSSHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHhchhhhccCCCCCchHhhccccccCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHH
+Confidence            899999998999999999876544               34469999999988888777552  2334444444444443
+
+
+No 2
+>6DVU_B Apolipoprotein C-I; lipoprotein, alpha-helix, lipoprotein particles, lipid; 1.8A {Homo sapiens}
+Probab=68.05  E-value=3.9  Score=29.07  Aligned_cols=21  Identities=33%  Similarity=0.697  Sum_probs=14.5  Template_Neff=3.600
+
+Q CATNWA01001674   68 FSTSVQKWFEDMLAMGKEKLS   88 (88)
+Q Consensus        68 isasiqkw~e~~~a~~k~kls   88 (88)
+                      +.+.-..||.+-.+--|+|++
+T Consensus        60 ~~~kTRnWfsE~f~kvK~K~~   80 (83)
+T 6DVU_B           60 LSAKMREWFSETFQKVKEKLK   80 (83)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhc
+Confidence            334456788888888888764
+
+
+No 3
+>6DXR_B Apolipoprotein C-I; lipoprotein particles, lipids, alpha helix; HET: MPD; 2.0A {Homo sapiens}
+Probab=68.05  E-value=3.9  Score=29.07  Aligned_cols=21  Identities=33%  Similarity=0.697  Sum_probs=14.5  Template_Neff=3.600
+
+Q CATNWA01001674   68 FSTSVQKWFEDMLAMGKEKLS   88 (88)
+Q Consensus        68 isasiqkw~e~~~a~~k~kls   88 (88)
+                      +.+.-..||.+-.+--|+|++
+T Consensus        60 ~~~kTRnWfsE~f~kvK~K~~   80 (83)
+T 6DXR_B           60 LSAKMREWFSETFQKVKEKLK   80 (83)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccHHHHHHHHHHHHHHHHHhc
+Confidence            334456788888888888764
+
+
+No 4
+>1EQ1_A NMR STRUCTURE OF AN EXCHANGEABLE; Five helix-bundle, "helix-short helix-helix" recognition; NMR {Manduca sexta} SCOP: a.63.1.1
+Probab=52.74  E-value=11  Score=29.01  Aligned_cols=54  Identities=24%  Similarity=0.410  Sum_probs=39.0  Template_Neff=5.100
+
+Q CATNWA01001674   28 PFQQMSDLFQNFAKTFQEKIIT-AGIPA-QELGAKIQEHGS-------SFSTSVQKWFEDMLA   81 (88)
+Q Consensus        28 pl~qit~ifq~wa~t~q~ki~~-aeI~a-qelga~~qe~~e-------~isasiqkw~e~~~a   81 (88)
+                      |+++|-+-++.+.+++.+++.. ..+|+ +++-..+.++..       ++..+|+.++..+=+
+T Consensus         8 ~l~ei~~~a~e~~~~~~~~v~~~~~~~~~eev~~~lK~~s~~~~~ql~~~~~~lQe~~~~~~~   70 (166)
+T 1EQ1_A            8 AFEEMEKHAKEFQKTFSEQFNSLVNSKNTQDFNKALKDGSDSVLQQLSAFSSSLQGAISDANG   70 (166)
+T ss_dssp             CSTHHHHHHHHHHHHHHHHHHHHTSSCCSSCSSHHHHHHHHHHHHHHHHHHHHHHHHHTTCSS
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHCcHHHHHHHHHHHHHHHHHHHHhhH
+Confidence            7888887788888888777643 45775 666777777777       778888877766544
+
+
+No 5
+>4DND_A Syntaxin-10; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; 1.4A {Homo sapiens}
+Probab=28.12  E-value=50  Score=23.46  Aligned_cols=25  Identities=20%  Similarity=0.462  Sum_probs=19.7  Template_Neff=7.000
+
+Q CATNWA01001674   20 VVKRDAEDPFQQMSDLFQNFAKTFQ   44 (88)
+Q Consensus        20 VVKRe~~~pl~qit~ifq~wa~t~q   44 (88)
+                      .|+.|+.+.+..+..+|+.|.....
+T Consensus        31 ~v~~ev~~sl~~l~~~~~~w~~~~~   55 (130)
+T 4DND_A           31 VVRGEVQKAVNTARGLYQRWCELLQ   55 (130)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHC--
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4788888889999999999987654
+
+
+No 6
+>6NCO_A Apolipoprotein E; Lipid Binding, LIPID TRANSPORT; HET: KQP; 1.707A {Homo sapiens}
+Probab=25.25  E-value=61  Score=24.90  Aligned_cols=23  Identities=9%  Similarity=0.150  Sum_probs=17.1  Template_Neff=6.200
+
+Q CATNWA01001674   24 DAEDPFQQMSDLFQNFAKTFQEK   46 (88)
+Q Consensus        24 e~~~pl~qit~ifq~wa~t~q~k   46 (88)
+                      |.+.+++++.+.|..+...++..
+T Consensus        41 e~~s~lE~v~d~fw~Y~~ql~~~   63 (185)
+T 6NCO_A           41 QSGQRWELALGRFWDYLRWVQTL   63 (185)
+T ss_pred             CCCChHHHHHHHHHHHHHHHHHH
+Confidence            55656888899888877777644
+
+
+No 7
+>1IOJ_A APOC-I; APOLIPOPROTEIN, AMPHIPATHIC HELIX, LIPID ASSOCIATION; NMR {Homo sapiens} SCOP: j.39.1.1
+Probab=24.35  E-value=66  Score=21.74  Aligned_cols=45  Identities=24%  Similarity=0.457  Sum_probs=22.9  Template_Neff=3.500
+
+Q CATNWA01001674   30 QQMSDLFQNFAKTFQEKIITAGIPAQELGAKIQEHGSSFSTSVQKWFEDMLAMGKEKL   87 (88)
+Q Consensus        30 ~qit~ifq~wa~t~q~ki~~aeI~aqelga~~qe~~e~isasiqkw~e~~~a~~k~kl   87 (88)
+                      +++.++=+++.+..++-  ...|...++           .+--..||.+-++--|+|+
+T Consensus         9 ~~lkEfG~~l~eKak~~--~e~I~~Sef-----------~tKTRnWFsE~feKvK~K~   53 (57)
+T 1IOJ_A            9 DKLKEFGNTLEDKAREL--ISRIKQSEL-----------SAKMREWFSETFQKVKEKL   53 (57)
+T ss_dssp             TTSSHHHHHHHHHHHHH--TTTCSSSSS-----------SSHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHHHHHH--HHHHHhchH-----------HHHHHHHHHHHHHHHHHHh
+Confidence            45555555555555433  222333332           2233567777666666665
+
+
+No 8
+>1GW4_A APOA-I; HIGH DENSITY LIPOPROTEINS, KEY IN; NMR {Homo sapiens} SCOP: j.39.1.1
+Probab=24.17  E-value=66  Score=18.53  Aligned_cols=21  Identities=10%  Similarity=0.290  Sum_probs=8.5  Template_Neff=7.600
+
+Q CATNWA01001674   58 GAKIQEHGSSFSTSVQKWFED   78 (88)
+Q Consensus        58 ga~~qe~~e~isasiqkw~e~   78 (88)
+                      .++++++.++++..+.-+.++
+T Consensus         8 ~~ki~~~~e~lr~~L~Py~e~   28 (46)
+T 1GW4_A            8 RDRARAHVDALRTHLAPYSDE   28 (46)
+T ss_dssp             HHHTSSHHHHHHHHTGGGTTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            333344444444444433333
+
+
+No 9
+>1LE2_A APOLIPOPROTEIN-E2 (LDL RECEPTOR BINDING DOMAIN); LIPOPROTEIN; 3.0A {Homo sapiens} SCOP: a.24.1.1
+Probab=23.05  E-value=72  Score=22.57  Aligned_cols=17  Identities=12%  Similarity=0.204  Sum_probs=8.7  Template_Neff=7.700
+
+Q CATNWA01001674   28 PFQQMSDLFQNFAKTFQ   44 (88)
+Q Consensus        28 pl~qit~ifq~wa~t~q   44 (88)
+                      |++++.+.|-.++..+.
+T Consensus         3 ~~e~~~~~~w~Y~~q~~   19 (144)
+T 1LE2_A            3 RWELALGRFWDYLRWVQ   19 (144)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHH
+Confidence            45555555555444443
+
+
+No 10
+>2C5K_T VACUOLAR PROTEIN SORTING PROTEIN 51; PROTEIN TRANSPORT-COMPLEX, SNARE, VFT COMPLEX; HET: SO4; 2.05A {SACCHAROMYCES CEREVISIAE}
+Probab=22.71  E-value=74  Score=20.98  Aligned_cols=22  Identities=9%  Similarity=0.345  Sum_probs=19.0  Template_Neff=7.700
+
+Q CATNWA01001674   20 VVKRDAEDPFQQMSDLFQNFAK   41 (88)
+Q Consensus        20 VVKRe~~~pl~qit~ifq~wa~   41 (88)
+                      .|+.|+.+.+..+..+|+.|..
+T Consensus        10 ~v~~ev~~~l~~~~~~~~~~~~   31 (95)
+T 2C5K_T           10 QVVKDTKEQLNRINNYITRHNT   31 (95)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhc
+Confidence            4788888889999999999986
+
+
+No 11
+>2F93_B Sensory rhodopsin II, Sensory rhodopsin; MENBRANE PROTEIN COMPLEX, SIGNAL TRANSDUCTION; HET: BOG, RET; 2.0A {Natronomonas pharaonis} SCOP: f.17.4.1
+Probab=22.58  E-value=75  Score=21.81  Aligned_cols=31  Identities=13%  Similarity=0.120  Sum_probs=3.4  Template_Neff=7.800
+
+Q CATNWA01001674   11 IAISGLEAGVVKRDAEDPFQQMSDLFQNFAK   41 (88)
+Q Consensus        11 iaisglEAGVVKRe~~~pl~qit~ifq~wa~   41 (88)
+                      ++++++=...+.|..-.|++++++..+..++
+T Consensus        71 lli~iii~~~i~~~i~~PI~~L~~~~~~ia~  101 (122)
+T 2F93_B           71 GINLGLVAATLGGDTAASLSTLAAKASRMGD  101 (122)
+T ss_dssp             HHHHHHHC-----------------------
+T ss_pred             HHHHHHHHHHHHHhhHHHHHHHHHHHHHHHc
+Confidence            3444443455666677789998887766553
+
+
+No 12
+>5XWE_B Weak toxin DE-1 homolog 1; Three finger toxin, Snake venom; HET: GLY; 1.799A {Ophiophagus hannah}
+Probab=22.53  E-value=75  Score=19.53  Aligned_cols=10  Identities=40%  Similarity=0.577  Sum_probs=0.0  Template_Neff=8.900
+
+Q CATNWA01001674    1 MKVLALVVLV   10 (88)
+Q Consensus         1 mkvlalvvlv   10 (88)
+                      ||.+.+++++
+T Consensus         1 Mk~~l~~~~~   10 (83)
+T 5XWE_B            1 MKPVLLTLVV   10 (83)
+T ss_dssp             ----------
+T ss_pred             ChHHHHHHHH
+Confidence            7776555433
+
+
+No 13
+>1YA9_A Apolipoprotein E; Apolipoprotein E, LDL receptor binding; 2.09A {Mus musculus}
+Probab=21.81  E-value=79  Score=23.43  Aligned_cols=48  Identities=13%  Similarity=0.256  Sum_probs=25.3  Template_Neff=7.400
+
+Q CATNWA01001674   28 PFQQMSDLFQNFAKTFQEKI--ITAGIPAQELGAKIQEHGSSFSTSVQKW   75 (88)
+Q Consensus        28 pl~qit~ifq~wa~t~q~ki--~~aeI~aqelga~~qe~~e~isasiqkw   75 (88)
+                      +++++.+.|......++..-  .-..|...++|.++....++....++.+
+T Consensus        16 ~~e~~~~~~w~Y~~q~~~~a~~~~~~i~~s~l~kel~~~i~~~~~~l~~y   65 (181)
+T 1YA9_A           16 PWEQALNRFWDYLRWVQTLSDQVQEELQSSQVTQELTALMEDTMTEVKAY   65 (181)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCCHHHHHHHHTTHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHH
+Confidence            47888888877777666443  1223444444544444444433333333
+
+
+No 14
+>6SKB_A Kallikrein-6 (E.C.3.4.21.-); Protease, Inhibitor, Complex, HYDROLASE; HET: RH5, LH5; 1.84A {Homo sapiens}
+Probab=21.18  E-value=83  Score=22.16  Aligned_cols=16  Identities=25%  Similarity=0.494  Sum_probs=1.8  Template_Neff=10.900
+
+Q CATNWA01001674    1 MKVLALVVLVIAISGL   16 (88)
+Q Consensus         1 mkvlalvvlviaisgl   16 (88)
+                      ||++++++|+.++...
+T Consensus         1 m~~~~~~~~~~~~~~~   16 (289)
+T 6SKB_A            1 MPMLSAIVLYVLLAAA   16 (289)
+T ss_dssp             ------------CEEE
+T ss_pred             ChHHHHHHHHHHHHHH
+Confidence            8988877775554443
+
+
+No 15
+>5JEQ_A Nitrate/nitrite sensor protein NarQ (E.C.2.7.13.3); membrane protein, sensor, histidine kinase; HET: PO4; 1.9A {Escherichia coli}
+Probab=20.76  E-value=86  Score=20.08  Aligned_cols=30  Identities=10%  Similarity=0.174  Sum_probs=19.7  Template_Neff=12.300
+
+Q CATNWA01001674   12 AISGLEAGVVKRDAEDPFQQMSDLFQNFAK   41 (88)
+Q Consensus        12 aisglEAGVVKRe~~~pl~qit~ifq~wa~   41 (88)
+                      .++.+=.-.+.|..-.|+.++.+..+..++
+T Consensus       163 ~~~~~~~~~i~r~i~~pl~~l~~~~~~ia~  192 (236)
+T 5JEQ_A          163 TLVFFTLRRIRHQVVAPLNQLVTASQRIEH  192 (236)
+T ss_dssp             HHHHHHHHHHCCCCCHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHhcHHHHHHHHHHHHHHHc
+Confidence            334444456677777788888877766554
+
+
+No 16
+>6NCN_A Apolipoprotein E; Lipid Binding Lipid Transport, LIPID; HET: KJM; 1.82A {Homo sapiens}
+Probab=20.42  E-value=88  Score=24.08  Aligned_cols=23  Identities=9%  Similarity=0.150  Sum_probs=15.2  Template_Neff=6.200
+
+Q CATNWA01001674   24 DAEDPFQQMSDLFQNFAKTFQEK   46 (88)
+Q Consensus        24 e~~~pl~qit~ifq~wa~t~q~k   46 (88)
+                      |.+.+++++.+.|..+...++..
+T Consensus        41 e~~s~lE~v~~~fw~Y~~ql~~~   63 (185)
+T 6NCN_A           41 QSGQRWELALGRFWDYLRWVQTL   63 (185)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHC
+T ss_pred             cCCChHHHHHHHHHHHHHHHHHH
+Confidence            55556888888888877776644
+
+
+No 17
+>4J2C_A Syntaxin-6, Vacuolar protein sorting-associated protein; Tethering complex, PROTEIN TRANSPORT; 1.801A {Homo sapiens}
+Probab=20.36  E-value=89  Score=21.08  Aligned_cols=26  Identities=27%  Similarity=0.516  Sum_probs=21.4  Template_Neff=7.800
+
+Q CATNWA01001674   20 VVKRDAEDPFQQMSDLFQNFAKTFQE   45 (88)
+Q Consensus        20 VVKRe~~~pl~qit~ifq~wa~t~q~   45 (88)
+                      .|+.|+.+.+..+..+++.|......
+T Consensus         9 ~v~~ev~~~l~~l~~~~~~~~~~~~~   34 (110)
+T 4J2C_A            9 VVKGEVQKAVNTAQGLFQRWTELLQD   34 (110)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            57888888899999999999876543
+
+
+No 18
+>5IJI_A Nitrate/nitrite sensor histidine kinase NarQ; membrane protein, sensor, histidine kinase; HET: LFA; 1.94A {Escherichia coli}
+Probab=20.26  E-value=90  Score=20.01  Aligned_cols=30  Identities=10%  Similarity=0.174  Sum_probs=19.5  Template_Neff=12.300
+
+Q CATNWA01001674   12 AISGLEAGVVKRDAEDPFQQMSDLFQNFAK   41 (88)
+Q Consensus        12 aisglEAGVVKRe~~~pl~qit~ifq~wa~   41 (88)
+                      .++.+=.-.+.|..-.|+.++.+..+..++
+T Consensus       163 ~~~~~~~~~i~r~i~~pl~~l~~~~~~ia~  192 (236)
+T 5IJI_A          163 TLVFFTLRRIRHQVVAPLNQLVTASQRIEH  192 (236)
+T ss_pred             HHHHHHHHHHHhhchHHHHHHHHHHHHHHc
+Confidence            333444456777777788888877666543
+
+
+No 19
+>1GS9_A APOLIPOPROTEIN E; LIPID TRANSPORT, HEPARIN-BINDING, PLASMA, LIPID; 1.7A {HOMO SAPIENS} SCOP: a.24.1.1
+Probab=20.24  E-value=90  Score=23.18  Aligned_cols=23  Identities=9%  Similarity=0.150  Sum_probs=15.4  Template_Neff=6.900
+
+Q CATNWA01001674   24 DAEDPFQQMSDLFQNFAKTFQEK   46 (88)
+Q Consensus        24 e~~~pl~qit~ifq~wa~t~q~k   46 (88)
+                      |.+.+++++.+.|..+...++..
+T Consensus        21 e~~~~lE~~~~~~w~Y~~q~~~~   43 (165)
+T 1GS9_A           21 QSGQRWELALGRFWDYLRWVQTL   43 (165)
+T ss_dssp             -CCCHHHHHHHHHHHHHHHHHHC
+T ss_pred             cCCChHHHHHHHHHHHHHHHHHH
+Confidence            34445888888887777766644
+
+

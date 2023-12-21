@@ -1,0 +1,13 @@
+# STOCKHOLM 1.0
+
+#=GS GEGH01045879.1           DE TSA: Polypedates megacephalus comp50299_c0 transcribed RNA sequence
+#=GS MGYP000001913169/19-63   DE [subseq from] MGYP000001913169
+#=GS MGYP000001913169/63-86   DE [subseq from] MGYP000001913169
+#=GS MGYP000001913169/104-124 DE [subseq from] MGYP000001913169
+
+GEGH01045879.1                   MKVLALVVLVIAVSGLEAGVVKRDAEEPFKDITNFFQNIGKTFQEKFTNGEIPAQAQELGTQIQNQAAAFGAHFQKWIDEFAALAKQ
+MGYP000001913169/19-63           --VIALVVVAIMNWGTISEWLGQKFEEAKEAITNAFQNIGQWFSDRW----------------------------------------
+MGYP000001913169/63-86           ----------------------------WNDICNAFSNIGNWFADKFKNAKE-----------------------------------
+MGYP000001913169/104-124         -----------------------------NDITNIFSNIGQWFSDKFNNA-------------------------------------
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

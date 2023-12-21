@@ -1,0 +1,23 @@
+# STOCKHOLM 1.0
+
+#=GS CATNWA010016741.1_Staurois_parvus DE Hit for: U44831_merged_CATNWA010016741.1:56355-56456 Staurois parvus_merged_CATNWA010016741.1:53128-53247 Staurois parvus
+#=GS UniRef90_Q91335/1-90              DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-101        DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_A0A974CAB9/1-69          DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_UPI00235A7A2A/1-68       DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A6I8RJ02/1-44          DE [subseq from] Uncharacterized protein n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A6I8RJ02_XENTR
+#=GS UniRef90_UPI001ABDBE56/31-122     DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A1B8XYN1/1-44          DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A1B8XYN1_XENTR
+#=GS UniRef90_O73676/1-44              DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+
+CATNWA010016741.1_Staurois_parvus         MKVLALVVLVIAISGLEAGVVKRDAED-P-FQQMSDLFQNFAKTFQ-------EKI--ITAGIP--A--QELGAKIQE---HGSSFSTSVQKWFEDMLAMGKEKLS
+UniRef90_Q91335/1-90                      MKVLALVVLVIAISGLEAGVVKRDAQD-P-LQQITDIFQGISKTLQ-------EKF--ANAEIP--SQTQELGAKIQA---HGETISASIQKWIEEMVALSKEKLS
+UniRef90_A0A2G9Q2Y2/27-101                ---------------LPAGVVKRDAQD-P-LQQISDIFQGISKSIQ-------EQI--ANAEIPSQA--QDLGTKLQE---QGATISASIQKWIEELVALSKQKLS
+UniRef90_A0A974CAB9/1-69                  MKVLALVVLVIAISGMEAGVVKREVPN---LDEFTKIFSSWADTLK-------TQTQEWIAKIQ--N--GEVKAQTEE---IFAQV--------------------
+UniRef90_UPI00235A7A2A/1-68               MKVLALVVLIIAVSGLEAGLVKREAANIPNLDQITQIFNAWAETIK-------SS----TQDLI--E--KIKSGEAQS---HAEQY--------------------
+UniRef90_A0A6I8RJ02/1-44                  MKVLALVVLVIAISGMEAGVVRREVP--S-VEELTKLIQTWAEYAQ-------T----------------------------------------------------
+UniRef90_UPI001ABDBE56/31-122             MKVLALAVLILAISGLEAGVVKREVPN---AEQVSEFFNSWFETLKTNAEEWAKKI--QNGEIQ--A--QA-GQVLEQTKTQTEPIKAELEKFFATILEAGK----
+UniRef90_A0A1B8XYN1/1-44                  MKVLALVVLVIAISGMEAGVVRREVP--S-VEELTKLIQTWAEYAQ-------T----------------------------------------------------
+UniRef90_O73676/1-44                      MKVLALVVLVIAVSGLEAGVVKREVPS---LDELTKILSTWADTVK-------T----------------------------------------------------
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxx.x.xxxxxxxxxxxxxxxx.......xxx..xxxxxx..x..xxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxx
+//

@@ -1,0 +1,25 @@
+# STOCKHOLM 1.0
+
+#=GS GEGH01045879.1                DE TSA: Polypedates megacephalus comp50299_c0 transcribed RNA sequence
+#=GS UniRef90_Q91335/1-87          DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-98     DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_A0A974CAB9/1-88      DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_UPI00235A7A2A/1-96   DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_O73676/1-84          DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+#=GS UniRef90_UPI001ABDBE56/31-114 DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A553MQ52/18-89     DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A553MQ52/159-233   DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A974H6T0/1-65      DE [subseq from] Ubiquitin-fold modifier-conjugating enzyme 1 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974H6T0_XENLA
+
+GEGH01045879.1                        MKVLALVVLVIAVSGLEAGVVKRD---A---E--E-P-FKDITNFFQNIGKT---FQ-------E---KFTNGEIPAQAQELGTQIQNQAAAFGAHFQKWIDEFAALAKQ
+UniRef90_Q91335/1-87                  MKVLALVVLVIAISGLEAGVVKRD---A---Q--D-P-LQQITDIFQGISKT---LQ-------E---KFANAEIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKE
+UniRef90_A0A2G9Q2Y2/27-98             ---------------LPAGVVKRD---A---Q--D-P-LQQISDIFQGISKS---IQ-------E---QIANAEIPSQAQDLGTKLQEQGATISASIQKWIEELVALSKQ
+UniRef90_A0A974CAB9/1-88              MKVLALVVLVIAISGMEAGVVKRE---V---PNLD-E-FTKIFSSWADTLKT--QTQ-------EWIAKIQNGEVKAQTEEIFAQVKTQMEPLQGHFQELFSQFT-----
+UniRef90_UPI00235A7A2A/1-96           MKVLALVVLIIAVSGLEAGLVKRE---A---A--NIPNLDQITQIFNAWAET---IKSSTQDLIE---KIKSGEAQSHAEQYLEQTKAQAEPLKAEMEKWISQIVEKSKQ
+UniRef90_O73676/1-84                  MKVLALVVLVIAVSGLEAGVVKRE---VPSLD--E-L-TKILSTWADTVKTQ---TQ-------EWIDKVQNGEVKAQTEEILAQVKSHMEPIQGQFQEIF---------
+UniRef90_UPI001ABDBE56/31-114         MKVLALAVLILAISGLEAGVVKREVPNA---E--Q-V-SEFFNSWFETLKTNAEEWA-------K---KIQNGEIQAQAGQVLEQTKTQTEPIKAELEKFF---------
+UniRef90_A0A553MQ52/18-89             -SVIAVLVVALAIGSESASLVKRD---A---S--A-E-LDKIAKYFQD-------FV-------D---NLKNVEGPELVSKANTYLEQSRAQFQPMVEKL----------
+UniRef90_A0A553MQ52/159-233           -SVIAVLVVALAIGSESASLVKRD---A---S--A-E-LDKIAKYFQD-------FV-------D---NLKNVEGPELVSKANTYLEQSRAQFQPMVEKLHEQ-------
+UniRef90_A0A974H6T0/1-65              MKVLALVVLVIAVSGLEAGVVKRE---VPSLD--E-L-TKILSTWADTVKTQ---TQ-------EWIDKVQNGEVKAQTEPL----------------------------
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxx...x...x..x.x.xxxxxxxxxxxxxx...xx.......x...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
