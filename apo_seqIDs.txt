@@ -1,0 +1,224 @@
+ApoA-I
+XP_005271597.1 Homo sapiens
+XP_004052232.1 Gorilla gorilla
+XP_508770.1 Pan troglodytes
+NP_001106116.1 Papio anubis
+XP_001090774.1 Macaca mulatta
+XP_009245368.1 Pongo abelii
+XP_536564.2 Canis lupus familiaris
+XP_003992505.2 Felis catus
+NP_036870.1 Rattus norvegicus
+NP_033822.2 Mus musculus
+NP_001095157.1 Oryctolagus cuniculus
+NP_999563.1 Sus scrofa
+NP_776667.2 Bos taurus
+XP_005689684.1 Capra hircus
+XP_005611649.1 Equus caballus
+XP_001517346.1 Ornithorhynchus anatimus
+NP_990856.1 Gallus gallus
+XP_003212772.1 Meleagris gallopavo
+XP_005299801.1 Chrysemys picta
+XP_001380867.1 Monodelphis domestica
+NP_001005127.1 Xenopus Silurana tropicalis
+XP_005987291.1 Latimeria chalumnae
+XP_004076021.1 Oryzias latipes
+NP_001072100.1 Takifugu rubripes
+NP_571203.1 Danio rerio
+XP_006642342.1 Lepisosteus oculatus
+XP_020389622.1 Rhincodon typus
+XP_007905508.1 Callorhinchus milii
+
+ApoA-II
+XP_004950281.1 Gallus gallus
+XP_002942480.2 Xenopus Silurana tropicalis
+NP_001038953.1 Danio rerio
+XP_006643008.1 Lepisosteus oculatus
+XP_007656211.1 Ornithorhynchus anatinus
+NP_001634.1 Homo sapiens
+XP_004027815.1 Gorilla gorilla
+XP_009431992.1 Pan troglodytes
+NP_001158123.1 Pongo abelii
+XP_003893015.1 Papio anubis
+XP_001117975.1 Macaca mulatta
+XP_001503846.1 Equus caballus
+XP_536139.3 Canis lupus familiaris
+XP_002715298.1 Oryctolagus cuniculus
+XP_003999611.1 Felis catus
+NP_001173223.1 Sus scrofa
+NP_001039381.1 Bos taurus
+XP_004002742.1 Ovis aries
+XP_005677218.1 Capra hircus
+XP_005293843.1 Chrysemys bellii
+XP_001371984.1 Monodelphis domestica
+XP_006496688.1 Mus musculus
+XP_006250301.1 Rattus norvegicus
+
+ApoA-IV
+NP_001164881.1 Oryctolagus cuniculus
+NP_036869.1 Rattus norvegicus
+NP_031494.2 Mus musculus
+XP_001380874.1 Monodelphis domestica
+XP_007659797.1 Ornithorhynchus anatinus
+XP_008121793.1 Anolis carolinensis
+NP_990269.1 Gallus gallus
+XP_003212771.1 Meleagris gallopavo
+XP_005299800.1 Chrysemys picta
+NP_001008099.1 Xenopus Silurana tropicalis
+XP_005987289.2 Latimeria chalumnae
+NP_001072059.1 Takifugu rubripes
+XP_004074170.1 Oryzias latipes
+NP_001073330.1 Danio rerio
+XP_015191905.1 Lepisosteus oculatus
+XP_020377459.1 Rhincodon typus
+XP_007910038.1 Callorhinchus milii
+NP_000473.2 Homo sapiens
+XP_522192.2 Pan troglodytes 74
+XP_004052227.1 Gorilla gorilla
+XP_009185615.1 Papio anubis
+XP_001090730.2 Macaca mulatta
+XP_009245367.1 Pongo abelii
+XP_546510.3 Canis lupus familiaris
+XP_003992503.1 Felis catus
+XP_001502503.1 Equus caballus
+NP_999553.1 Sus scrofa
+XP_005689539.1 Capra hircus
+XP_004016096.1 Ovis aries
+NP_001032557.1 Bos taurus
+
+ApoA-V
+NP_443200.2 Homo sapiens
+XP_002799851.1 Macaca mulatta
+NP_001162239.1 Papio anubis
+XP_003313361.1 Pan troglodytes
+XP_009245366.1 Pongo abelii
+XP_004052226.1 Gorilla gorilla
+NP_536682.2 Mus musculus
+NP_001264193.1 Rattus norvegicus
+NP_001164880.1 Oryctolagus cuniculus
+XP_001500835.1 Equus caballus
+NP_001076961.1 Bos taurus
+XP_017914482.1 Capra hircus
+XP_004016095.1 Ovis aries
+NP_001152780.1 Sus scrofa
+XP_003992440.1 Felis catus
+XP_005619788.1 Canis lupus familiaris
+XP_001380879.3 Monodelphis domestica
+XP_004948132.1 Gallus gallus
+XP_003212774.1 Meleagris gallopavo
+XP_005299881.1 Chrysemys picta
+NP_001116904.1 Xenopus Silurana tropicalis
+
+ApoC-I
+NP_001636.1 Homo sapiens
+XP_003316492.1 B Pan troglodytes
+XP_018870623.1 B Gorilla gorilla
+XP_018870626.1 A Gorilla gorilla
+POCE37.1 A Pan troglodytes
+POCE39.1 A Pongo abelii
+XP_003779249.1 B Pongo abelii
+XP_014979728.1 Macaca mulatta
+XP_009196976.1 Papio anubis
+XP_008505047.1 Equus przewalskii
+XP_006941186.1 Felis catus
+NP_001183977.1 Canis lupus familiaris
+NP_001103466.1 Rattus norvegicus
+NP_001103479.1 Mus musculus
+NP_001153753.1 Oryctolagus cuniculus
+XP_007491635.1 Monodelphis domestica
+XP_003230683.2 Anolis carolinensis
+XP_005289540.1 Chrysemys picta
+XP_002941078.2 Xenopus Silurana tropicalis
+XP_004078303.1 Oryzias latipes
+NP_001278815.1 Danio rerio
+
+ApoC-II
+NP_000474.2 Homo sapiens
+NP_001230828.1 Pan troglodytes
+XP_018870627.1 Gorilla gorilla
+XP_009231041.1 Pongo abelii
+XP_009196973.1 Papio anubis
+XP_002801531.1 Macaca mulatta
+XP_004015363.1 Ovis aries
+XP_005701831.1 Capra hircus
+NP_001095850.1 Bos taurus
+XP_005653336.1 Sus scrofa
+XP_003997697.1 Felis catus
+NP_001003368.1 Canis lupus familiaris
+XP_001502426.1 Equus caballus
+NP_001264873.1 Mus musculus
+NP_001078821.1 Rattus norvegicus
+XP_008250476.1 Oryctolagus cuniculus
+XP_007491646.1 Monodelphis domestica
+XP_007659067.1 Ornithorhynchus anatinus
+XP_004920591.1 Xenopus Silurana tropicalis
+NP_001027890.1 Takifugu rubripes
+XP_691110.1 Danio rerio
+
+ApoC-III
+NP_000474.2 Homo sapiens
+NP_001230828.1 Pan troglodytes
+XP_018870627.1 Gorilla gorilla
+XP_009231041.1 Pongo abelii
+XP_009196973.1 Papio anubis
+XP_002801531.1 Macaca mulatta
+XP_004015363.1 Ovis aries
+XP_005701831.1 Capra hircus
+NP_001095850.1 Bos taurus
+XP_005653336.1 Sus scrofa
+XP_001502426.1 Equus caballus
+NP_001003368.1 Canis lupus familia
+XP_003997697.1 Felis catus
+NP_001264873.1 Mus musculus
+NP_001078821.1 Rattus norvegicus
+XP_008250476.1 Oryctolagus cuniculus
+XP_007491646.1 Monodelphis domestica
+XP_007659067.1 Ornithorhynchus anatinus
+XP_004920591.1 Xenopus Silurana tropicalis
+NP_001027890.1 Takifugu rubripes
+XP_691110.1 Danio rerio
+
+ApoC-IV
+NP_001637.1 Homo sapiens
+XP_004060989.2 Gorilla gorilla
+XP_003316494.1 Pan troglodytes
+NP_001182066.1 Macaca mulatta
+XP_009196974.1 Papio anubis
+XP_002829428.1 Pongo abelii
+XP_001502417.1 Equus caballus
+NP_001167603.1 Sus scrofa
+XP_855163.1 Canis lupus familiaris
+XP_004015362.1 Ovis aries
+XP_005701836.1 Capra hircus
+NP_001029979.1 Bos taurus
+NP_001075834.1 Oryctolagus cuniculus
+XP_006941182.1 Felis catus
+NP_031411.1 Mus musculus
+NP_001102889.1 Rattus norvegicus
+
+АроЕ
+NP_000032.1 Homo sapiens
+NP_001009007.1 Pan troglodytes
+XP_002829426.1 Pongo abelii
+XP_004061033.1 Gorilla gorilla
+XP_003918648.1 Papio anubis
+XP_001104482.2 Macaca mulatta
+XP_005701832.1 Capra hircus
+XP_004015786.1 Ovis aries
+NP_776416.1 Bos taurus
+XP_005616517.1 Canis lupus familiaris
+XP_003997740.1 Felis catus
+NP_001076112.1 Oryctolagus cuniculus
+XP_005614820.1 Equus caballus
+NP_999473.1 Sus scrofa
+NP_001257612.1 Rattus norvegicus
+NP_033826.2 Mus musculus
+XP_007491633.1 Monodelphis domestica
+XP_007656348.1 Ornithorhynchus anatinus
+XP_005999187.1 Latimeria chalumnae
+XP_005289542.1 Chrysemys picta
+XP_002941085.2 Xenopus Silurana tropicalis
+XP_015191895.1 Lepisosteus oculatus
+XP_004078300.1 Oryzias latipes
+NP_001072103.1 Takifugu rubripes
+NP_001018401.1 Danio rerio
+XP_003229179.2 Anolis carolinensis
