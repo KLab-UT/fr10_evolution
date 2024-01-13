@@ -1,0 +1,324 @@
+>>JAQSEC010000013  | 30260507-30260748:30259722-30259849:30256486-30256564 | Lithobates sylvaticus WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAGCCGTCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCATTGCAGCAAATAACTGATATTTTCCAAGGCATTTCCAAGACCCTCCAGGAGAAGT
+TTGCCAATGCAGAGATCCCCTCTCAGACTCAGGAACTGGGTGCCAAGATCCAGGCACACG
+GAGAAACAATATCCGCCAGCATCCAGAAATGGATTGAAGAGATGGTTGCCCTCAGCAAAC
+AAAAACTGAGCTAAACTGGAACCCGTTTTCCTGCGATCCGCGGCACTGCGCTACCCCCCG
+AACCCCATCTCTACCACACCCCTTCATTTTCTGTTACTGTGCGACTGACTGTTCCTTTTA
+TAACATGTTATAATAAAACTTGTATTCTGTGCC----
+>>LIAG020987184  | 902-662:1506-1386 | Aquarana catesbeiana WGS_VDB blastn consensus
+------------------------------------------------------------
+-------------------------------AGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCACTTCAGCAAATAAGTGATATTTTCCAAGGCATTTCCAAGAGCATCCAGGAGCAGA
+TCGCCAATGCAGAGATCCCGAGTCAAGCTCAGGATCTGGGCACCAAGTTGCAGGAACAAG
+GAGCAACAATATCCGCCAGCATTCAGAAATGGATTGAAGAGCTGGTTGCCCTCAGCAAAC
+AAAAACTGAGCTAAAATGGAACCCGTTTTCCTGCGATCCGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCTACCACACCCCTTTATTTTCTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>>CAJIML010011253  | 41084-41324:40179-40299:37784-37862 | Rana temporaria WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAACCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTCGTGAAGAGAGATGCACCGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCGCCAACGCAGAGATCCCGGCTCAGACTCAGGAACTGGGCGCCAAGATCCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCACCCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCTACCACACCCCTTCATCTATTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>>VIAC01347839  | 387-147:1018-898 | Rana temporaria WGS_VDB blastn consensus
+------------------------------------------------------------
+-------------------------------AGCCGGTGTCGTGAAGAGAGATGCACCGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCGCCAATGCAGAGATCCCGACTCAGACTCAGGAACTGGGCGCCAAGATCCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCACCCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCCACCACACCCCTTCATCTATTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>>JARGYO010000011  | 61855887-61856131:61855444-61855564:61853223-61853301 | Rana muscosa WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAGCTGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCATCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCATTGCAGCAACTAACTGATATTTTCCAAGGCATTTCCAAGACCCTACAGGAGAAGT
+TCACCAATGCAGAGATCCCAGCTCAGACTCAGGAACTGGGTGCCAAGATTCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCAACCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCCC
+AAACCCCCAATCTCTACCACACCCCTTCATCTTCTGTTACTGTGTGGCTGACTGTTCCTT
+TTATAACATGTTATAATAAAACTTATATTCTGTGCC-
+>>JAJQKJ010002606  | 43247-43489:42821-42941:40389-40467 | Rana kukunoris WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAACCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCACCAACGCAGAGATCCCGACTCAGACTCAGGAACTGGGCGCCAAGATCAAGGAACACG
+GAGAGAATTTATCTGCTGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAACTAAGCTGCACCCCATTTTCCTGCGATCTGCAGCACTGCGCTCCCCCTGA
+ACCCCATCTCTACCACACCCCCCTTCATCTTCTGTTACTGTGTAACTGACTGTTCCTTTT
+ATAACATGTTATAATAAAACTTGTATTCTGTGCC---
+>>BLSH010535194  | 486-737:68-195 | Glandirana rugosa WGS_VDB blastn consensus
+------------------------------------------------------------
+-------------------------------AGCCGGAGTTGTGAAGAGAGAGGCACAGG
+ATCCATTGCAGCATGTAGCTGATATTTTCCAAGGCCTTGCCAAGACTATCCAGGAGAAGT
+TGGCCAATGCAGAGATCCCGGCTCAAACTCAGGACCTGGGCGCCACATTGCAGCAGCACG
+GAGCAACACTATCCGCCAACTTTCAGAAATGGTGGGATGAGATCATTGCCCTCAGCAAGC
+AAAAACTGAGCTAAGCTGCAACCCATTTTCCTGCAATCTGCGGCACTGCGCTCCCCCCCC
+CCCCCCGAACCCCAATCTCTACCCCCCACCCCTTCATTTTCTGTTACTGTGTGACTGACC
+GTTCCTTTTATAACGTGTTATAATAAAACTTGTATTCTGTGCC
+>>LIAG021239457  | 820-742 | Aquarana catesbeiana WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAGCCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>BLSH010011145  | 525-447 | Glandirana rugosa WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAGCCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATTGCCATCAGTGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>CATNWA010016741  | 56357-56514:50819-50897:53133-53247 | Staurois parvus WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAGCCTCCATCATGAAAGTCTTGGCCCTTG
+TCGTCCTCGTCATCGCCATCAGCGGCTTGGAAGCCGGAGTTGTGAAGAGGGATGCAGAGG
+ATCCGTTTCAGCAAATGAGTGACCTTTTCCAGAACTTTGCCAAGACCTTCCAGGAGAAGA
+TCATCACCGCAGGGATCCCGGCCCAG-----GGAACTGGGTGCCAAAATCCAGGAACACG
+GATCATCATTCTCCACCAGTGTTCAGAAATGGTTTGAAGACATGCTTGCCATGGGCAAGG
+AGAAACTGAGCTGAGCTGAACCCCACCTTCCTGCGATCTGCAACACACTGCGCCCCCCCC
+CTGAACCCC---------------------------------------------------
+-------------------------------------
+>>PZQJ01000012  | 3115547-3115625 | Pyxicephalus adspersus WGS_VDB blastn consensus
+--------------AGAACCTTAGCACTAACAGCCGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>DYDO01000683  | 3536-3614 | TPA_asm: Pyxicephalus WGS_VDB blastn consensus
+--------------AGAACCTTAGCACTAACAGCCGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JYOU01101346  | 7299-7221 | Nanorana parkeri WGS_VDB blastn consensus
+--------------AGAACCTCTGCGCTGAAAACCGCCATCATGAAAGTCCTTGCCCTCG
+TAGTCCTCGTCATCGCCATCAGTGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>VIAC01175670  | 1415-1487 | Rana temporaria WGS_VDB blastn consensus
+--------------AGAACCTCAGCGCTGACAATCATGAAAGTCTTGGCCCTCGTCGTCC
+TCGTCATCGCCATCAGTGGCCTGGAAG---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAEOBE010182360  | 3-67 | Phrynoglossus myanhessei WGS_VDB blastn consensus
+----------------------------GACAGCTGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JARQOC010000012  | 114522485-114522427 | Allobates femoralis WGS_VDB blastn consensus
+----------------------------------CGCCATCATGAAAGTCTTGGCCCTGG
+CCGTGCTCATCCTCGCCATCAGCAGCCTAGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>CAJIMM010022611  | 26685-26737 | Bufo bufo WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTGG
+CCGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAKJJM010311780  | 1015-961 | Pipa carvalhoi WGS_VDB blastn consensus
+--------------------------------------ATCATGAAAGTCCTGGCCCTGG
+CAGTCCTCATTATCGCCATCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAQIHN010000115  | 167436034-167436086 | Gastrophryne carolinensis WGS_VDB blastn consensus
+----------------------------------------CATGAAGGTCCTGGCCCTTG
+TCGTTCTTGTCCTCGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>ONZH01005954  | 130359-130307 | Rhinella marina WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTTG
+CTGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAQIHO010000097  | 3665912-3665860 | Gastrophryne carolinensis WGS_VDB blastn consensus
+----------------------------------------CATGAAGGTCCTGGCCCTTG
+TCGTTCTTGTCCTCGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAKVIS010000011  | 67886762-67886710 | Bufotes viridis WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTGG
+CTGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JABAHN010000008  | 131430181-131430233 | Xenopus tropicalis WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCCTGGCTCTGG
+TAGTTCTGGTCATTGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>AAMC04000008  | 142787351-142787299 | Xenopus tropicalis WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCCTGGCTCTGG
+TAGTTCTGGTCATTGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JARQOD010000001  | 492869589-492869538 | Oophaga sylvatica WGS_VDB blastn consensus
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTGGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>CAJIMM010020206  | 275886-275836 | Bufo bufo WGS_VDB blastn consensus
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------CTACCACCACCCCTTCTTCTACTGCTACCTGTGCCACTGCCTGTTCCTTT
+T------------------------------------
+>>JAEUXP010000007  | 83458461-83458513 | Leptobrachium ailaonicum WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>DAJOPU010000013  | 82542743-82542795 | TPA_asm: Leptobrachium WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>RXON01000007  | 13002175-13002123 | Leptobrachium leishanense WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAWCTU010000002  | 659821509-659821458 | Ranitomeya imitator WGS_VDB blastn consensus
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTAGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>CAUEEQ010006196  | 35321-35270 | Ranitomeya imitator WGS_VDB blastn consensus
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTAGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAVFLC010000018  | 155880509-155880457 | Leptodactylus fuscus WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCATCGGCAGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JAVFLB010000013  | 153883017-153882965 | Leptodactylus fuscus WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCATCGGCAGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>CAMRHE010000551  | 782671-782723 | Leptodactylus fallax WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCGTTGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JARJJA010000011  | 94433312-94433260 | Hyla sarda WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCCCTGA
+CTGTGCTCATCCTTGTCATCGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>>JARJIZ010000060  | 104273324-104273272 | Hyla sarda WGS_VDB blastn consensus
+----------------------------------------CATGAAAGTCTTGGCCCTGA
+CTGTGCTCATCCTTGTCATCGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
