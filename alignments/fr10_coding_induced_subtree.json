@@ -1,0 +1,11 @@
+{
+ "broken": {},
+ "newick": "((((((((((((((((((Odorrana_tormota_ott1062728)mrcaott125606ott1062728)mrcaott14375ott125606)mrcaott14375ott14386)mrcaott14375ott134138)mrcaott14375ott485421)mrcaott114ott14375)mrcaott114ott305992)mrcaott114ott290001,(((((((((Rana_catesbeiana_ott14688)mrcaott14688ott755790,(Rana_clamitans_ott515378)mrcaott755795ott5828132)mrcaott14688ott755795)mrcaott14688ott755786)mrcaott14688ott134323)mrcaott14688ott755774,((((Rana_pipiens_ott14703)mrcaott14703ott200616)mrcaott14703ott44581)mrcaott14703ott422320)mrcaott14703ott194287)mrcaott14688ott14703,Rana_sylvatica_ott4133610)mrcaott14688ott514662,(((((((((Rana_kukunoris_ott691289)mrcaott595205ott691289)mrcaott595203ott595205)mrcaott595203ott595204)mrcaott14694ott595203)mrcaott14694ott95165,(((((Rana_temporaria_ott14718)mrcaott380955ott572749)mrcaott380955ott794575)mrcaott380955ott487647)mrcaott324287ott380955)mrcaott324287ott448371)mrcaott14694ott324287)mrcaott14694ott134156,((((Rana_muscosa_ott923354)mrcaott570336ott923354)mrcaott570336ott597565)mrcaott570336ott771208)mrcaott92820ott570336)mrcaott14694ott92820)mrcaott14694ott198361)mrcaott14688ott14694)mrcaott14688ott813985)mrcaott114ott14688)mrcaott114ott6996)mrcaott114ott14673,(((((Amolops_wuyiensis_ott998701)mrcaott656232ott998701)mrcaott284230ott656232)mrcaott284230ott542272)mrcaott284230ott899045)mrcaott43298ott284230)mrcaott114ott43298)mrcaott114ott14406)Ranidae_ott364560,(((((((((((Rhacophorus_dennysi_ott10695)mrcaott10695ott97857)mrcaott10695ott97850)mrcaott6995ott10695,((((((Polypedates_megacephalus_ott908329)mrcaott40177ott638700)mrcaott40177ott118256)mrcaott40177ott579675)Polypedates_ott908335)mrcaott33616ott40177)mrcaott33616ott116902)mrcaott6995ott33616)mrcaott6995ott116903)mrcaott6995ott141759)mrcaott6995ott18649)mrcaott6995ott10702)Rhacophorinae_ott223221)Rhacophoridae_ott432783)mrcaott6995ott12012)mrcaott114ott6995)mrcaott114ott15857)mrcaott114ott107882,(((((Pyxicephalus_adspersus_ott911282)mrcaott475143ott911282)Pyxicephalus_ott911281)Pyxicephalinae_ott98460)mrcaott22019ott143510)mrcaott22019ott241869)mrcaott114ott22019;",
+ "supporting_studies": [
+  "ot_1732@tree1",
+  "ot_1164@tree3",
+  "pg_423@tree2857",
+  "ot_1164@tree2",
+  "ot_750@tree2"
+ ]
+}
