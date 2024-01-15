@@ -1,6 +1,0 @@
-KZ369603.1 Rana catesbeiana isolate Bruno unplaced genomic scaffold Rc-01r160223s0412639, whole genome shotgun sequencefr10_rp  KZ369603.1      3.8     786     767     TTCCTGCGATCCGCGGCACT    20      95.000  1       1/-1
-NC_053501.1 Rana temporaria chromosome 13, aRanTem1.1, whole genome shotgun sequence    fr10_fp NC_053501.1     9.8     89738474        89738460    AGATTGGCAGAGAAC 15      100.000 0       1/-1
-KZ369603.1 Rana catesbeiana isolate Bruno unplaced genomic scaffold Rc-01r160223s0412639, whole genome shotgun sequence fr10_rp KZ369603.1 3.8      786     767     TTCCTGCGATCCGCGGCACT    20      95.000  1       1/-1
-CM053038.1 Lithobates sylvaticus isolate aRanSyl1 chromosome 13, whole genome shotgun sequence  fr10_fp CM053038.1      0.20    97331656   97331639 ATTGGCAGAGAACCTCAG      18      100.000 0       1/-1
-CM053038.1 Lithobates sylvaticus isolate aRanSyl1 chromosome 13, whole genome shotgun sequence  fr10_rp CM053038.1      3.1     8237427 8237412     TGCGATCCGTGGCACT        16      100.000 0       1/-1
-CM053038.1 Lithobates sylvaticus isolate aRanSyl1 chromosome 13, whole genome shotgun sequence  fr10_rp CM053038.1      3.1     30260623   30260642 TTCCTGCGATCCGCGGCACT    20      95.000  1       1/1
