@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+
+#=GS >GEGG01042616                 DE | 442-4 | Rhacophorus dennysi TSA blastn consensus
+#=GS UniRef90_Q91335/1-90          DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A2G9Q2Y2/27-101    DE [subseq from] Uncharacterized protein n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9Q2Y2_LITCT
+#=GS UniRef90_O73676/1-87          DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+#=GS UniRef90_UPI001ABDBE56/31-123 DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_A0A974CAB9/1-83      DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_UPI00235A7A2A/1-98   DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A553MQ52/18-96     DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A553MQ52/159-238   DE [subseq from] Apolipoprotein A-II (Fragment) n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MQ52_9TELE
+#=GS UniRef90_A0A091CMA7/1-74      DE [subseq from] Apolipoprotein A-II n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091CMA7_FUKDA
+#=GS UniRef90_A0A2J6MCZ4/132-170   DE [subseq from] Uncharacterized protein n=1 Tax=Lactuca sativa TaxID=4236 RepID=A0A2J6MCZ4_LACSA
+#=GS UniRef90_A0A2J6MCZ4/234-274   DE [subseq from] Uncharacterized protein n=1 Tax=Lactuca sativa TaxID=4236 RepID=A0A2J6MCZ4_LACSA
+#=GS UniRef90_A0A2J6MCZ4/338-380   DE [subseq from] Uncharacterized protein n=1 Tax=Lactuca sativa TaxID=4236 RepID=A0A2J6MCZ4_LACSA
+#=GS UniRef90_A0A7J6C6W2/45-123    DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_A0A7J6C6W2/198-275   DE [subseq from] Uncharacterized protein n=1 Tax=Onychostoma macrolepis TaxID=369639 RepID=A0A7J6C6W2_9TELE
+#=GS UniRef90_A0A974H6T0/1-65      DE [subseq from] Ubiquitin-fold modifier-conjugating enzyme 1 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974H6T0_XENLA
+#=GS UniRef90_A0A1B8XYN1/1-47      DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A1B8XYN1_XENTR
+
+>GEGG01042616                         MKVLALVVLVIAISGLEAGVVKREVE--D-PFL-Q--I-STFFQG----MA---KNIQ-------E---KFT-EGEIPAQAQDLGTKFQEHAASFSSNVQKWFEELAALGKQKLS
+UniRef90_Q91335/1-90                  MKVLALVVLVIAISGLEAGVVKRDAQ--D-PLQ-Q--I-TDIFQG----IS---KTLQ-------E---KFA-NAEIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKEKLS
+UniRef90_A0A2G9Q2Y2/27-101            ---------------LPAGVVKRDAQ--D-PLQ-Q--I-SDIFQG----IS---KSIQ-------E---QIA-NAEIPSQAQDLGTKLQEQGATISASIQKWIEELVALSKQKLS
+UniRef90_O73676/1-87                  MKVLALVVLVIAVSGLEAGVVKREVPSLD-ELT-K--ILSTWADT----VK---TQTQ-------EWIDKVQ-NGEVKAQTEEILAQVKSHMEPIQGQFQEIFSQL---------
+UniRef90_UPI001ABDBE56/31-123         MKVLALAVLILAISGLEAGVVKREVP--N-A-E-Q--V-SEFFNSWFETLK---TNAE-------EWAKKIQ-NGEIQAQAGQVLEQTKTQTEPIKAELEKFFATILEAGKK---
+UniRef90_A0A974CAB9/1-83              MKVLALVVLVIAISGMEAGVVKREVPNLD-EFT-K--I-FSSWAD---TLK---TQTQ-------EWIAKIQ-NGEVKAQTEEIFAQVKTQMEPLQGHFQEL-------------
+UniRef90_UPI00235A7A2A/1-98           MKVLALVVLIIAVSGLEAGLVKREAA--NIPNLDQ--I-TQIFNA----WA---ETIKSSTQDLIE---KIK-SGEAQSHAEQYLEQTKAQAEPLKAEMEKWISQIVEKSKQAF-
+UniRef90_A0A553MQ52/18-96             -SVIAVLVVALAIGSESASLVKRDAS--A-ELD-K--I-AKYFQD----FV---DNLK-------N-----V-EG--PELVSKANTYLEQSRAQFQPMVEKLHEQLKPL------
+UniRef90_A0A553MQ52/159-238           -SVIAVLVVALAIGSESASLVKRDAS--A-ELD-K--I-AKYFQD----FV---DNLK-------N-----V-EG--PELVSKANTYLEQSRAQFQPMVEKLHEQLKPLS-----
+UniRef90_A0A091CMA7/1-74              MKLLAMTVLLVTICSLEGALVRRQAE--E-PNL-EGLI-SQYFQP----MADYGKDLL-------E---KTK-AQEFPAQIQSYFEKVQEHVVP---------------------
+UniRef90_A0A2J6MCZ4/132-170           -----------------------------------------------------------------E---RFVSKEEGVALAKELGCLFYECSATTLENVHKCFEEIA--------
+UniRef90_A0A2J6MCZ4/234-274           -------------------------------------------------------DLE-------R---FVS-KEEGVALAKELGCLFYECSATTLENVHKCFEEIA--------
+UniRef90_A0A2J6MCZ4/338-380           -------------------------------------------------------DLE-------R---FVS-KEEGVALAKELGCLFYECSATTLENVHKCFEEIALK------
+UniRef90_A0A7J6C6W2/45-123            --LVAVLVVALAIGSESASLVKRDAP--A-ELD-K--I-AKYFQD----LV---DNLK-------N-----V-EG--PELANKANAYFEQSKAQLQPMVEKLQEQLKPLS-----
+UniRef90_A0A7J6C6W2/198-275           --LIAILLVALAIGSESASLVKRDAP--A-ELE-K--I-AKYFQD----LV---DNLK-------N-----V-EG--PELANKANAYFEQSRAQFQPMVEKLQEQLKPL------
+UniRef90_A0A974H6T0/1-65              MKVLALVVLVIAVSGLEAGVVKREVPSLD-ELT-K--ILSTWADT----VK---TQTQ-------EWIDKVQ-NGEVKAQTEPL-------------------------------
+UniRef90_A0A1B8XYN1/1-47              MKVLALVVLVIAISGMEAGVVRREVP--S--VE-E--L-TKLIQT----WA---EYAQ-------T---QAQ-------------------------------------------
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxxxx..x.xxx.x..x.xxxxxx....xx...xxxx.......x...xxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
