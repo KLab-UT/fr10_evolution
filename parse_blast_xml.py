@@ -37,6 +37,7 @@ class BlastHit:
                 hsp = self.create_tblastx_hsp_object(hsp_element)
             else:
                 raise ValueError(f"Unsupported blast type: {blast_type}")
+            self.log_hsp(hsp)
             self.hsps.append(hsp)
 
     def create_blastn_hsp_object(self, hsp_element):
@@ -48,6 +49,7 @@ class BlastHit:
         query_start=int(hsp_element.find("Hsp_query-from").text)
         query_end=int(hsp_element.find("Hsp_query-to").text)
         hseq = fetch_sequence(self.accession, hit_start, hit_end)
+
         return Hsp(
             bit_score=float(hsp_element.find("Hsp_bit-score").text),
             score=int(hsp_element.find("Hsp_score").text),
@@ -73,7 +75,7 @@ class BlastHit:
         query_start=3*int(hsp_element.find("Hsp_query-from").text)
         query_end=3*int(hsp_element.find("Hsp_query-to").text)
         hseq = fetch_sequence(self.accession, hit_start, hit_end)
-        print(f"hseq: {hseq}")
+
         return Hsp(
             bit_score=float(hsp_element.find("Hsp_bit-score").text),
             score=int(hsp_element.find("Hsp_score").text),
@@ -99,7 +101,6 @@ class BlastHit:
         query_start=int(hsp_element.find("Hsp_query-from").text)
         query_end=int(hsp_element.find("Hsp_query-to").text)
         hseq = fetch_sequence(self.accession, hit_start, hit_end)
-        print(f"hseq: {hseq}")
         return Hsp(
             bit_score=float(hsp_element.find("Hsp_bit-score").text),
             score=int(hsp_element.find("Hsp_score").text),
@@ -118,6 +119,18 @@ class BlastHit:
             hseq=hseq,
             midline=hsp_element.find("Hsp_midline").text,
         )
+    
+    
+    def log_hsp(self, hsp_object):
+        '''
+        log start and stop of where query is hit for hsp object in csv format
+        '''
+        with open("hit_coverage.csv", "a") as fout:
+            formatted_species = self.species.replace(" ","_")
+            fout.write(f"{self.accession},{formatted_species},{hsp_object.query_start},{hsp_object.query_end}\n")
+
+
+
 
 
     def get_fasta_sequences(self, query_length):
@@ -161,7 +174,7 @@ class Hsp:
         """
         Get FASTA-formatted sequence for HSP hits positioned at where it hit in the query
         """
-        delta_query = self.query_end - self.query_start
+        delta_query = self.query_end - self.query_start + 1 
         print(f"hit sequence: {self.hseq} query start: {self.query_start}  query end: {self.query_end} Hit seq length: {len(self.hseq)} delta query: {delta_query}")
 
         if delta_query != len(self.hseq):
@@ -176,7 +189,7 @@ class Hsp:
 
         header = f">{hit_accession}"
         description = f"{self.hit_start}-{self.hit_end} | {species}"
-        seq_record = SeqRecord(Seq(seq), id=header, description=description)
+        seq_record = SeqRecord(Seq(seq), id=hit_accession, description=description)
         return seq_record
 
 def reverse_complement(dna_sequence):
@@ -271,16 +284,6 @@ def fetch_query(query_fasta, start, end):
         print(f"An error occurred: {e}")
         return None
 
-# def merge_hit_seqs(hseqs_fasta, merge_type):
-#     fout = f"{hseqs_fasta.rsplit('.')[0]}_merged_by_{merge_type}.fasta"
-#     arguments = [hseqs_fasta, fout, merge_type]
-
-#     try:
-#         subprocess.run(['python', 'merge_webblast.py']+arguments, check=True)
-#         print(f"merged alignment created!: {fout}")
-#     except subprocess.CalledProcessError as e:
-#         print(f"Error merging: {e}")
-
 def get_ranges(record_list):
     """
     return str the ranges of each record in the list where the range is the first string
@@ -309,13 +312,15 @@ def get_hit_consensus(hits_fasta, query_fasta, blast_type, db):
     query_seq = str(query_record.seq)
     hit_seqs = [str(record.seq) for record in hit_records]
     hit_seqs = pad_seqs(hit_seqs)
-
-
+    
     hit_ranges=get_ranges(hit_records)
     hit_species=" ".join(hit_records[0].description.split()[-2:])
-    print(f"hit_description: {hit_records[0].description} hit_species: {hit_species} hit_ranges: {hit_ranges}")
 
-    hit_description = f" | {hit_ranges} | {hit_species} {blast_type} {db} consensus"
+    if len(hit_seqs) <= 1:
+        hit_description=f" | {hit_ranges} | {hit_species} {blast_type} {db}"
+    if len(hit_seqs) > 1:
+        hit_description = f" | {hit_ranges} | {hit_species} {blast_type} {db} consensus"
+    print(f"num of seqs: {len(hit_seqs)} hit description: {hit_description}")
     hit_consensus = ""
     for i in range(len(hit_seqs[0])):
         # make a list of the nucleotide at position i for each hit sequence
@@ -338,20 +343,74 @@ def get_hit_consensus(hits_fasta, query_fasta, blast_type, db):
     return hit_consensus_record
 
 
-def parse_blast(tree_root, query_fasta, merge_type):
+def get_species_by_assembly_ids(assembly_ids):
+    with open("assemblies_searched.txt", "a") as output_file:
+        # Iterate through each assembly ID in the list
+        for assembly_id in assembly_ids:
+            # Use the efetch utility to retrieve information about the assembly
+            print(assembly_id)
+
+
+            try:
+                handle = Entrez.efetch(db="nucleotide", id=assembly_id, retmode="xml")
+            except:
+                assembly_id += "0"
+                handle = Entrez.efetch(db="nucleotide", id=assembly_id, retmode="xml")
+            
+
+            record = handle.read()
+            print(record)
+
+            # Parse the XML response
+            tree = ET.fromstring(record)
+
+            # Extract species information
+            species_element = tree.find(".//GBSeq_organism")
+            species = species_element.text if species_element is not None else 'Species information not available'
+
+
+            # Write the assembly ID and species to the file
+            output_file.write(f"{assembly_id}, {species}\n")
+            print(f"Assembly ID {assembly_id}: {species}")
+        output_file.write(f"\n")
+
+def extract_assembly_ids_from_string(BlastOutput_db):
+    # Split by space
+    components = BlastOutput_db.split()
+
+    # Extract assembly IDs from each component that contains "WGS_VDB://"
+    assembly_ids = [component.split("WGS_VDB://")[1] for component in components if "WGS_VDB://" in component]
+
+    #Format ids for retrival
+    ids = []
+    for assembly_id in assembly_ids:
+        id = assembly_id[:-2]
+        id+="00000000"
+        ids.append(id)
+
+    return ids
+
+def parse_blast(tree_root, query_fasta):
     """
     Creates a nucleotide alignment of blast hits by positioning sequences where they hit the query in the blast search
     """
     blast_type = tree_root.find(".//BlastOutput_program").text
 
+    # Determine database type searched
     if "TSA" in tree_root.find(".//Hit_def").text:
         db = "TSA"
     else:
-        db = tree_root.find(".//BlastOutput_db").text.split(":")[0]
+        db = "WGS"
+
+    #Get assembly accesion and species searched
+    BlastOutput_db = tree_root.find(".//BlastOutput_db").text
+    assembly_ids=extract_assembly_ids_from_string(BlastOutput_db)
+    get_species_by_assembly_ids(assembly_ids)
 
     output_alignment = f"{query_fasta.rsplit('.')[0]}_{blast_type}_{db}.fasta"
     print(f"output alignment: {output_alignment}")
 
+    #Process blast hits
     blast_hits = []
     for hit_element in tree_root.findall(".//Hit"):
         blast_hit = BlastHit(hit_element, blast_type)
@@ -370,16 +429,15 @@ def parse_blast(tree_root, query_fasta, merge_type):
     SeqIO.write(sequences, output_alignment,"fasta")
 
 
-def main(xml_file, query_fasta, merge_type):
+
+def main(xml_file, query_fasta):
     # Parse XML file
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
 
     # Process blast hits
-    parse_blast(root, query_fasta, merge_type)
-
-    # Merge hit sequences
+    parse_blast(root, query_fasta)
 
 
 
@@ -388,10 +446,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process BLAST XML results and create nucleotide alignments.")
     parser.add_argument("xml_file", help="Path to the BLAST XML file")
     parser.add_argument("query_fasta", help="Path to the query FASTA file")
-    parser.add_argument("merge_type",choices=["id", "species"], help="Method for merging hit sequences.")
     parser.add_argument("email", help="email address to use NCBI Entrez")
     args = parser.parse_args()
     Entrez.email = args.email
-    main(args.xml_file, args.query_fasta, args.merge_type)
+    main(args.xml_file, args.query_fasta)
 
 

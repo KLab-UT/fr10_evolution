@@ -1,0 +1,100 @@
+>NP_001636.1 apolipoprotein C-I isoform a precursor [Homo sapiens]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSIVLEG------PAPA-QG--TPDVSS-----AL----DKLKEFGN
+TL-EDK---------ARELISRI--KQSELSAKMREWFSETFQKVKEKLKIDS-------
+------
+>XP_003316492.1 apolipoprotein C-I, basic form [Pan troglodytes]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSIVLEG------PAPA-QG--TPDVSS-----AL----DKLKEFGN
+TL-EDK---------ARELISRI--KQNELSAKMREWFSETFQKVKEKLKIDS-------
+------
+>XP_018870623.1 apolipoprotein C-I [Gorilla gorilla gorilla]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSIVLEG------PAPA-QG--TPDVSS-----AL----DKLKEFGN
+TL-EDK---------ARELISRI--KQSELSAKMRDWFSETFQKVKEKLKIDS-------
+------
+>XP_018870626.1 apolipoprotein C-I, acidic form [Gorilla gorilla gorilla]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSMVLEG------PAPA-QG--APEVSN-----PF----DGLEELGK
+TL-EDN---------TQELINRI--TQSELPAKMWDWFSETFRKVKEKLKIDS-------
+------
+>XP_003779249.1 apolipoprotein C-I [Pongo abelii]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSMVLEG------PAPA-QG--APDVSS-----AL----DKLKEFGN
+TL-EDK---------AREVINRI--KQSELSAKTRDWFSETFRKVKEKLKINS-------
+------
+>XP_014979728.1 apolipoprotein C-I, basic form isoform X2 [Macaca mulatta]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSMVLEG------PAPA-QG--APDVSS-----AL----DKLKEFGN
+TL-EDK---------AWEVINRI--KQSEFPAKTRDWFSETFRKVKEKLKINS-------
+------
+>XP_009196976.1 apolipoprotein C-I, basic form [Papio anubis]
+------------------------------------------------------------
+MRLFLSLPVLVVVLSMVLEG------PAPV-QG--APDVSS-----AL----DKLKEFGN
+TL-EDK---------AWEVINRI--KQSEFPAKTRDWFSETFRKVKEKLKINS-------
+------
+>XP_008505047.1 PREDICTED: apolipoprotein C-I-like [Equus przewalskii]
+------------------------------------------------------------
+MRLALSLPVLLVALWMVCEG------RAPA-QADLEPDQADLEPDGVIDVIWGGLKKVGK
+HLGKEI---------VKHIIHDI--NKKNGASATRKMASNTMKDIPDTVDHVPPPHKDAA
+PLNPQP
+>XP_006941186.1 PREDICTED: apolipoprotein C-I [Felis catus]
+------------------------------------------------------------
+MRLILWLPVLVVVLLMVLEG------PAPA-QG--APAIAS-----TFSNIPNSLKEFGN
+NL-KD-------------AFESI----PEATRKLMTSFAEGLKNLRLPLL----------
+------
+>NP_001183977.1 apolipoprotein C-I precursor [Canis lupus familiaris]
+------------------------------------------------------------
+MRLILSLPVLVVVLSMVLEG------PAPA-QA--AGEISS-----TFERIPDKLKEFGN
+TL-EDK---------ARAAIESI--KKSDIPAKTRNWFSEAFKKVKEHLKTAFS------
+------
+>NP_001103466.1 apolipoprotein C-I precursor [Rattus norvegicus]
+------------------------------------------------------------
+MRLFIALPVLIVVVAMALEG------PAPA-QA--APDFSS-----AMESLPDKLKEFGN
+TL-EDK---------ARAAIEHI--KQKEIMIKTRNWFSETLNKMKEKLKTTFA------
+------
+>NP_001103479.1 apolipoprotein C-I precursor [Mus musculus]
+------------------------------------------------------------
+MRLFIALPVLIVVVAMTLEG------PAPA-QA--APDLSG-----TLESIPDKLKEFGN
+TL-EDK---------ARAAIEHI--KQKEILTKTRAWFSEAFGKVKEKLKTTFS------
+------
+>NP_001153753.1 apolipoprotein C-I precursor [Oryctolagus cuniculus]
+------------------------------------------------------------
+MRLVLSLPVLVLALSMALEG------PAPA-QA--APDFS------TLELIPDKLKEFGN
+TL-EEK---------ARMAIEHI--KQSEITTKTRNWFSETISKVKEKFKSTFS------
+------
+>XP_007491635.1 apolipoprotein C-I isoform X4 [Monodelphis domestica]
+MYL-MPGW----------------------SAKGAEA------------------FGQSG
+SPLITAGPWTLPPTPSPACLDPGPICPRPA-QA--SSSLAQ-----SFEQFQKKVKEFTE
+TV-VEK---------TKAAITQI--KHSDLPSKTRTWITENIQKVKDKVESTFKKH----
+------
+>XP_003230683.2 PREDICTED: apolipoprotein C-I [Anolis carolinensis]
+MKE-EKGEGTGRIPLHLSKRYEESPFREQPSANPAQSSGRLSLQSLVPFLHQEVQFSSIN
+MQIVLSVAVVLVALSVVAGTD-----ETPV-AN--EPSLSQ-----KLEKFKQEVQTFVD
+RV-GVE---------TKETLHDI--RHSEFGNRTRNWFSEKFRKLKEKFRTLFPREEAN-
+------
+>XP_005289540.1 PREDICTED: apolipoprotein C-I isoform X4 [Chrysemys picta bellii]
+MGACWPGWGTWDTP------------------------------------------SPVT
+MRPAVSIALILVALTVLADSA-----QAQ--PT--EPTLTK-----KLENFQNKLQAFAD
+SI-ADK---------TKAAFQEL--HHSEFSEKTRNWFSEQFQKMKEKFNEQFSRD----
+------
+>XP_002941078.2 PREDICTED: apolipoprotein C-I isoform X1 [Xenopus (Silurana) tropicalis]
+------------------------------------------------------------
+MKLLLAISVILVTICVLTECK-----PSEADSE--SKSFRD-----HFDSAGTAIKDFG-
+----AK---------TKDFFKDL--HNSEAMTKTRNWFTDLYKKIKEKTTGSD-------
+------
+>XP_004078303.1 PREDICTED: apolipoprotein C-I-like isoform 2 [Oryzias latipes]
+------------------------------------------------------------
+MRLYLAVAVLMLAFVAYTEAQ-----DG-----------DQ-----TYTQLKDQITEFGK
+TF-AEK---------AKNTFETI--HNSEFAETTRNWFTSAFDKLKTKFEEINQNK----
+------
+>NP_001278815.1 apolipoprotein C-I isoform 1 precursor [Danio rerio]
+------------------------------------------------------------
+MKLYLAAAVLMLVLAVH---------TAEA-QE--EPTLEQ-----HFTKFGTQMKEIAE
+DL-ADK---------TKTAFQNI--EQSELGTKTRNWFNDQYEKLKQKMTETFN------
+------
+>CM053038.1_Lithobates_sylvaticus Hit for: U44831
+------------------------------------------------------------
+MK-VLALVVLVIAISGLEAGV----VKRDA-QD-------------PLQQITDIFQGISK
+TL-QEKFANAEIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKQKLS----------
+------
