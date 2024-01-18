@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    DESKTOP-P8M0AUR (AVX2, FMA3, 3 GB RAM)
-Command: iqtree2 -s fr10_all_aligned.fasta -B 1000 -o CAJIMM010020206 -redo
-Seed:    311098 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Jan 15 13:03:27 2024
+Command: iqtree2 -s fr10_all_aligned.fasta -redo -o CAJIMM010022611 -B 1000
+Seed:    663498 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jan 17 16:24:04 2024
 Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
@@ -13,433 +13,546 @@ HINT: -nt AUTO will automatically determine the best number of threads to use.
 
 Reading alignment file fr10_all_aligned.fasta ... Fasta format detected
 Alignment most likely contains DNA/RNA sequences
-Alignment has 90 sequences with 499 columns, 413 distinct patterns
-176 parsimony-informative, 106 singleton sites, 217 constant sites
+Alignment has 136 sequences with 499 columns, 413 distinct patterns
+178 parsimony-informative, 104 singleton sites, 217 constant sites
                  Gap/Ambiguity  Composition  p-value
-   1  JAQSEC010000013   12.02%    passed     95.61%
-   2  LIAG020987184     27.66%    passed     59.44%
-   3  CAJIML010011253   12.22%    passed     93.39%
-   4  VIAC01347839      27.66%    passed     85.16%
-   5  JARGYO010000011   11.42%    passed     79.81%
-   6  JAJQKJ010002606   11.82%    passed     75.66%
-   7  BLSH010535194     25.45%    passed     86.39%
-   8  LIAG021239457     84.17%    passed     35.21%
-   9  BLSH010011145     84.17%    passed     57.59%
-  10  CATNWA010016741   29.86%    passed     35.20%
-  11  PZQJ01000012      84.17%    passed     89.12%
-  12  DYDO01000683      84.17%    passed     89.12%
-  13  JYOU01101346      84.17%    passed     81.01%
-  14  VIAC01175670      85.37%    passed     81.39%
-  15  JAEOBE010182360   86.97%    passed     52.73%
-  16  JARQOC010000012   88.18%    passed     56.46%
-  17  CAJIMM010022611   89.38%    passed     42.48%
-  18  JAKJJM010311780   88.98%    passed     88.51%
-  19  JAQIHN010000115   89.38%    passed     30.43%
-  20  ONZH01005954      89.38%    passed     49.30%
-  21  JAKVIS010000011   89.38%    passed     44.85%
-  22  JABAHN010000008   89.38%    passed     39.76%
-  23  JARQOD010000001   89.58%    passed     36.28%
-  24  CAJIMM010020206   89.78%    failed      0.21%
-  25  JAEUXP010000007   89.38%    passed      9.19%
-  26  DAJOPU010000013   89.38%    passed      9.19%
-  27  RXON01000007      89.38%    passed      9.19%
-  28  JAWCTU010000002   89.58%    passed     54.87%
-  29  JAVFLC010000018   89.38%    passed     74.38%
-  30  CAMRHE010000551   89.38%    passed     68.97%
-  31  JARJJA010000011   89.38%    passed     63.14%
-  32  GDDO01096559      10.02%    passed     99.74%
-  33  LH353456          10.02%    passed     96.95%
-  34  GDDO01098681      10.42%    passed     98.42%
-  35  GDDO01104399      10.22%    passed     98.27%
-  36  GGNS01048791      10.02%    passed     97.48%
-  37  GKLC01412017       8.42%    passed     83.87%
-  38  LH380687          10.82%    passed     92.25%
-  39  GJEE01021557      10.02%    passed     72.89%
-  40  GGLB01156041      12.83%    passed     94.48%
-  41  GAEG01030218      12.02%    passed     88.37%
-  42  LH381201          28.86%    passed     83.99%
-  43  GFBS01545641      27.66%    passed     59.44%
-  44  GDDO01105572      14.03%    passed     83.60%
-  45  GGLB01186709      28.26%    passed     75.37%
-  46  LH381261          37.68%    passed     30.04%
-  47  GDDO01091471      41.68%    passed     21.79%
-  48  GDDO01100612      40.48%    passed     76.53%
-  49  GDDO01093386      41.48%    passed     82.45%
-  50  GDDO01098165      38.28%    passed      8.63%
-  51  GDDO01105559      44.09%    passed     43.97%
-  52  GDDO01001601      51.70%    passed     61.00%
-  53  GDDO01001845      37.68%    passed     63.33%
-  54  GDDO01098381      26.85%    passed     91.78%
-  55  GGLB01055383      60.32%    passed     61.14%
-  56  GEGG01042616      12.02%    passed     73.68%
-  57  GDDO01000997      57.11%    passed     27.51%
-  58  GJEE01021551      27.66%    passed     43.13%
-  59  GDDO01099720      60.52%    failed      1.05%
-  60  GGLB01080741      52.30%    passed     46.31%
-  61  LH376471          68.34%    passed     83.58%
-  62  GHMZ01002711      55.11%    passed     38.89%
-  63  ICLD02020573      37.68%    passed     25.99%
-  64  GEGH01045879      11.02%    passed     16.52%
-  65  GDDO01001687      65.33%    failed      4.56%
-  66  GGLB01209186      53.31%    passed     48.96%
-  67  GDDO01207728      68.14%    failed      3.67%
-  68  GGLB01080739      60.32%    passed     67.10%
-  69  GGLB01055384      75.75%    passed     48.58%
-  70  GEGI01020907      57.72%    passed      8.86%
-  71  GDDO01001399      73.75%    failed      0.21%
-  72  LH362425          70.94%    passed      5.12%
-  73  GDDO01105241      75.75%    passed     13.95%
-  74  GDDO01102209      63.53%    passed      9.11%
-  75  GEGI01020926      66.33%    failed      1.12%
-  76  GDDO01255378      65.93%    passed     35.48%
-  77  GDDO01322251      84.17%    passed     35.21%
-  78  GAEG01010914      84.17%    passed     35.21%
-  79  GJEE01021556      81.96%    passed     81.12%
-  80  GGLB01203822      84.17%    passed     47.05%
-  81  GDDO01207905      85.77%    passed     28.89%
-  82  GDDO01138345      86.17%    passed     24.77%
-  83  GJEE01021544      84.17%    passed     83.11%
-  84  GDDO01278460      86.57%    passed     33.32%
-  85  GDDO01180955      84.77%    passed     28.83%
-  86  LH381524          86.97%    passed     66.06%
-  87  GDDO01348827      74.35%    passed     82.47%
-  88  GDDO01318238      87.17%    passed     41.45%
-  89  ICLD02027861      84.17%    passed     89.12%
-  90  GDDO01335937      87.78%    passed     26.86%
-WARNING: 56 sequences contain more than 50% gaps/ambiguity
-****  TOTAL             57.39%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+   1  JAQSEC010000013   12.02%    passed     95.59%
+   2  LIAG020987184     27.66%    passed     68.04%
+   3  CAJIML010011253   12.22%    passed     90.40%
+   4  VIAC01347839      27.66%    passed     87.64%
+   5  JARGYO010000011   11.42%    passed     82.12%
+   6  JAJQKJ010002606   11.82%    passed     78.59%
+   7  BLSH010535194     25.45%    passed     80.93%
+   8  LIAG021239457     84.17%    passed     31.75%
+   9  BLSH010011145     84.17%    passed     53.80%
+  10  CATNWA010016741   29.86%    passed     30.37%
+  11  PZQJ01000012      84.17%    passed     87.59%
+  12  DYDO01000683      84.17%    passed     87.59%
+  13  JYOU01101346      84.17%    passed     77.44%
+  14  VIAC01175670      85.37%    passed     78.40%
+  15  JAEOBE010182360   86.97%    passed     51.38%
+  16  JARQOC010000012   88.18%    passed     52.78%
+  17  CAJIMM010022611   89.38%    passed     40.25%
+  18  JAKJJM010311780   88.98%    passed     87.22%
+  19  JAQIHN010000115   89.38%    passed     29.15%
+  20  ONZH01005954      89.38%    passed     47.65%
+  21  JAQIHO010000097   89.38%    passed     29.15%
+  22  JAKVIS010000011   89.38%    passed     43.08%
+  23  JABAHN010000008   89.38%    passed     39.94%
+  24  AAMC04000008      89.38%    passed     39.94%
+  25  JARQOD010000001   89.58%    passed     34.32%
+  26  CAJIMM010020206   89.78%    failed      0.19%
+  27  JAEUXP010000007   89.38%    passed      9.22%
+  28  DAJOPU010000013   89.38%    passed      9.22%
+  29  RXON01000007      89.38%    passed      9.22%
+  30  JAWCTU010000002   89.58%    passed     52.44%
+  31  CAUEEQ010006196   89.58%    passed     52.44%
+  32  JAVFLC010000018   89.38%    passed     71.73%
+  33  JAVFLB010000013   89.38%    passed     71.73%
+  34  CAMRHE010000551   89.38%    passed     66.50%
+  35  JARJJA010000011   89.38%    passed     61.95%
+  36  JARJIZ010000060   89.38%    passed     61.95%
+  37  GDDO01096559      10.02%    passed     99.95%
+  38  LH353456          10.02%    passed     99.02%
+  39  LH353453          10.02%    passed     99.02%
+  40  LH353452          10.02%    passed     99.02%
+  41  LH353449          10.02%    passed     99.02%
+  42  LH353448          10.02%    passed     99.02%
+  43  LH353447          10.02%    passed     99.02%
+  44  LH353446          10.02%    passed     99.02%
+  45  LH353444          10.02%    passed     99.02%
+  46  LH353443          10.02%    passed     99.02%
+  47  LH353441          10.02%    passed     99.02%
+  48  LH353436          10.02%    passed     99.02%
+  49  LH353433          10.02%    passed     99.02%
+  50  LH353432          10.02%    passed     99.02%
+  51  LH353428          10.02%    passed     99.02%
+  52  LH353427          10.02%    passed     99.02%
+  53  LH353426          10.02%    passed     99.02%
+  54  LH353425          10.02%    passed     99.02%
+  55  LH353423          10.02%    passed     99.02%
+  56  LH353422          10.02%    passed     99.02%
+  57  LH353420          10.02%    passed     99.02%
+  58  LH353415          10.02%    passed     99.02%
+  59  LH353412          10.02%    passed     99.02%
+  60  LH353411          10.02%    passed     99.02%
+  61  LH353408          10.02%    passed     99.02%
+  62  LH353407          10.02%    passed     99.02%
+  63  LH353406          10.02%    passed     99.02%
+  64  LH353405          10.02%    passed     99.02%
+  65  LH353403          10.02%    passed     99.02%
+  66  LH353402          10.02%    passed     99.02%
+  67  LH353400          10.02%    passed     99.02%
+  68  LH246510          10.02%    passed     99.02%
+  69  GDDO01098429      10.02%    passed     99.02%
+  70  GDDO01098681      10.42%    passed     99.48%
+  71  GDDO01104399      10.22%    passed     99.22%
+  72  GGNS01048791      10.02%    passed     96.29%
+  73  GKLC01412017       8.42%    passed     85.98%
+  74  LH380687          10.82%    passed     96.02%
+  75  GJEE01021557      10.02%    passed     81.46%
+  76  GJEE01021554      10.02%    passed     81.46%
+  77  GGLB01156041      12.83%    passed     93.74%
+  78  GAEG01030218      12.02%    passed     92.48%
+  79  LH381201          28.86%    passed     83.34%
+  80  GFBS01545641      27.66%    passed     68.04%
+  81  GDDO01105572      14.03%    passed     84.40%
+  82  GGLB01186709      28.26%    passed     79.58%
+  83  LH381261          37.68%    passed     32.09%
+  84  GDDO01091471      41.68%    passed     21.57%
+  85  GDDO01100612      40.48%    passed     78.66%
+  86  GDDO01093386      41.48%    passed     85.21%
+  87  GDDO01098165      38.28%    passed     10.08%
+  88  GDDO01105559      44.09%    passed     49.05%
+  89  GDDO01001601      51.70%    passed     63.15%
+  90  GDDO01001845      37.68%    passed     68.99%
+  91  GDDO01098381      26.85%    passed     91.67%
+  92  GGLB01055383      60.32%    passed     58.12%
+  93  GJEE01021552      10.02%    passed     81.46%
+  94  GEGG01042616      12.02%    passed     72.88%
+  95  GDDO01000997      57.11%    passed     29.38%
+  96  GJEE01021551      27.66%    passed     51.46%
+  97  GJEE01021549      27.66%    passed     51.46%
+  98  GDDO01099720      60.52%    failed      1.33%
+  99  GGLB01080741      52.30%    passed     47.63%
+ 100  LH376471          68.34%    passed     82.13%
+ 101  GHMZ01002711      55.11%    passed     35.83%
+ 102  ICLD02020573      37.68%    passed     26.86%
+ 103  GEGH01045879      11.02%    passed     12.00%
+ 104  GDDO01001687      65.33%    failed      4.71%
+ 105  GDDO01001682      65.33%    failed      4.71%
+ 106  GGLB01209186      53.31%    passed     51.74%
+ 107  GDDO01207728      68.14%    failed      3.91%
+ 108  GGLB01080739      60.32%    passed     63.71%
+ 109  GGLB01055384      75.75%    passed     50.39%
+ 110  GEGI01020907      57.72%    passed     10.59%
+ 111  GDDO01001399      73.75%    failed      0.20%
+ 112  GDDO01303518      73.75%    failed      0.20%
+ 113  LH362425          70.94%    passed      5.92%
+ 114  GDDO01105241      75.75%    passed     15.78%
+ 115  GDDO01102209      63.53%    passed     10.25%
+ 116  GEGI01020926      66.33%    failed      0.99%
+ 117  GDDO01255378      65.93%    passed     32.96%
+ 118  GDDO01322251      84.17%    passed     31.75%
+ 119  GDDO01229544      84.17%    passed     31.75%
+ 120  GDDO01208094      84.17%    passed     31.75%
+ 121  GAEG01010914      84.17%    passed     31.75%
+ 122  GDDO01332011      84.17%    passed     31.75%
+ 123  GDDO01279950      84.17%    passed     31.75%
+ 124  GJEE01021556      81.96%    passed     79.10%
+ 125  GGLB01203822      84.17%    passed     43.22%
+ 126  GDDO01207905      85.77%    passed     26.11%
+ 127  GDDO01138345      86.17%    passed     22.21%
+ 128  GJEE01021544      84.17%    passed     80.71%
+ 129  GDDO01278460      86.57%    passed     30.28%
+ 130  GDDO01180955      84.77%    passed     25.89%
+ 131  LH381524          86.97%    passed     62.41%
+ 132  GDDO01348827      74.35%    passed     81.67%
+ 133  GDDO01318238      87.17%    passed     37.87%
+ 134  ICLD02027861      84.17%    passed     87.59%
+ 135  GDDO01335937      87.78%    passed     24.42%
+ 136  GDDO01315100      87.78%    passed     24.42%
+WARNING: 68 sequences contain more than 50% gaps/ambiguity
+****  TOTAL             48.05%  8 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: GFBS01545641 is identical to LIAG020987184 but kept for subsequent analysis
 NOTE: GDDO01322251 is identical to LIAG021239457 but kept for subsequent analysis
 NOTE: DYDO01000683 is identical to PZQJ01000012 but kept for subsequent analysis
+NOTE: JAQIHO010000097 is identical to JAQIHN010000115 but kept for subsequent analysis
+NOTE: AAMC04000008 is identical to JABAHN010000008 but kept for subsequent analysis
 NOTE: DAJOPU010000013 is identical to JAEUXP010000007 but kept for subsequent analysis
-NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CAUEEQ010006196 is identical to JAWCTU010000002 but kept for subsequent analysis
+NOTE: JAVFLB010000013 is identical to JAVFLC010000018 but kept for subsequent analysis
+NOTE: JARJIZ010000060 is identical to JARJJA010000011 but kept for subsequent analysis
+NOTE: LH353453 is identical to LH353456 but kept for subsequent analysis
+NOTE: GJEE01021554 is identical to GJEE01021557 but kept for subsequent analysis
+NOTE: GJEE01021549 is identical to GJEE01021551 but kept for subsequent analysis
+NOTE: GDDO01001682 is identical to GDDO01001687 but kept for subsequent analysis
+NOTE: GDDO01303518 is identical to GDDO01001399 but kept for subsequent analysis
+NOTE: GDDO01315100 is identical to GDDO01335937 but kept for subsequent analysis
+NOTE: 38 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GDDO01229544 (identical to LIAG021239457) is ignored but added at the end
+NOTE: GDDO01208094 (identical to LIAG021239457) is ignored but added at the end
 NOTE: GAEG01010914 (identical to LIAG021239457) is ignored but added at the end
+NOTE: GDDO01332011 (identical to LIAG021239457) is ignored but added at the end
+NOTE: GDDO01279950 (identical to LIAG021239457) is ignored but added at the end
 NOTE: ICLD02027861 (identical to PZQJ01000012) is ignored but added at the end
 NOTE: RXON01000007 (identical to JAEUXP010000007) is ignored but added at the end
+NOTE: LH353452 (identical to LH353456) is ignored but added at the end
+NOTE: LH353449 (identical to LH353456) is ignored but added at the end
+NOTE: LH353448 (identical to LH353456) is ignored but added at the end
+NOTE: LH353447 (identical to LH353456) is ignored but added at the end
+NOTE: LH353446 (identical to LH353456) is ignored but added at the end
+NOTE: LH353444 (identical to LH353456) is ignored but added at the end
+NOTE: LH353443 (identical to LH353456) is ignored but added at the end
+NOTE: LH353441 (identical to LH353456) is ignored but added at the end
+NOTE: LH353436 (identical to LH353456) is ignored but added at the end
+NOTE: LH353433 (identical to LH353456) is ignored but added at the end
+NOTE: LH353432 (identical to LH353456) is ignored but added at the end
+NOTE: LH353428 (identical to LH353456) is ignored but added at the end
+NOTE: LH353427 (identical to LH353456) is ignored but added at the end
+NOTE: LH353426 (identical to LH353456) is ignored but added at the end
+NOTE: LH353425 (identical to LH353456) is ignored but added at the end
+NOTE: LH353423 (identical to LH353456) is ignored but added at the end
+NOTE: LH353422 (identical to LH353456) is ignored but added at the end
+NOTE: LH353420 (identical to LH353456) is ignored but added at the end
+NOTE: LH353415 (identical to LH353456) is ignored but added at the end
+NOTE: LH353412 (identical to LH353456) is ignored but added at the end
+NOTE: LH353411 (identical to LH353456) is ignored but added at the end
+NOTE: LH353408 (identical to LH353456) is ignored but added at the end
+NOTE: LH353407 (identical to LH353456) is ignored but added at the end
+NOTE: LH353406 (identical to LH353456) is ignored but added at the end
+NOTE: LH353405 (identical to LH353456) is ignored but added at the end
+NOTE: LH353403 (identical to LH353456) is ignored but added at the end
+NOTE: LH353402 (identical to LH353456) is ignored but added at the end
+NOTE: LH353400 (identical to LH353456) is ignored but added at the end
+NOTE: LH246510 (identical to LH353456) is ignored but added at the end
+NOTE: GDDO01098429 (identical to LH353456) is ignored but added at the end
+NOTE: GJEE01021552 (identical to GJEE01021557) is ignored but added at the end
 Alignment was printed to fr10_all_aligned.fasta.uniqueseq.phy
 
 For your convenience alignment with unique sequences printed to fr10_all_aligned.fasta.uniqueseq.phy
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.023 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.020 seconds
 Perform fast likelihood tree search using GTR+I+G model...
 Estimate model parameters (epsilon = 5.000)
 Perform nearest neighbor interchange...
 Estimate model parameters (epsilon = 1.000)
-1. Initial log-likelihood: -3503.088
-Optimal log-likelihood: -3502.659
-Rate parameters:  A-C: 1.36137  A-G: 2.94585  A-T: 1.39887  C-G: 0.78426  C-T: 2.99875  G-T: 1.00000
-Base frequencies:  A: 0.262  C: 0.285  G: 0.223  T: 0.231
-Proportion of invariable sites: 0.172
-Gamma shape alpha: 1.474
-Parameters optimization took 1 rounds (0.110 sec)
-Time for fast ML tree search: 0.728 seconds
+1. Initial log-likelihood: -3483.813
+Optimal log-likelihood: -3483.380
+Rate parameters:  A-C: 1.36306  A-G: 3.13092  A-T: 1.39929  C-G: 0.77325  C-T: 2.96528  G-T: 1.00000
+Base frequencies:  A: 0.261  C: 0.285  G: 0.222  T: 0.233
+Proportion of invariable sites: 0.173
+Gamma shape alpha: 1.537
+Parameters optimization took 1 rounds (0.137 sec)
+Time for fast ML tree search: 2.369 seconds
 
-NOTE: ModelFinder requires 13 MB RAM!
+NOTE: ModelFinder requires 14 MB RAM!
 ModelFinder will test up to 286 DNA models (sample size: 499) ...
  No. Model         -LnL         df  AIC          AICc         BIC
-  1  GTR+F         3583.969     179 7525.937     7727.943     8279.994
-  2  GTR+F+I       3531.108     180 7422.216     7627.121     8180.485
-  3  GTR+F+G4      3500.272     180 7360.543     7565.449     8118.812
-  4  GTR+F+I+G4    3501.505     181 7365.010     7572.846     8127.491
-  5  GTR+F+R2      3501.161     181 7364.322     7572.158     8126.803
-  6  GTR+F+R3      3500.238     183 7366.477     7580.267     8137.383
- 16  SYM+G4        3505.228     177 7364.455     7560.754     8110.087
- 17  SYM+I+G4      3506.587     178 7369.175     7568.312     8119.019
- 18  SYM+R2        3505.572     178 7367.144     7566.282     8116.988
- 29  TVM+F+G4      3500.286     179 7358.572     7560.579     8112.629
- 30  TVM+F+I+G4    3501.517     180 7363.033     7567.939     8121.302
- 31  TVM+F+R2      3501.158     180 7362.316     7567.222     8120.586
- 42  TVMe+G4       3505.393     176 7362.786     7556.276     8104.204
- 43  TVMe+I+G4     3506.745     177 7367.490     7563.789     8113.121
- 44  TVMe+R2       3505.694     177 7365.388     7561.687     8111.019
- 55  TIM3+F+G4     3505.272     178 7366.544     7565.682     8116.388
- 56  TIM3+F+I+G4   3506.391     179 7370.781     7572.788     8124.838
- 57  TIM3+F+R2     3506.693     179 7371.386     7573.392     8125.443
- 68  TIM3e+G4      3513.318     175 7376.637     7567.349     8113.843
- 69  TIM3e+I+G4    3514.581     176 7381.162     7574.652     8122.580
- 70  TIM3e+R2      3514.389     176 7380.779     7574.269     8122.197
- 81  TIM2+F+G4     3500.712     178 7357.424     7556.561     8107.268
- 82  TIM2+F+I+G4   3501.980     179 7361.960     7563.966     8116.016
- 83  TIM2+F+R2     3501.558     179 7361.117     7563.123     8115.173
- 94  TIM2e+G4      3505.504     175 7361.009     7551.721     8098.215
- 95  TIM2e+I+G4    3506.857     176 7365.714     7559.205     8107.133
- 96  TIM2e+R2      3505.893     176 7363.786     7557.276     8105.204
-107  TIM+F+G4      3504.989     178 7365.978     7565.116     8115.822
-108  TIM+F+I+G4    3506.147     179 7370.294     7572.300     8124.350
-109  TIM+F+R2      3506.329     179 7370.658     7572.664     8124.714
-120  TIMe+G4       3512.707     175 7375.415     7566.127     8112.621
-121  TIMe+I+G4     3513.947     176 7379.895     7573.385     8121.313
-122  TIMe+R2       3513.775     176 7379.550     7573.041     8120.969
-133  TPM3u+F+G4    3505.292     177 7364.585     7560.884     8110.216
-134  TPM3u+F+I+G4  3506.408     178 7368.816     7567.954     8118.660
-135  TPM3u+F+R2    3506.714     178 7369.428     7568.566     8119.272
-146  TPM3+F+G4     3505.292     177 7364.585     7560.884     8110.216
-147  TPM3+F+I+G4   3506.408     178 7368.816     7567.954     8118.660
-148  TPM3+F+R2     3506.714     178 7369.428     7568.566     8119.272
-159  TPM2u+F+G4    3500.733     177 7355.466     7551.765     8101.097
-160  TPM2u+F+I+G4  3501.999     178 7359.999     7559.136     8109.843
-161  TPM2u+F+R2    3501.566     178 7359.133     7558.270     8108.977
-172  TPM2+F+G4     3500.733     177 7355.466     7551.765     8101.097
-173  TPM2+F+I+G4   3501.999     178 7359.999     7559.136     8109.843
-174  TPM2+F+R2     3501.566     178 7359.133     7558.270     8108.977
-185  K3Pu+F+G4     3505.012     177 7364.025     7560.324     8109.656
-186  K3Pu+F+I+G4   3506.167     178 7368.333     7567.471     8118.177
-187  K3Pu+F+R2     3506.351     178 7368.702     7567.840     8118.546
-198  K3P+G4        3512.915     174 7373.830     7561.793     8106.823
-199  K3P+I+G4      3514.137     175 7378.275     7568.987     8115.481
-200  K3P+R2        3513.972     175 7377.945     7568.657     8115.151
-211  TN+F+G4       3505.483     177 7364.966     7561.266     8110.598
-212  TN+F+I+G4     3506.635     178 7369.271     7568.408     8119.115
-213  TN+F+R2       3506.865     178 7369.729     7568.867     8119.573
-224  TNe+G4        3513.402     174 7374.803     7562.766     8107.797
-225  TNe+I+G4      3514.646     175 7379.293     7570.005     8116.499
-226  TNe+R2        3514.494     175 7378.987     7569.699     8116.193
-237  HKY+F+G4      3505.508     176 7363.015     7556.506     8104.434
-238  HKY+F+I+G4    3506.656     177 7367.313     7563.612     8112.944
-239  HKY+F+R2      3506.890     177 7367.780     7564.080     8113.412
-250  K2P+G4        3513.614     173 7373.228     7558.471     8102.009
-251  K2P+I+G4      3514.843     174 7377.686     7565.649     8110.679
-252  K2P+R2        3514.697     174 7377.394     7565.356     8110.387
-263  F81+F+G4      3560.567     175 7471.135     7661.847     8208.341
-264  F81+F+I+G4    3561.760     176 7475.521     7669.011     8216.939
-265  F81+F+R2      3561.359     176 7474.718     7668.209     8216.137
-276  JC+G4         3567.466     172 7478.932     7661.485     8203.501
-277  JC+I+G4       3568.756     173 7483.511     7668.754     8212.292
-278  JC+R2         3568.125     173 7482.249     7667.492     8211.030
+  1  GTR+F         3558.337     201 7518.673     7792.087     8365.407
+  2  GTR+F+I       3508.330     202 7420.660     7697.728     8271.607
+  3  GTR+F+G4      3481.189     202 7366.378     7643.446     8217.324
+  4  GTR+F+I+G4    3482.302     203 7370.604     7651.363     8225.763
+  5  GTR+F+R2      3482.802     203 7371.603     7652.363     8226.763
+  6  GTR+F+R3      3480.588     205 7371.176     7659.436     8234.760
+ 16  SYM+G4        3486.314     199 7370.628     7636.848     8208.936
+ 17  SYM+I+G4      3487.535     200 7375.069     7644.868     8217.590
+ 18  SYM+R2        3487.375     200 7374.749     7644.548     8217.271
+ 29  TVM+F+G4      3481.188     201 7364.375     7637.789     8211.109
+ 30  TVM+F+I+G4    3482.355     202 7368.709     7645.777     8219.655
+ 31  TVM+F+R2      3482.844     202 7369.688     7646.756     8220.635
+ 42  TVMe+G4       3486.301     198 7368.602     7631.282     8202.698
+ 43  TVMe+I+G4     3487.544     199 7373.088     7639.309     8211.396
+ 44  TVMe+R2       3487.388     199 7372.776     7638.997     8211.085
+ 55  TIM3+F+G4     3486.202     200 7372.404     7642.203     8214.925
+ 56  TIM3+F+I+G4   3487.249     201 7376.497     7649.911     8223.231
+ 57  TIM3+F+R2     3488.316     201 7378.631     7652.045     8225.365
+ 68  TIM3e+G4      3494.430     197 7382.859     7642.035     8212.743
+ 69  TIM3e+I+G4    3495.589     198 7387.179     7649.859     8221.275
+ 70  TIM3e+R2      3496.225     198 7388.451     7651.131     8222.547
+ 81  TIM2+F+G4     3481.565     200 7363.131     7632.930     8205.652
+ 82  TIM2+F+I+G4   3482.741     201 7367.482     7640.896     8214.216
+ 83  TIM2+F+R2     3483.253     201 7368.505     7641.919     8215.239
+ 94  TIM2e+G4      3486.536     197 7367.071     7626.248     8196.955
+ 95  TIM2e+I+G4    3487.784     198 7371.568     7634.248     8205.664
+ 96  TIM2e+R2      3487.650     198 7371.301     7633.981     8205.397
+107  TIM+F+G4      3485.767     200 7371.533     7641.332     8214.055
+108  TIM+F+I+G4    3486.837     201 7375.675     7649.089     8222.409
+109  TIM+F+R2      3487.851     201 7377.703     7651.117     8224.436
+120  TIMe+G4       3493.638     197 7381.276     7640.452     8211.159
+121  TIMe+I+G4     3494.785     198 7385.570     7648.250     8219.666
+122  TIMe+R2       3495.459     198 7386.918     7649.598     8221.014
+133  TPM3u+F+G4    3486.243     199 7370.485     7636.706     8208.794
+134  TPM3u+F+I+G4  3487.301     200 7374.602     7644.401     8217.123
+135  TPM3u+F+R2    3488.344     200 7376.689     7646.487     8219.210
+146  TPM3+F+G4     3486.243     199 7370.485     7636.706     8208.794
+147  TPM3+F+I+G4   3487.301     200 7374.602     7644.401     8217.123
+148  TPM3+F+R2     3488.344     200 7376.689     7646.487     8219.210
+159  TPM2u+F+G4    3481.602     199 7361.204     7627.425     8199.513
+160  TPM2u+F+I+G4  3482.792     200 7365.584     7635.383     8208.105
+161  TPM2u+F+R2    3483.289     200 7366.578     7636.377     8209.099
+172  TPM2+F+G4     3481.602     199 7361.204     7627.425     8199.513
+173  TPM2+F+I+G4   3482.792     200 7365.584     7635.383     8208.105
+174  TPM2+F+R2     3483.289     200 7366.578     7636.377     8209.099
+185  K3Pu+F+G4     3485.806     199 7369.613     7635.833     8207.921
+186  K3Pu+F+I+G4   3486.887     200 7373.775     7643.574     8216.296
+187  K3Pu+F+R2     3487.878     200 7375.756     7645.555     8218.277
+198  K3P+G4        3493.666     196 7379.332     7635.041     8205.003
+199  K3P+I+G4      3494.806     197 7383.612     7642.789     8213.496
+200  K3P+R2        3495.502     197 7385.004     7644.180     8214.887
+211  TN+F+G4       3486.394     199 7370.787     7637.008     8209.096
+212  TN+F+I+G4     3487.465     200 7374.931     7644.729     8217.452
+213  TN+F+R2       3488.540     200 7377.080     7646.879     8219.602
+224  TNe+G4        3494.481     196 7380.961     7636.670     8206.632
+225  TNe+I+G4      3495.643     197 7385.285     7644.461     8215.169
+226  TNe+R2        3496.353     197 7386.707     7645.883     8216.590
+237  HKY+F+G4      3486.433     198 7368.866     7631.546     8202.962
+238  HKY+F+I+G4    3487.514     199 7373.028     7639.248     8211.336
+239  HKY+F+R2      3488.567     199 7375.134     7641.355     8213.443
+250  K2P+G4        3494.511     195 7379.023     7631.300     8200.481
+251  K2P+I+G4      3495.666     196 7383.331     7639.040     8209.002
+252  K2P+R2        3496.397     196 7384.794     7640.503     8210.465
+263  F81+F+G4      3544.231     197 7482.461     7741.637     8312.345
+264  F81+F+I+G4    3545.381     198 7486.761     7749.441     8320.857
+265  F81+F+R2      3545.804     198 7487.607     7750.287     8321.703
+276  JC+G4         3551.200     194 7490.400     7739.281     8307.645
+277  JC+I+G4       3552.367     195 7494.734     7747.011     8316.192
+278  JC+R2         3552.669     195 7495.338     7747.615     8316.796
 Akaike Information Criterion:           TPM2u+F+G4
 Corrected Akaike Information Criterion: TIM2e+G4
 Bayesian Information Criterion:         TIM2e+G4
 Best-fit model: TIM2e+G4 chosen according to BIC
 
 All model information printed to fr10_all_aligned.fasta.model.gz
-CPU time for ModelFinder: 19.025 seconds (0h:0m:19s)
-Wall-clock time for ModelFinder: 20.851 seconds (0h:0m:20s)
-Generating 1000 samples for ultrafast bootstrap (seed: 311098)...
+CPU time for ModelFinder: 18.356 seconds (0h:0m:18s)
+Wall-clock time for ModelFinder: 20.204 seconds (0h:0m:20s)
+Generating 1000 samples for ultrafast bootstrap (seed: 663498)...
 
 NOTE: 6 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -3505.504
-Optimal log-likelihood: -3505.504
-Rate parameters:  A-C: 1.82381  A-G: 3.48197  A-T: 1.82381  C-G: 1.00000  C-T: 3.77111  G-T: 1.00000
+1. Initial log-likelihood: -3486.536
+Optimal log-likelihood: -3486.521
+Rate parameters:  A-C: 1.86455  A-G: 3.75300  A-T: 1.86455  C-G: 1.00000  C-T: 3.82420  G-T: 1.00000
 Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
-Gamma shape alpha: 0.833
-Parameters optimization took 1 rounds (0.075 sec)
-Computing ML distances based on estimated model parameters... 0.099 sec
+Gamma shape alpha: 0.855
+Parameters optimization took 1 rounds (0.054 sec)
+Computing ML distances based on estimated model parameters... 0.081 sec
 WARNING: Some pairwise ML distances are too long (saturated)
 Computing BIONJ tree...
 0.009 seconds
-Log-likelihood of BIONJ tree: -4422.551
+Log-likelihood of BIONJ tree: -4421.087
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 1.193 second
-Computing log-likelihood of 98 initial trees ... 1.563 seconds
-Current best score: -3495.700
+Generating 98 parsimony trees... 1.001 second
+Computing log-likelihood of 98 initial trees ... 1.282 seconds
+Current best score: -3479.481
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -3477.375
+BETTER TREE FOUND at iteration 1: -3468.615
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 3: -3477.284
+BETTER TREE FOUND at iteration 2: -3468.165
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 4: -3476.456
-Iteration 10 / LogL: -3484.281 / Time: 0h:0m:15s
-Iteration 20 / LogL: -3477.465 / Time: 0h:0m:24s
+BETTER TREE FOUND at iteration 3: -3468.122
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -3467.933
+Iteration 10 / LogL: -3477.774 / Time: 0h:0m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -3465.338
+Iteration 20 / LogL: -3487.845 / Time: 0h:0m:17s
 Finish initializing candidate tree set (20)
-Current best tree score: -3476.456 / CPU time: 23.708
+Current best tree score: -3465.338 / CPU time: 17.226
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
+Iteration 30 / LogL: -3465.404 / Time: 0h:0m:26s (0h:1m:18s left)
+Iteration 40 / LogL: -3469.091 / Time: 0h:0m:33s (0h:1m:5s left)
+BETTER TREE FOUND at iteration 42: -3465.336
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 21: -3476.220
-Iteration 30 / LogL: -3479.149 / Time: 0h:0m:31s (0h:1m:37s left)
-BETTER TREE FOUND at iteration 36: -3476.216
-BETTER TREE FOUND at iteration 39: -3476.215
-Iteration 40 / LogL: -3476.261 / Time: 0h:0m:38s (0h:1m:37s left)
+BETTER TREE FOUND at iteration 47: -3464.382
+Iteration 50 / LogL: -3464.803 / Time: 0h:0m:39s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -3495.352
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 45: -3472.971
+BETTER TREE FOUND at iteration 59: -3463.826
+Iteration 60 / LogL: -3467.376 / Time: 0h:0m:45s (0h:1m:16s left)
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 48: -3472.860
-Iteration 50 / LogL: -3481.675 / Time: 0h:0m:46s (0h:1m:32s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 60 / LogL: -3472.863 / Time: 0h:0m:55s (0h:1m:22s left)
-BETTER TREE FOUND at iteration 70: -3472.855
-Iteration 70 / LogL: -3472.855 / Time: 0h:1m:3s (0h:1m:31s left)
-Iteration 80 / LogL: -3472.925 / Time: 0h:1m:10s (0h:1m:20s left)
-BETTER TREE FOUND at iteration 82: -3472.851
-Iteration 90 / LogL: -3475.379 / Time: 0h:1m:18s (0h:1m:21s left)
-BETTER TREE FOUND at iteration 97: -3472.849
-Iteration 100 / LogL: -3480.124 / Time: 0h:1m:27s (0h:1m:25s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 110 / LogL: -3497.625 / Time: 0h:1m:35s (0h:1m:18s left)
-Iteration 120 / LogL: -3477.813 / Time: 0h:1m:42s (0h:1m:8s left)
-Iteration 130 / LogL: -3474.094 / Time: 0h:1m:50s (0h:0m:59s left)
-Iteration 140 / LogL: -3476.757 / Time: 0h:1m:59s (0h:0m:51s left)
-Iteration 150 / LogL: -3474.022 / Time: 0h:2m:6s (0h:0m:42s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 160 / LogL: -3476.467 / Time: 0h:2m:13s (0h:0m:33s left)
-Iteration 170 / LogL: -3485.960 / Time: 0h:2m:22s (0h:0m:25s left)
-Iteration 180 / LogL: -3477.687 / Time: 0h:2m:30s (0h:0m:16s left)
-BETTER TREE FOUND at iteration 184: -3472.849
-Iteration 190 / LogL: -3472.857 / Time: 0h:2m:38s (0h:1m:18s left)
-BETTER TREE FOUND at iteration 197: -3472.848
-Iteration 200 / LogL: -3493.064 / Time: 0h:2m:45s (0h:1m:20s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 210 / LogL: -3473.115 / Time: 0h:2m:53s (0h:1m:14s left)
-Iteration 220 / LogL: -3475.529 / Time: 0h:3m:2s (0h:1m:6s left)
-Iteration 230 / LogL: -3472.855 / Time: 0h:3m:10s (0h:0m:58s left)
-Iteration 240 / LogL: -3472.856 / Time: 0h:3m:17s (0h:0m:49s left)
-Iteration 250 / LogL: -3472.871 / Time: 0h:3m:26s (0h:0m:41s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 260 / LogL: -3472.851 / Time: 0h:3m:35s (0h:0m:33s left)
-Iteration 270 / LogL: -3472.858 / Time: 0h:3m:44s (0h:0m:25s left)
-Iteration 280 / LogL: -3490.175 / Time: 0h:3m:52s (0h:0m:16s left)
-Iteration 290 / LogL: -3472.851 / Time: 0h:4m:0s (0h:0m:8s left)
-Iteration 300 / LogL: -3473.843 / Time: 0h:4m:8s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 310 / LogL: -3472.851 / Time: 0h:4m:16s (0h:1m:14s left)
-Iteration 320 / LogL: -3472.856 / Time: 0h:4m:24s (0h:1m:6s left)
-BETTER TREE FOUND at iteration 325: -3472.848
-Iteration 330 / LogL: -3472.849 / Time: 0h:4m:32s (0h:1m:18s left)
-Iteration 340 / LogL: -3472.868 / Time: 0h:4m:42s (0h:1m:10s left)
-Iteration 350 / LogL: -3480.906 / Time: 0h:4m:50s (0h:1m:2s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 360 / LogL: -3472.851 / Time: 0h:4m:59s (0h:0m:54s left)
-Iteration 370 / LogL: -3472.860 / Time: 0h:5m:7s (0h:0m:45s left)
-Iteration 380 / LogL: -3473.458 / Time: 0h:5m:16s (0h:0m:37s left)
-Iteration 390 / LogL: -3479.037 / Time: 0h:5m:25s (0h:0m:29s left)
-Iteration 400 / LogL: -3491.353 / Time: 0h:5m:34s (0h:0m:20s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 410 / LogL: -3489.952 / Time: 0h:5m:43s (0h:1m:15s left)
-Iteration 420 / LogL: -3519.608 / Time: 0h:5m:51s (0h:1m:7s left)
-Iteration 430 / LogL: -3473.734 / Time: 0h:5m:59s (0h:0m:58s left)
-Iteration 440 / LogL: -3472.856 / Time: 0h:6m:8s (0h:0m:50s left)
-Iteration 450 / LogL: -3473.115 / Time: 0h:6m:17s (0h:0m:41s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 460 / LogL: -3472.850 / Time: 0h:6m:26s (0h:0m:33s left)
-Iteration 470 / LogL: -3475.741 / Time: 0h:6m:33s (0h:0m:25s left)
-Iteration 480 / LogL: -3473.737 / Time: 0h:6m:42s (0h:0m:16s left)
-Iteration 490 / LogL: -3475.943 / Time: 0h:6m:51s (0h:0m:8s left)
-Iteration 500 / LogL: -3475.059 / Time: 0h:6m:58s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.971
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 510 / LogL: -3474.864 / Time: 0h:7m:7s (0h:1m:15s left)
-Iteration 520 / LogL: -3472.856 / Time: 0h:7m:14s (0h:1m:7s left)
-Iteration 530 / LogL: -3480.363 / Time: 0h:7m:23s (0h:0m:58s left)
-Iteration 540 / LogL: -3479.738 / Time: 0h:7m:32s (0h:0m:50s left)
-Iteration 550 / LogL: -3472.848 / Time: 0h:7m:41s (0h:0m:42s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 560 / LogL: -3473.920 / Time: 0h:7m:49s (0h:0m:33s left)
-Iteration 570 / LogL: -3474.920 / Time: 0h:7m:58s (0h:0m:25s left)
-Iteration 580 / LogL: -3473.115 / Time: 0h:8m:5s (0h:0m:16s left)
+BETTER TREE FOUND at iteration 63: -3463.805
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 581: -3472.697
-Iteration 590 / LogL: -3475.217 / Time: 0h:8m:15s (0h:1m:16s left)
-Iteration 600 / LogL: -3474.073 / Time: 0h:8m:23s (0h:1m:8s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+BETTER TREE FOUND at iteration 68: -3463.709
+Iteration 70 / LogL: -3464.410 / Time: 0h:0m:52s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -3463.693
+Iteration 80 / LogL: -3482.835 / Time: 0h:0m:57s (0h:1m:10s left)
+Iteration 90 / LogL: -3464.662 / Time: 0h:1m:2s (0h:1m:2s left)
+Iteration 100 / LogL: -3464.660 / Time: 0h:1m:9s (0h:0m:54s left)
+Log-likelihood cutoff on original alignment: -3495.352
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
 NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 610 / LogL: -3472.698 / Time: 0h:8m:34s (0h:1m:16s left)
-Iteration 620 / LogL: -3472.701 / Time: 0h:8m:43s (0h:1m:7s left)
-BETTER TREE FOUND at iteration 629: -3472.697
-Iteration 630 / LogL: -3474.073 / Time: 0h:8m:52s (0h:1m:23s left)
-Iteration 640 / LogL: -3472.699 / Time: 0h:9m:0s (0h:1m:15s left)
-BETTER TREE FOUND at iteration 647: -3472.693
-Iteration 650 / LogL: -3472.695 / Time: 0h:9m:9s (0h:1m:22s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 660 / LogL: -3473.962 / Time: 0h:9m:19s (0h:1m:13s left)
-Iteration 670 / LogL: -3489.780 / Time: 0h:9m:27s (0h:1m:5s left)
-Iteration 680 / LogL: -3472.695 / Time: 0h:9m:36s (0h:0m:56s left)
-Iteration 690 / LogL: -3472.703 / Time: 0h:9m:45s (0h:0m:48s left)
-Iteration 700 / LogL: -3473.964 / Time: 0h:9m:55s (0h:0m:40s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.979
+Iteration 110 / LogL: -3467.177 / Time: 0h:1m:15s (0h:1m:2s left)
+Iteration 120 / LogL: -3463.721 / Time: 0h:1m:21s (0h:0m:54s left)
+BETTER TREE FOUND at iteration 122: -3463.692
+Iteration 130 / LogL: -3466.236 / Time: 0h:1m:27s (0h:1m:2s left)
+BETTER TREE FOUND at iteration 135: -3463.691
+Iteration 140 / LogL: -3463.811 / Time: 0h:1m:33s (0h:1m:4s left)
+Iteration 150 / LogL: -3465.012 / Time: 0h:1m:40s (0h:0m:57s left)
+Log-likelihood cutoff on original alignment: -3495.352
+Iteration 160 / LogL: -3463.815 / Time: 0h:1m:46s (0h:0m:50s left)
+BETTER TREE FOUND at iteration 169: -3463.691
+Iteration 170 / LogL: -3463.693 / Time: 0h:1m:52s (0h:1m:5s left)
+Iteration 180 / LogL: -3464.506 / Time: 0h:1m:58s (0h:0m:58s left)
+Iteration 190 / LogL: -3463.697 / Time: 0h:2m:4s (0h:0m:52s left)
+Iteration 200 / LogL: -3464.657 / Time: 0h:2m:10s (0h:0m:45s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 210 / LogL: -3464.650 / Time: 0h:2m:17s (0h:0m:59s left)
+Iteration 220 / LogL: -3487.148 / Time: 0h:2m:23s (0h:0m:52s left)
+Iteration 230 / LogL: -3463.693 / Time: 0h:2m:29s (0h:0m:45s left)
+Iteration 240 / LogL: -3486.069 / Time: 0h:2m:35s (0h:0m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 243: -3462.601
+Iteration 250 / LogL: -3463.828 / Time: 0h:2m:42s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 260 / LogL: -3463.812 / Time: 0h:2m:48s (0h:0m:54s left)
+Iteration 270 / LogL: -3463.570 / Time: 0h:2m:55s (0h:0m:47s left)
+Iteration 280 / LogL: -3463.396 / Time: 0h:3m:1s (0h:0m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 283: -3462.574
+BETTER TREE FOUND at iteration 289: -3462.573
+Iteration 290 / LogL: -3462.575 / Time: 0h:3m:9s (0h:1m:4s left)
+Iteration 300 / LogL: -3462.601 / Time: 0h:3m:16s (0h:0m:58s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
 NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 710 / LogL: -3473.911 / Time: 0h:10m:4s (0h:1m:16s left)
-Iteration 720 / LogL: -3472.699 / Time: 0h:10m:14s (0h:1m:8s left)
-Iteration 730 / LogL: -3475.219 / Time: 0h:10m:22s (0h:0m:59s left)
-Iteration 740 / LogL: -3472.966 / Time: 0h:10m:31s (0h:0m:51s left)
-Iteration 750 / LogL: -3472.697 / Time: 0h:10m:40s (0h:0m:42s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 760 / LogL: -3472.695 / Time: 0h:10m:50s (0h:0m:34s left)
-Iteration 770 / LogL: -3473.577 / Time: 0h:11m:1s (0h:0m:25s left)
-Iteration 780 / LogL: -3477.318 / Time: 0h:11m:12s (0h:0m:17s left)
-Iteration 790 / LogL: -3472.699 / Time: 0h:11m:21s (0h:0m:8s left)
-Iteration 800 / LogL: -3474.910 / Time: 0h:11m:31s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 810 / LogL: -3526.804 / Time: 0h:11m:41s (0h:1m:17s left)
-Iteration 820 / LogL: -3476.778 / Time: 0h:11m:50s (0h:1m:9s left)
-BETTER TREE FOUND at iteration 823: -3472.693
-Iteration 830 / LogL: -3476.043 / Time: 0h:12m:0s (0h:1m:20s left)
-Iteration 840 / LogL: -3472.699 / Time: 0h:12m:11s (0h:1m:12s left)
-Iteration 850 / LogL: -3472.694 / Time: 0h:12m:20s (0h:1m:3s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 860 / LogL: -3472.703 / Time: 0h:12m:30s (0h:0m:55s left)
-Iteration 870 / LogL: -3473.729 / Time: 0h:12m:39s (0h:0m:46s left)
-Iteration 880 / LogL: -3473.887 / Time: 0h:12m:51s (0h:0m:37s left)
-Iteration 890 / LogL: -3472.694 / Time: 0h:12m:59s (0h:0m:28s left)
-Iteration 900 / LogL: -3474.084 / Time: 0h:13m:7s (0h:0m:20s left)
-Log-likelihood cutoff on original alignment: -3512.849
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
-NOTE: UFBoot does not converge, continue at least 100 more iterations
-Iteration 910 / LogL: -3489.397 / Time: 0h:13m:16s (0h:1m:18s left)
-Iteration 920 / LogL: -3481.005 / Time: 0h:13m:24s (0h:1m:10s left)
-Iteration 930 / LogL: -3475.214 / Time: 0h:13m:33s (0h:1m:1s left)
-Iteration 940 / LogL: -3472.863 / Time: 0h:13m:43s (0h:0m:52s left)
-Iteration 950 / LogL: -3472.695 / Time: 0h:13m:52s (0h:0m:43s left)
-Log-likelihood cutoff on original alignment: -3512.849
-Iteration 960 / LogL: -3474.243 / Time: 0h:14m:2s (0h:0m:35s left)
-Iteration 970 / LogL: -3472.709 / Time: 0h:14m:12s (0h:0m:26s left)
-Iteration 980 / LogL: -3477.872 / Time: 0h:14m:22s (0h:0m:17s left)
-Iteration 990 / LogL: -3477.452 / Time: 0h:14m:31s (0h:0m:8s left)
-Iteration 1000 / LogL: -3472.697 / Time: 0h:14m:42s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -3512.849
+Iteration 310 / LogL: -3462.604 / Time: 0h:3m:24s (0h:0m:59s left)
+BETTER TREE FOUND at iteration 315: -3462.571
+Iteration 320 / LogL: -3464.396 / Time: 0h:3m:31s (0h:1m:3s left)
+BETTER TREE FOUND at iteration 322: -3462.570
+Iteration 330 / LogL: -3462.686 / Time: 0h:3m:38s (0h:1m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 337: -3462.451
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 338: -3462.436
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 340: -3462.421
+Iteration 340 / LogL: -3462.421 / Time: 0h:3m:46s (0h:1m:6s left)
+Iteration 350 / LogL: -3463.734 / Time: 0h:3m:53s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 360 / LogL: -3463.480 / Time: 0h:4m:0s (0h:0m:53s left)
+Iteration 370 / LogL: -3466.651 / Time: 0h:4m:7s (0h:0m:46s left)
+BETTER TREE FOUND at iteration 373: -3462.418
+Iteration 380 / LogL: -3462.435 / Time: 0h:4m:14s (0h:1m:2s left)
+Iteration 390 / LogL: -3463.927 / Time: 0h:4m:21s (0h:0m:55s left)
+Iteration 400 / LogL: -3467.254 / Time: 0h:4m:29s (0h:0m:49s left)
+Log-likelihood cutoff on original alignment: -3496.102
 NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
 NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 404: -3462.349
+Iteration 410 / LogL: -3463.667 / Time: 0h:4m:37s (0h:1m:3s left)
+Iteration 420 / LogL: -3463.030 / Time: 0h:4m:44s (0h:0m:56s left)
+Iteration 430 / LogL: -3462.399 / Time: 0h:4m:51s (0h:0m:50s left)
+Iteration 440 / LogL: -3462.354 / Time: 0h:4m:58s (0h:0m:43s left)
+Iteration 450 / LogL: -3463.247 / Time: 0h:5m:5s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 460 / LogL: -3464.148 / Time: 0h:5m:13s (0h:0m:30s left)
+Iteration 470 / LogL: -3463.406 / Time: 0h:5m:20s (0h:0m:23s left)
+Iteration 480 / LogL: -3463.627 / Time: 0h:5m:27s (0h:0m:16s left)
+Iteration 490 / LogL: -3463.629 / Time: 0h:5m:36s (0h:0m:9s left)
+Iteration 500 / LogL: -3463.234 / Time: 0h:5m:43s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.948
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 510: -3462.338
+Iteration 510 / LogL: -3462.338 / Time: 0h:5m:51s (0h:1m:9s left)
+Iteration 520 / LogL: -3465.384 / Time: 0h:5m:58s (0h:1m:2s left)
+BETTER TREE FOUND at iteration 526: -3462.336
+Iteration 530 / LogL: -3463.418 / Time: 0h:6m:6s (0h:1m:6s left)
+BETTER TREE FOUND at iteration 536: -3462.336
+Iteration 540 / LogL: -3462.368 / Time: 0h:6m:12s (0h:1m:6s left)
+Iteration 550 / LogL: -3463.538 / Time: 0h:6m:20s (0h:0m:59s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 560 / LogL: -3463.248 / Time: 0h:6m:28s (0h:0m:52s left)
+BETTER TREE FOUND at iteration 566: -3462.333
+Iteration 570 / LogL: -3462.348 / Time: 0h:6m:35s (0h:1m:6s left)
+Iteration 580 / LogL: -3462.839 / Time: 0h:6m:42s (0h:0m:59s left)
+Iteration 590 / LogL: -3462.370 / Time: 0h:6m:50s (0h:0m:52s left)
+Iteration 600 / LogL: -3463.226 / Time: 0h:6m:57s (0h:0m:45s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.939
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -3462.426 / Time: 0h:7m:6s (0h:1m:2s left)
+Iteration 620 / LogL: -3483.730 / Time: 0h:7m:14s (0h:0m:56s left)
+Iteration 630 / LogL: -3462.940 / Time: 0h:7m:21s (0h:0m:49s left)
+Iteration 640 / LogL: -3462.337 / Time: 0h:7m:29s (0h:0m:42s left)
+Iteration 650 / LogL: -3462.356 / Time: 0h:7m:37s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 660 / LogL: -3463.236 / Time: 0h:7m:45s (0h:0m:28s left)
+Iteration 670 / LogL: -3462.421 / Time: 0h:7m:54s (0h:0m:21s left)
+Iteration 680 / LogL: -3463.307 / Time: 0h:8m:2s (0h:0m:14s left)
+Iteration 690 / LogL: -3462.354 / Time: 0h:8m:10s (0h:0m:7s left)
+Iteration 700 / LogL: -3462.910 / Time: 0h:8m:18s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.940
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -3462.338 / Time: 0h:8m:26s (0h:1m:4s left)
+Iteration 720 / LogL: -3462.953 / Time: 0h:8m:34s (0h:0m:57s left)
+Iteration 730 / LogL: -3463.628 / Time: 0h:8m:42s (0h:0m:50s left)
+Iteration 740 / LogL: -3462.336 / Time: 0h:8m:49s (0h:0m:43s left)
+Iteration 750 / LogL: -3463.235 / Time: 0h:8m:57s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 760 / LogL: -3464.140 / Time: 0h:9m:5s (0h:0m:28s left)
+Iteration 770 / LogL: -3464.363 / Time: 0h:9m:13s (0h:0m:21s left)
+Iteration 780 / LogL: -3462.744 / Time: 0h:9m:23s (0h:0m:14s left)
+BETTER TREE FOUND at iteration 783: -3462.333
+Iteration 790 / LogL: -3464.655 / Time: 0h:9m:31s (0h:1m:7s left)
+Iteration 800 / LogL: -3473.869 / Time: 0h:9m:39s (0h:1m:0s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.940
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -3462.333 / Time: 0h:9m:48s (0h:1m:5s left)
+Iteration 820 / LogL: -3481.331 / Time: 0h:9m:55s (0h:0m:58s left)
+Iteration 830 / LogL: -3462.849 / Time: 0h:10m:3s (0h:0m:50s left)
+Iteration 840 / LogL: -3462.493 / Time: 0h:10m:11s (0h:0m:43s left)
+Iteration 850 / LogL: -3462.929 / Time: 0h:10m:19s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 860 / LogL: -3462.336 / Time: 0h:10m:27s (0h:0m:29s left)
+Iteration 870 / LogL: -3463.233 / Time: 0h:10m:35s (0h:0m:21s left)
+BETTER TREE FOUND at iteration 876: -3462.332
+Iteration 880 / LogL: -3463.250 / Time: 0h:10m:44s (0h:1m:10s left)
+Iteration 890 / LogL: -3462.354 / Time: 0h:10m:53s (0h:1m:3s left)
+Iteration 900 / LogL: -3462.349 / Time: 0h:11m:1s (0h:0m:55s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.957
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -3462.345 / Time: 0h:11m:9s (0h:1m:6s left)
+Iteration 920 / LogL: -3463.028 / Time: 0h:11m:18s (0h:0m:59s left)
+Iteration 930 / LogL: -3463.428 / Time: 0h:11m:26s (0h:0m:51s left)
+Iteration 940 / LogL: -3462.352 / Time: 0h:11m:35s (0h:0m:44s left)
+Iteration 950 / LogL: -3463.291 / Time: 0h:11m:43s (0h:0m:37s left)
+Log-likelihood cutoff on original alignment: -3496.102
+Iteration 960 / LogL: -3462.339 / Time: 0h:11m:52s (0h:0m:29s left)
+Iteration 970 / LogL: -3465.574 / Time: 0h:12m:1s (0h:0m:22s left)
+Iteration 980 / LogL: -3463.631 / Time: 0h:12m:10s (0h:0m:14s left)
+Iteration 990 / LogL: -3463.030 / Time: 0h:12m:20s (0h:0m:7s left)
+Iteration 1000 / LogL: -3466.567 / Time: 0h:12m:29s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3496.102
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.953
+NOTE: UFBoot does not converge, continue at least 100 more iterations
 WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
-TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 0h:14m:43s
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 0h:12m:30s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -3472.693
-Optimal log-likelihood: -3472.692
-Rate parameters:  A-C: 1.85628  A-G: 3.66385  A-T: 1.85628  C-G: 1.00000  C-T: 3.61326  G-T: 1.00000
+1. Initial log-likelihood: -3462.332
+Optimal log-likelihood: -3462.332
+Rate parameters:  A-C: 1.82701  A-G: 3.69651  A-T: 1.82701  C-G: 1.00000  C-T: 3.72914  G-T: 1.00000
 Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
-Gamma shape alpha: 0.859
-Parameters optimization took 1 rounds (0.043 sec)
-BEST SCORE FOUND : -3472.692
+Gamma shape alpha: 0.870
+Parameters optimization took 1 rounds (0.053 sec)
+BEST SCORE FOUND : -3462.332
 Creating bootstrap support values...
 Split supports printed to NEXUS file fr10_all_aligned.fasta.splits.nex
-Total tree length: 3.829
+Total tree length: 3.762
 
 Total number of iterations: 1001
-CPU time used for tree search: 795.743 sec (0h:13m:15s)
-Wall-clock time used for tree search: 883.138 sec (0h:14m:43s)
-Total CPU time used: 796.932 sec (0h:13m:16s)
-Total wall-clock time used: 884.467 sec (0h:14m:44s)
+CPU time used for tree search: 677.451 sec (0h:11m:17s)
+Wall-clock time used for tree search: 750.118 sec (0h:12m:30s)
+Total CPU time used: 678.532 sec (0h:11m:18s)
+Total wall-clock time used: 751.320 sec (0h:12m:31s)
 
 Computing bootstrap consensus tree...
 Reading input file fr10_all_aligned.fasta.splits.nex...
-87 taxa and 3026 splits.
+98 taxa and 4437 splits.
 Consensus tree written to fr10_all_aligned.fasta.contree
 Reading input trees file fr10_all_aligned.fasta.contree
-Log-likelihood of consensus tree: -3473.566
+Log-likelihood of consensus tree: -3462.635
 
 Analysis results written to: 
   IQ-TREE report:                fr10_all_aligned.fasta.iqtree
@@ -451,4 +564,4 @@ Ultrafast bootstrap approximation results written to:
   Consensus tree:                fr10_all_aligned.fasta.contree
   Screen log file:               fr10_all_aligned.fasta.log
 
-Date and Time: Mon Jan 15 13:18:33 2024
+Date and Time: Wed Jan 17 16:36:57 2024

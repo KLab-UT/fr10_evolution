@@ -1,74 +1,74 @@
->JAQSEC010000013  | 30260507-30260748:30259722-30259849:30256486-30256564 | Lithobates sylvaticus WGS_VDB blastn consensus
+>JAQSEC010000013  | 30260507-30260748:30259722-30259849:30256486-30256564 | Lithobates sylvaticus WGS blastn consensus
 -----------agaacctcagcgctgacagccgtcatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cattgcagcaaataactgatattttcc-aaggcatttccaagaccctccaggagaagttt
 gccaatgcagagatcccctctcagact-caggaactgggtgcc------------aagat
 ccaggcacacggagaaacaatatccgccagcatccagaaatggattgaagagatggttgc
-cctcagcaaac-aaaaactg-agctaaactggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaactggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgcta-------ccccccgaa----ccccatctctaccaca-----c
 cccttcattttctgtta-ctgtgcgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->LIAG020987184  | 902-662:1506-1386 | Aquarana catesbeiana WGS_VDB blastn consensus
+>LIAG020987184  | 902-662:1506-1386 | Aquarana catesbeiana WGS blastn consensus
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->CAJIML010011253  | 41084-41324:40179-40299:37784-37862 | Rana temporaria WGS_VDB blastn consensus
+>CAJIML010011253  | 41084-41324:40179-40299:37784-37862 | Rana temporaria WGS blastn consensus
 -----------agaacctcagcgctgacaaccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaagccggtgtcgtgaagagagatgcaccggatc
 aatttcagcaaataactgagcttttcc-aaggcttttccaagaccctccaggagaagttc
 gccaacgcagagatcccggctcagact-caggaactgggcgcc------------aagat
 ccaggaacacggagcaaatttatccgccggcatccagaaatggattgaagagatgattgc
-cctcagcaaac-aaaaactg-agctaagctgcaccc----------cattttcctgcgat
+cctcagcaaacaaa-aactg-agctaagctgcaccc----------cattttcctgcgat
 ctgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 cccttcatctattgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->VIAC01347839  | 387-147:1018-898 | Rana temporaria WGS_VDB blastn consensus
+>VIAC01347839  | 387-147:1018-898 | Rana temporaria WGS blastn consensus
 ------------------------------------------------------------
 ----------------------------agccggtgtcgtgaagagagatgcaccggatc
 aatttcagcaaataactgagcttttcc-aaggcttttccaagaccctccaggagaagttc
 gccaatgcagagatcccgactcagact-caggaactgggcgcc------------aagat
 ccaggaacacggagcaaatttatccgccggcatccagaaatggattgaagagatgattgc
-cctcagcaaac-aaaaactg-agctaagctgcaccc----------cattttcctgcgat
+cctcagcaaacaaa-aactg-agctaagctgcaccc----------cattttcctgcgat
 ctgcg--gcactgcgct--------ccccccgaa----ccccatctccaccaca-----c
 cccttcatctattgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->JARGYO010000011  | 61855887-61856131:61855444-61855564:61853223-61853301 | Rana muscosa WGS_VDB blastn consensus
+>JARGYO010000011  | 61855887-61856131:61855444-61855564:61853223-61853301 | Rana muscosa WGS blastn consensus
 -----------agaacctcagcgctgacagctgccatcatgaaagtcttggccctcgtcg
 tcctcatcatcgccatcagtggcctggaagccggtgttgtgaagagagatgcacaggatc
 cattgcagcaactaactgatattttcc-aaggcatttccaagaccctacaggagaagttc
 accaatgcagagatcccagctcagact-caggaactgggtgcc------------aagat
 tcaggaacacggagcaaatttatccgccggcatccagaaatggattgaagagatgattgc
-cctcagcaaac-aaaaactg-agctaagctgcaacc----------cattttcctgcgat
+cctcagcaaacaaa-aactg-agctaagctgcaacc----------cattttcctgcgat
 ctgcg--gcactgcgctc-------cccccccaaa-cccccaatctctaccaca-----c
 cccttcatcttctgtta-ctgtgtggct--gactgttc--cttttataacatgttataat
 aaaacttatattctgtgcc
->JAJQKJ010002606  | 43247-43489:42821-42941:40389-40467 | Rana kukunoris WGS_VDB blastn consensus
+>JAJQKJ010002606  | 43247-43489:42821-42941:40389-40467 | Rana kukunoris WGS blastn consensus
 -----------agaacctcagcgctgacaaccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaagccggtgttgtgaagagagatgcacaggatc
 aatttcagcaaataactgagcttttcc-aaggcttttccaagaccctccaggagaagttc
 accaacgcagagatcccgactcagact-caggaactgggcgcc------------aagat
 caaggaacacggagagaatttatctgctggcatccagaaatggattgaagagatgattgc
-cctcagcaaac-aaaaactg-aactaagctgcaccc----------cattttcctgcgat
+cctcagcaaacaaa-aactg-aactaagctgcaccc----------cattttcctgcgat
 ctgca--gcactgcgct--------ccccctgaa----ccccatctctaccacac---cc
 cccttcatcttctgtta-ctgtgtaact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->BLSH010535194  | 486-737:68-195 | Glandirana rugosa WGS_VDB blastn consensus
+>BLSH010535194  | 486-737:68-195 | Glandirana rugosa WGS blastn consensus
 ------------------------------------------------------------
 ----------------------------agccggagttgtgaagagagaggcacaggatc
 cattgcagcatgtagctgatattttcc-aaggccttgccaagactatccaggagaagttg
 gccaatgcagagatcccggctcaaact-caggacctgggcgcc------------acatt
 gcagcagcacggagcaacactatccgccaactttcagaaatggtgggatgagatcattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgctccccccccccccccgaa---ccccaatctctacccccca---c
 cccttcattttctgtta-ctgtgtgact--gaccgttc--cttttataacgtgttataat
 aaaacttgtattctgtgcc
->LIAG021239457  | 820-742 | Aquarana catesbeiana WGS_VDB blastn consensus
+>LIAG021239457  | 820-742 | Aquarana catesbeiana WGS blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -78,7 +78,7 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->BLSH010011145  | 525-447 | Glandirana rugosa WGS_VDB blastn consensus
+>BLSH010011145  | 525-447 | Glandirana rugosa WGS blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcattgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -88,17 +88,17 @@ tcctcgtcattgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->CATNWA010016741  | 56357-56514:50819-50897:53133-53247 | Staurois parvus WGS_VDB blastn consensus
+>CATNWA010016741  | 56357-56514:50819-50897:53133-53247 | Staurois parvus WGS blastn consensus
 -----------agaacctcagcgctgacagcctccatcatgaaagtcttggcccttgtcg
 tcctcgtcatcgccatcagcggcttggaagccggagttgtgaagagggatgcagaggatc
 cgtttcagcaaatgagtgaccttttcc-agaactttgccaagaccttccaggagaagatc
 atcaccgcagggatcccggccc------agggaactgggtgcc------------aaaat
 ccaggaacacggatcatcattctccaccagtgttcagaaatggtttgaagacatgcttgc
-catgggcaagg-agaaactg-agctgagctgaaccc----------caccttcctgcgat
+catgggcaaggaga-aactg-agctgagctgaaccc----------caccttcctgcgat
 ctgcaacacactgcgccc-------cccccctgaa------------------------c
 ccc---------------------------------------------------------
 -------------------
->PZQJ01000012  | 3115547-3115625 | Pyxicephalus adspersus WGS_VDB blastn consensus
+>PZQJ01000012  | 3115547-3115625 | Pyxicephalus adspersus WGS blastn
 -----------agaaccttagcactaacagccgccatcatgaaagtcttggcccttgttg
 tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
@@ -108,7 +108,7 @@ tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->DYDO01000683  | 3536-3614 | TPA_asm: Pyxicephalus WGS_VDB blastn consensus
+>DYDO01000683  | 3536-3614 | TPA_asm: Pyxicephalus WGS blastn
 -----------agaaccttagcactaacagccgccatcatgaaagtcttggcccttgttg
 tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
@@ -118,7 +118,7 @@ tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JYOU01101346  | 7299-7221 | Nanorana parkeri WGS_VDB blastn consensus
+>JYOU01101346  | 7299-7221 | Nanorana parkeri WGS blastn
 -----------agaacctctgcgctgaaaaccgccatcatgaaagtccttgccctcgtag
 tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -128,7 +128,7 @@ tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->VIAC01175670  | 1415-1487 | Rana temporaria WGS_VDB blastn consensus
+>VIAC01175670  | 1415-1487 | Rana temporaria WGS blastn
 -----------agaacctcagcgctgaca------atcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -138,7 +138,7 @@ tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAEOBE010182360  | 3-67 | Phrynoglossus myanhessei WGS_VDB blastn consensus
+>JAEOBE010182360  | 3-67 | Phrynoglossus myanhessei WGS blastn
 -------------------------gacagctgccatcatgaaagtcttggcccttgttg
 tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
@@ -148,7 +148,7 @@ tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JARQOC010000012  | 114522485-114522427 | Allobates femoralis WGS_VDB blastn consensus
+>JARQOC010000012  | 114522485-114522427 | Allobates femoralis WGS blastn
 -------------------------------cgccatcatgaaagtcttggccctggccg
 tgctcatcctcgccatcagcagcctagaag------------------------------
 ------------------------------------------------------------
@@ -158,7 +158,7 @@ tgctcatcctcgccatcagcagcctagaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->CAJIMM010022611  | 26685-26737 | Bufo bufo WGS_VDB blastn consensus
+>CAJIMM010022611  | 26685-26737 | Bufo bufo WGS blastn
 -------------------------------------catgaaagtcttggctctggccg
 tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -168,7 +168,7 @@ tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAKJJM010311780  | 1015-961 | Pipa carvalhoi WGS_VDB blastn consensus
+>JAKJJM010311780  | 1015-961 | Pipa carvalhoi WGS blastn
 -----------------------------------atcatgaaagtcctggccctggcag
 tcctcattatcgccatcagcggcttggaag------------------------------
 ------------------------------------------------------------
@@ -178,7 +178,7 @@ tcctcattatcgccatcagcggcttggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAQIHN010000115  | 167436034-167436086 | Gastrophryne carolinensis WGS_VDB blastn consensus
+>JAQIHN010000115  | 167436034-167436086 | Gastrophryne carolinensis WGS blastn
 -------------------------------------catgaaggtcctggcccttgtcg
 ttcttgtcctcgccatcagcggcatggaag------------------------------
 ------------------------------------------------------------
@@ -188,7 +188,7 @@ ttcttgtcctcgccatcagcggcatggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->ONZH01005954  | 130359-130307 | Rhinella marina WGS_VDB blastn consensus
+>ONZH01005954  | 130359-130307 | Rhinella marina WGS blastn
 -------------------------------------catgaaagtcttggctcttgctg
 tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -198,7 +198,17 @@ tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAKVIS010000011  | 67886762-67886710 | Bufotes viridis WGS_VDB blastn consensus
+>JAQIHO010000097  | 3665912-3665860 | Gastrophryne carolinensis WGS blastn
+-------------------------------------catgaaggtcctggcccttgtcg
+ttcttgtcctcgccatcagcggcatggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>JAKVIS010000011  | 67886762-67886710 | Bufotes viridis WGS blastn
 -------------------------------------catgaaagtcttggctctggctg
 tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -208,7 +218,7 @@ tgctcatcctcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JABAHN010000008  | 131430181-131430233 | Xenopus tropicalis WGS_VDB blastn consensus
+>JABAHN010000008  | 131430181-131430233 | Xenopus tropicalis WGS blastn
 -------------------------------------catgaaagtcctggctctggtag
 ttctggtcattgccatcagcggcatggaag------------------------------
 ------------------------------------------------------------
@@ -218,7 +228,17 @@ ttctggtcattgccatcagcggcatggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JARQOD010000001  | 492869589-492869538 | Oophaga sylvatica WGS_VDB blastn consensus
+>AAMC04000008  | 142787351-142787299 | Xenopus tropicalis WGS blastn
+-------------------------------------catgaaagtcctggctctggtag
+ttctggtcattgccatcagcggcatggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>JARQOD010000001  | 492869589-492869538 | Oophaga sylvatica WGS blastn
 ------------------------------------tcatgaaagtcttggccttggccg
 tgctcatcctcgccatcggcagcctgga--------------------------------
 ------------------------------------------------------------
@@ -228,7 +248,7 @@ tgctcatcctcgccatcggcagcctgga--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->CAJIMM010020206  | 275886-275836 | Bufo bufo WGS_VDB blastn consensus
+>CAJIMM010020206  | 275886-275836 | Bufo bufo WGS blastn
 ------------------------------------------------------------
 ---------ctaccacca------------------------------------------
 ------------------------------------------------------------
@@ -238,7 +258,7 @@ tgctcatcctcgccatcggcagcctgga--------------------------------
 -----------------------------------------------------------c
 cccttcttctactgctacctgtgccact--gcctgttc--ctttt---------------
 -------------------
->JAEUXP010000007  | 83458461-83458513 | Leptobrachium ailaonicum WGS_VDB blastn consensus
+>JAEUXP010000007  | 83458461-83458513 | Leptobrachium ailaonicum WGS blastn
 -------------------------------------catgaaagtcctggctttggttg
 tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
@@ -248,7 +268,7 @@ tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->DAJOPU010000013  | 82542743-82542795 | TPA_asm: Leptobrachium WGS_VDB blastn consensus
+>DAJOPU010000013  | 82542743-82542795 | TPA_asm: Leptobrachium WGS blastn
 -------------------------------------catgaaagtcctggctttggttg
 tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
@@ -258,7 +278,7 @@ tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->RXON01000007  | 13002175-13002123 | Leptobrachium leishanense WGS_VDB blastn consensus
+>RXON01000007  | 13002175-13002123 | Leptobrachium leishanense WGS blastn
 -------------------------------------catgaaagtcctggctttggttg
 tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
@@ -268,7 +288,7 @@ tcctcgttattgccgtcagcggcttggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAWCTU010000002  | 659821509-659821458 | Ranitomeya imitator WGS_VDB blastn consensus
+>JAWCTU010000002  | 659821509-659821458 | Ranitomeya imitator WGS blastn
 ------------------------------------tcatgaaagtcttggccttggccg
 tgctcatcctcgccatcggcagcctaga--------------------------------
 ------------------------------------------------------------
@@ -278,7 +298,17 @@ tgctcatcctcgccatcggcagcctaga--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JAVFLC010000018  | 155880509-155880457 | Leptodactylus fuscus WGS_VDB blastn consensus
+>CAUEEQ010006196  | 35321-35270 | Ranitomeya imitator WGS blastn
+------------------------------------tcatgaaagtcttggccttggccg
+tgctcatcctcgccatcggcagcctaga--------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>JAVFLC010000018  | 155880509-155880457 | Leptodactylus fuscus WGS blastn
 -------------------------------------catgaaagtcttggctctgacca
 tcctcatcctcgccatcggcagccttgaag------------------------------
 ------------------------------------------------------------
@@ -288,7 +318,17 @@ tcctcatcctcgccatcggcagccttgaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->CAMRHE010000551  | 782671-782723 | Leptodactylus fallax WGS_VDB blastn consensus
+>JAVFLB010000013  | 153883017-153882965 | Leptodactylus fuscus WGS blastn
+-------------------------------------catgaaagtcttggctctgacca
+tcctcatcctcgccatcggcagccttgaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>CAMRHE010000551  | 782671-782723 | Leptodactylus fallax WGS blastn
 -------------------------------------catgaaagtcttggctctgacca
 tcctcatcctcgccgttggcagcctggaag------------------------------
 ------------------------------------------------------------
@@ -298,7 +338,17 @@ tcctcatcctcgccgttggcagcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->JARJJA010000011  | 94433312-94433260 | Hyla sarda WGS_VDB blastn consensus
+>JARJJA010000011  | 94433312-94433260 | Hyla sarda WGS blastn
+-------------------------------------catgaaagtcttggccctgactg
+tgctcatccttgtcatcggcagcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>JARJIZ010000060  | 104273324-104273272 | Hyla sarda WGS blastn
 -------------------------------------catgaaagtcttggccctgactg
 tgctcatccttgtcatcggcagcctggaag------------------------------
 ------------------------------------------------------------
@@ -314,117 +364,437 @@ tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-cgggatctgggcgcc------------aagtt
 ccaggaacacggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->LH353456  | 12-460 | Rana catesbeiana TSA blastn consensus
+>LH353456  | 12-460 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GDDO01098681  | 8-454 | Rana catesbeiana TSA blastn consensus
+>LH353453  | 29-477 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353452  | 31-479 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353449  | 61-509:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353448  | 69-517 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353447  | 76-524 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353446  | 86-534:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353444  | 81-529:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353443  | 138-586 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353441  | 196-644 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353436  | 12-460 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353433  | 31-479 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353432  | 29-477 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353428  | 61-509:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353427  | 69-517 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353426  | 76-524 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353425  | 86-534:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353423  | 81-529:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353422  | 138-586 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353420  | 196-644 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353415  | 12-460 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353412  | 29-477 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353411  | 31-479 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353408  | 61-509:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353407  | 69-517 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353406  | 76-524 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353405  | 86-534:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353403  | 81-529:50-1 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353402  | 138-586 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH353400  | 196-644 | Rana catesbeiana TSA blastn
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH246510  | 507-955:471-23 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>GDDO01098429  | 882-434:885-964 | Rana catesbeiana TSA blastn consensus
+cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
+cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
+gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
+gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>GDDO01098681  | 8-454 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtg--attttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcgcc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GDDO01104399  | 10-457 | Rana catesbeiana TSA blastn consensus
+>GDDO01104399  | 10-457 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctgggagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc--aggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacgaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GGNS01048791  | 347-795 | Rana temporaria TSA blastn consensus
+>GGNS01048791  | 347-795 | Rana temporaria TSA blastn
 cagattgggaaagaacctcagcgctgacaaccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaagccggtgtcgtgaagagagaagcaccggatc
 aatttcagcaaataactgagcttttcc-aaggcttttccaagaccctccaggagaagttc
 gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagat
 ccaggaacacggagcaaatctatccgccggcatccagaaatggattgaagagatgattgc
-cctcagcaaac-aaaaactg-agctaagctgcaccc----------cattttcctgcgat
+cctcagcaaacaaa-aactg-agctaagctgcaccc----------cattttcctgcgat
 ctgcg--gcactgcgct--------cccctcgaa----ccccatctccaccaca-----c
 cccttcatctattgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GKLC01412017  | 8-464 | Lithobates pipiens TSA blastn consensus
+>GKLC01412017  | 8-464 | Lithobates pipiens TSA blastn
 cagattggcagagaacctcagcgctgacagccgtcatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagaggcacaggatc
 cattgcagcaaataactgatattttcc-aaggcatttccaagaccctccaggaaaagttc
 gccaacgcagagatcccatctcagact-caggaactgggcgcc------------aagat
 ccaggaacacggagcaacaatatccgccagcattcagaaatgggttgaagagataatcgc
-cttaagcaaac-aaaaactg-agctaaactgcaaccttgcgatccgtggcaccctgcgaa
+cttaagcaaacaaa-aactg-agctaaactgcaaccttgcgatccgtggcaccctgcgaa
 ccgtg--gcaccctgct--------ccccccgaa----ccccatctctaccaca-----c
 cccttcattttctgtta-ctgtatgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtg--
->LH380687  | 62-506 | Rana catesbeiana TSA blastn consensus
+>LH380687  | 62-506 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagctacaggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactgaagctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactgaagctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctc-accaca-----c
-ccctttattt-ctgtta-ctgtgtgact--gactgttc--cttttataacatgttat-at
+cccttta-tttctgtta-ctgtgtgact--gactgttc--cttttataacatgttat-at
 aaaacttgtattctgt---
->GJEE01021557  | 11-459 | Amolops wuyiensis TSA blastn consensus
+>GJEE01021557  | 11-459 | Amolops wuyiensis TSA blastn
 cagattggcagagaaccttagctctgacagacgccatcatgaaagtcttggccctcgttg
 tcctcgtcatcgccatcagtggcctggaagctggagttgtgaagagggatgcacaggatc
 cattgcagcaaataactgacattttcc-aaagcattaccaagaccctccaggagaagata
 gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagtt
 ccaagaacaaggagcaatagtgtccgccaacattcagaaatggattgaagagatgatggc
-cctcagcaagc-aaaaactg-agctaagctgcaact----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaact----------cattttcctgcaat
 ctgcg--gcactgcgct--------ctccccgaa----ccccatctctacccga-----c
 gtcttcattttctctta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgaattctgtgcc
->GGLB01156041  | 78-512 | Odorrana tormota TSA blastn consensus
+>GJEE01021554  | 11-459 | Amolops wuyiensis TSA blastn
+cagattggcagagaaccttagctctgacagacgccatcatgaaagtcttggccctcgttg
+tcctcgtcatcgccatcagtggcctggaagctggagttgtgaagagggatgcacaggatc
+cattgcagcaaataactgacattttcc-aaagcattaccaagaccctccaggagaagata
+gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagtt
+ccaagaacaaggagcaatagtgtccgccaacattcagaaatggattgaagagatgatggc
+cctcagcaagcaaa-aactg-agctaagctgcaact----------cattttcctgcaat
+ctgcg--gcactgcgct--------ctccccgaa----ccccatctctacccga-----c
+gtcttcattttctctta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgaattctgtgcc
+>GGLB01156041  | 78-512 | Odorrana tormota TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tccttgtcatcgccatcagtggcctggaagccggtgttgtgaagagggatgcacaggatc
 caatgcagcagataactgaaattttcc-aaggcatttccaagaccctccaggagaagttc
 gccaatgccgagatcccgactcagact-caggaactgggcgcc------------accct
 ccagaaacacggagaaacattaaccgccggctttcagaaatgggttgaagaaatgattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgat--------ccccccaaa-------catctctacccca-----c
 cccttcatcttctgtta-ctgtgtgact--gaccgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GAEG01030218  | 17-456 | Rana clamitans TSA blastn consensus
+>GAEG01030218  | 17-456 | Rana clamitans TSA blastn
 cagattggcagagaatctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 caattcagcaaataagtgatcttttcc-aaggcatttccaagaccatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcgcc------------aagtt
 ccaggaacaaacagcaacaatatccgccagctttcagaaatggtttgaggagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatgaaacc----------cgttttc--gcgat
+cctcagcaaacaaa-aactg-agctaaaatgaaacc----------cgttttc--gcgat
 ccgcg--gcactgtgct--------ccccccgaa----cccatcctctaccaca-----c
 ccctttatttcctgtta-ctgtgtgactagaactgtta--ccttta-aacatgttataat
 aaaacttgta---------
->LH381201  | 2-356 | Rana catesbeiana TSA blastn consensus
+>LH381201  | 2-356 | Rana catesbeiana TSA blastn
 ----------------------------------catcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------c-ccccgaa----ccccatctctaccaca-----c
 ccctttattttctgt---------------------------------------------
 -------------------
->GFBS01545641  | 116-476 | Rana catesbeiana TSA blastn consensus
+>GFBS01545641  | 116-476 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
@@ -432,33 +802,33 @@ aaaacttgtattctgtgcc
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcttccaggaggagctc
-gccaatgcagagatccc----------------cctggatgc-----------------t
-cttggaaatgccttggaaaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaccc----------cgttttcctgcgat
+gccaatgcagagatccc----------------cctggatgc----------------tc
+ttggaaatgccttggaa-aatatccgccagcattcagaaatggattgaagagctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaccc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GGLB01186709  | 157-514 | Odorrana tormota TSA blastn consensus
+>GGLB01186709  | 157-514 | Odorrana tormota TSA blastn
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagggatgcacaggatc
 caatgcagcagataactgaaattttcc-aaggcatttccaagaccctccaggagaagttc
 gccaatgccgagatcccgactcagact-caggaactgggcgcc------------accct
 ccagaaacacggagaaacattaaccgccggctttcagaaatgggttgaagaaatgattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgat--------ccccccaaa-------catctctacccca-----c
 cccttcatcttctgtta-ctgtgtgact--gaccgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->LH381261  | 1-311 | Rana catesbeiana TSA blastn consensus
+>LH381261  | 1-311 | Rana catesbeiana TSA blastn
 -------------------------------------catgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcctaaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac--aaaactg-agctaaaatggaacc----------cgtttt-ctgcgat
+cctcagcaaac-aa-aactg-agctaaaatggaacc----------cgtttt-ctgcgat
 ccgcg--gcactgcgct-------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01091471  | 291-1 | Rana catesbeiana TSA blastn consensus
+>GDDO01091471  | 291-1 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagacttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtga--agagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatcca-gagcagatc
@@ -468,23 +838,23 @@ cctcagca----------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01100612  | 525-229 | Rana catesbeiana TSA blastn consensus
+>GDDO01100612  | 525-229 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------catttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggctcc------------aagtt
 ccaggaacacggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agct-aaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agct-aaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GDDO01093386  | 784-493 | Rana catesbeiana TSA blastn consensus
+>GDDO01093386  | 784-493 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------caagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 ccaggaacacggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
@@ -494,27 +864,27 @@ tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 caattcagcaaataagtgaaattttcc-aaggcatttccaagagcatccaggagcagatt
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 caaggaacacggagcaacaatatctgccaacattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaa--------------------------------
+cctcagcaaacaaa-aactg-agctaaa--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01105559  | 920-642 | Rana catesbeiana TSA blastn consensus
+>GDDO01105559  | 920-642 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ---------------------------------------------------gagcagatt
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 caaggaacacgaagcaacaatatccgccaacattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgtgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgtgat
 ccacg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GDDO01001601  | 674-434 | Rana catesbeiana TSA blastn consensus
+>GDDO01001601  | 674-434 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------ggatctgggcgcc------------aagtt
 ccaggaacacggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
@@ -524,7 +894,7 @@ aaaacttgtattctgtgcc
 ------------------atattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggatctgggcacc------------aagtt
 gcaggaacaaggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgcgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
@@ -534,11 +904,11 @@ tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 caattcagcaaataagtgaaattttcc-aaggcatttccaagagcatccaggagcagatc
 gccaatgcagagatcccgagtcaagct-caggaca-------------------------
 -----------------------------acattcagaaatggattgaagagctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgtgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgtgat
 ccacg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactg-------------------------
 -------------------
->GGLB01055383  | 101-298 | Odorrana tormota TSA blastn consensus
+>GGLB01055383  | 101-298 | Odorrana tormota TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaagccggtgttgtgaagagggatgcacaggatc
 caatgcagcagataactgaaattttcc-aaggcatttccaagaccctccaggagaagttc
@@ -548,22 +918,32 @@ gccaatgccgagatcccgactcagact-cag-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GEGG01042616  | 442-4 | Rhacophorus dennysi TSA blastn consensus
+>GJEE01021552  | 11-219:509-749 | Amolops wuyiensis TSA blastn consensus
+cagattggcagagaaccttagctctgacagacgccatcatgaaagtcttggccctcgttg
+tcctcgtcatcgccatcagtggcctggaagctggagttgtgaagagggatgcacaggatc
+cattgcagcaaataactgacattttcc-aaagcattaccaagaccctccaggagaagata
+gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagtt
+ccaagaacaaggagcaatagtgtccgccaacattcagaaatggattgaagagatgatggc
+cctcagcaagcaaa-aactg-agctaagctgcaact----------cattttcctgcaat
+ctgcg--gcactgcgct--------ctccccgaa----ccccatctctacccga-----c
+gtcttcattttctctta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgaattctgtgcc
+>GEGG01042616  | 442-4 | Rhacophorus dennysi TSA blastn
 -----------agaacctcagcgctgccagctgccatcatgaaagtcttggccctcgttg
 tcctggtcatcgccatcagcggcttggaagccggcgttgtgaagagggaggtagaagatc
 ctttcctgcaaatctccacctttttcc-agggcatggccaagaacatccaggagaagttc
 accgaaggagagatcccagctcaggca-caggacctgggtacc------------aagtt
 ccaggaacatgctgcaagcttctcatcgaatgttcagaagtggtttgaggagcttgctgc
-tttaggcaaac-aaaaactg-agttaagtggcaacc----------aagtctgctcctac
+tttaggcaaacaaa-aactg-agttaagtggcaacc----------aagtctgctcctac
 ctgcgacacgtcgcttcc-------taccccgga----ttccgccccgcactcacctacc
 catcctatcttctgtta-ctgtgtgact--gactgctc--cttttataacatgttataat
 aaaacttgtatt-------
->GDDO01000997  | 706-493 | Rana catesbeiana TSA blastn consensus
+>GDDO01000997  | 706-493 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
------------------------------------------------------ggagc--
 ------------------------------------------------------------
----------------aacaatatccgccagcattcagaaatggattgaagagctggttgc
+------------------------------------------------------------
+----------ggagcaacaatatccgccagcattcagaaatggattgaagagctggttgc
 cctcagcaaacaaaaaactg-agctaaaatggaacc----------cgttttcctgcgat
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
@@ -574,7 +954,17 @@ aaaacttgtattctgtgcc
 cattgcagcaaataactgacattttcc-aaagcattaccaagaccctccaggagaagata
 gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagtt
 ccaagaacaaggagcaatagtgtccgccaacattcagaaatggattgaagagatgatggc
-cctcagcaagc-aaaaactg-agctaagctgcaact----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaact----------cattttcctgcaat
+ctgcg--gcactgcgct--------ctccccgaa----ccccatctctacccga-----c
+gtcttcattttctctta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgaattctgtgcc
+>GJEE01021549  | 620-860:210-330 | Amolops wuyiensis TSA blastn consensus
+------------------------------------------------------------
+----------------------------agctggagttgtgaagagggatgcacaggatc
+cattgcagcaaataactgacattttcc-aaagcattaccaagaccctccaggagaagata
+gccaatgcagagatcccggctcagact-caggaactgggcgcc------------aagtt
+ccaagaacaaggagcaatagtgtccgccaacattcagaaatggattgaagagatgatggc
+cctcagcaagcaaa-aactg-agctaagctgcaact----------cattttcctgcaat
 ctgcg--gcactgcgct--------ctccccgaa----ccccatctctacccga-----c
 gtcttcattttctctta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgaattctgtgcc
@@ -588,17 +978,17 @@ caaggaacacggagcaacaatatccgccaacattcagaaatggattgaagaga-------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GGLB01080741  | 387-150 | Odorrana tormota TSA blastn consensus
+>GGLB01080741  | 387-150 | Odorrana tormota TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------ggaactgggcgcc------------accct
 ccagaaacacggagaaacattaaccgccggctttcagaaatgggttgaagaaatgattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgat--------ccccccaaa-------catctctacccca-----c
 cccttcatcttctgtta-ctgtgtgact--gaccgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->LH376471  | 568-725 | Rana catesbeiana TSA blastn consensus
+>LH376471  | 568-725 | Rana catesbeiana TSA blastn
 --------------acttcggcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaagccggtgttgtgaagagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccagga-------
@@ -608,7 +998,7 @@ cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccagga-------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GHMZ01002711  | 1-224 | Zhangixalus omeimontis TSA blastn consensus
+>GHMZ01002711  | 1-224 | Zhangixalus omeimontis TSA blastn
 -----------agaacctcagcgctgccagctgccatcatgaaagtcttggccctcgttg
 tcctggtcatcgccatcagcggcttggaagccggcgttgtgaagagggaggcagaagatc
 ctttcctgcaaatctccacctttttcc-agggcatggccaagaacttccaggataagttt
@@ -618,67 +1008,77 @@ ccaggaaca---------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->ICLD02020573  | 316-626 | Pyxicephalus adspersus TSA blastn consensus
+>ICLD02020573  | 316-626 | Pyxicephalus adspersus TSA blastn
 cagacagacacagaaccttagcactaacagccgccatcatgaaagtcttggcccttgttg
 tcctcgtcatcgccatcagtggccttgaagccggcgttgtgaagagggaggcacaggacc
 cattccagcacatctcccaatatttcc-aaggcttagccaaagacattgaggcaaaattc
 accaatggagagatcccagcccaggct-caggatctggctgcc------------aaggc
 ccaggaacacactgcaacccttacagctcaattccagaaatggatcgatgacgttattgc
-cttagccaagc-agaaacag-aactaa---------------------------------
+cttagccaagcaga-aacag-aactaa---------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GEGH01045879  | 82-525 | Polypedates megacephalus TSA blastn consensus
+>GEGH01045879  | 82-525 | Polypedates megacephalus TSA blastn
 --gactgacacagatcctcatcgctgaccgctgccaccatgaaagtcttggccctcgtcg
 tcctggtcatcgccgtcagcggcctggaagccggcgttgtgaagagggatgccgaagagc
 cctttaaggacatcaccaacttcttcc-agaacatcggcaagaccttccaggagaagttc
 accaatggagagatcccggctcaggct-caggagctgggtacc------------cagat
 ccagaaccaggctgcggccttcggcgctcactttcagaagtggatcgatgagttcgccgc
-cttagccaagc-agaag----agttaagcggcgacc---------gagacttccgactgc
+cttagccaagcaga-ag----agttaagcggcgacc---------gagacttccgactgc
 ctgcaccacgccgctccccaa----ccccccgataccgtcccacgttca----------c
 cttcccatcttctgtta-ccgtgtgatt--gactgctctccttttataacatgtgataat
 aaaacttggat--------
->GDDO01001687  | 1-173 | Rana catesbeiana TSA blastn consensus
+>GDDO01001687  | 1-173 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------agctggttgc
-cctcagcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgtgat
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgtgat
 ccacg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GGLB01209186  | 325-93 | Odorrana tormota TSA blastn consensus
+>GDDO01001682  | 1-173 | Rana catesbeiana TSA blastn
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------agctggttgc
+cctcagcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgtgat
+ccacg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>GGLB01209186  | 325-93 | Odorrana tormota TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------ggaactgggcgcc------------accct
 ccagaaacacggagaaacattaaccgccggctttcagaaatgggttgaagaaatgattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgat--------ccccccaaa-------catctct-----a-----c
 cccttcatcttctgtta-ctgtgtgact--gaccgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GDDO01207728  | 940-782 | Rana catesbeiana TSA blastn consensus
+>GDDO01207728  | 940-782 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
-----agcaaac-aaaaactg-agctaaaatggaacc----------cgttttcctgtgat
+----agcaaacaaa-aactg-agctaaaatggaacc----------cgttttcctgtgat
 ccacg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->GGLB01080739  | 198-1 | Odorrana tormota TSA blastn consensus
+>GGLB01080739  | 198-1 | Odorrana tormota TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------ggaactgggcgcc------------accct
 ccagaaacacggagaaacattaaccgccggctttcagaaatgggttgaagaaatgattgc
-cctcagcaagc-aaaaactg-agctaagctgcaacc----------cattttcctgcaat
+cctcagcaagcaaa-aactg-agctaagctgcaacc----------cattttcctgcaat
 ctgcg--gcactgcgat--------ccccccaaa-------catctctacccca-----c
 cccttcatcttctgtta-ctgtgtgact--gaccgtt-----------------------
 -------------------
->GGLB01055384  | 78-198 | Odorrana tormota TSA blastn consensus
+>GGLB01055384  | 78-198 | Odorrana tormota TSA blastn
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagggatgcacaggatc
 caatgcagcagataactgaaattttcc-aaggcatttccaagaccctccaggagaagttc
@@ -688,7 +1088,7 @@ gccaatgccgagatcccgactcagact-cag-----------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GEGI01020907  | 94-304 | Pelophylax nigromaculatus TSA blastn consensus
+>GEGI01020907  | 94-304 | Pelophylax nigromaculatus TSA blastn
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagggaggcagaggatc
 cagtgcaaaaaatgactgattttttcc-tagaactttccaagaccctccaggagaagttc
@@ -698,7 +1098,7 @@ c-----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01001399  | 1-131 | Rana catesbeiana TSA blastn consensus
+>GDDO01001399  | 1-131 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -708,7 +1108,17 @@ c-----------------------------------------------------------
 ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
 ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
 aaaacttgtattctgtgcc
->LH362425  | 145-1 | Rana catesbeiana TSA blastn consensus
+>GDDO01303518  | 940-810 | Rana catesbeiana TSA blastn
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------------------------------cc----------cgttttcctgcgat
+ccgcg--gcactgcgct--------ccccccgaa----ccccatctctaccaca-----c
+ccctttattttctgtta-ctgtgtgact--gactgttc--cttttataacatgttataat
+aaaacttgtattctgtgcc
+>LH362425  | 145-1 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ------------------------------------------agagagatgcacaggatc
 cacttcagcaaataagtgatattttcc-aaggcatttccaagagcatccaggagcagatc
@@ -718,7 +1128,7 @@ gcaggaacaaggagcaacaat---------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01105241  | 812-932 | Rana catesbeiana TSA blastn consensus
+>GDDO01105241  | 812-932 | Rana catesbeiana TSA blastn
 ------------------------------------------------------------
 ----------------------------agccggtgttgtgaagagagatgcacaggatc
 caattcagcaaataagtgaaattttcc-aaggcatttccaagagcatccaggagcagatt
@@ -738,13 +1148,13 @@ ccaggaacacggagcaacaatatccgccagcattcagaaatgga----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GEGI01020926  | 49-216 | Pelophylax nigromaculatus TSA blastn consensus
+>GEGI01020926  | 49-216 | Pelophylax nigromaculatus TSA blastn
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------------ttgc
-cctcagcaagc-aataactg-atcgaaactgcaacc----------cgttatcctgcgat
+cctcagcaagcaat-aactg-atcgaaactgcaacc----------cgttatcctgcgat
 ctgcg--gcactgccccccc-----ccccctgaa----ccccatctctacccggc----c
 cccttcatcttctgtta-ctgtgtgatt--gaccgttc--ctcttataa--tgttatatt
 aaaacttgtattctgtgc-
@@ -758,7 +1168,7 @@ gccaatgcagagatcccgagtcaagct-caggat--------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01322251  | 421-499 | Rana catesbeiana TSA blastn consensus
+>GDDO01322251  | 421-499 | Rana catesbeiana TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -768,7 +1178,7 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GAEG01010914  | 118-196 | Rana clamitans TSA blastn consensus
+>GDDO01229544  | 420-498 | Rana catesbeiana TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -778,7 +1188,47 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GJEE01021556  | 11-100 | Amolops wuyiensis TSA blastn consensus
+>GDDO01208094  | 1-79 | Rana catesbeiana TSA blastn
+-----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>GAEG01010914  | 118-196 | Rana clamitans TSA blastn
+-----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>GDDO01332011  | 1870-1792 | Rana catesbeiana TSA blastn
+-----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>GDDO01279950  | 1071-993 | Rana catesbeiana TSA blastn
+-----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>GJEE01021556  | 11-100 | Amolops wuyiensis TSA blastn
 cagattggcagagaaccttagctctgacagacgccatcatgaaagtcttggccctcgttg
 tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -788,7 +1238,7 @@ tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GGLB01203822  | 101-179 | Odorrana tormota TSA blastn consensus
+>GGLB01203822  | 101-179 | Odorrana tormota TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -798,7 +1248,7 @@ tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01207905  | 1626-1556 | Rana catesbeiana TSA blastn consensus
+>GDDO01207905  | 1626-1556 | Rana catesbeiana TSA blastn
 -------------------agcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -808,7 +1258,7 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01138345  | 1598-1530 | Rana catesbeiana TSA blastn consensus
+>GDDO01138345  | 1598-1530 | Rana catesbeiana TSA blastn
 ---------------------cgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -818,7 +1268,7 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GJEE01021544  | 443-521 | Amolops wuyiensis TSA blastn consensus
+>GJEE01021544  | 443-521 | Amolops wuyiensis TSA blastn
 -----------agaaccttagctctgacagacgccatcatgaaagtcttggccctcgttg
 tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
@@ -828,7 +1278,7 @@ tcctcgtcatcgccatcagtggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01278460  | 1-67 | Rana catesbeiana TSA blastn consensus
+>GDDO01278460  | 1-67 | Rana catesbeiana TSA blastn
 -----------------------ctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -838,7 +1288,7 @@ tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01180955  | 421-496 | Rana catesbeiana TSA blastn consensus
+>GDDO01180955  | 421-496 | Rana catesbeiana TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtc---gccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
@@ -848,7 +1298,7 @@ tcctcgtc---gccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->LH381524  | 5-69 | Rana catesbeiana TSA blastn consensus
+>LH381524  | 5-69 | Rana catesbeiana TSA blastn
 cagattggcagagaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctc-------------------------------------------------------
 ------------------------------------------------------------
@@ -868,7 +1318,7 @@ cacttcagcaaataagtgatattttcc-aaggca--------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01318238  | 415-478 | Rana catesbeiana TSA blastn consensus
+>GDDO01318238  | 415-478 | Rana catesbeiana TSA blastn
 -----------agaacctcagcgctgacagccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgcca---------------------------------------------
 ------------------------------------------------------------
@@ -878,7 +1328,7 @@ tcctcgtcatcgcca---------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->ICLD02027861  | 1032-954 | Pyxicephalus adspersus TSA blastn consensus
+>ICLD02027861  | 1032-954 | Pyxicephalus adspersus TSA blastn
 -----------agaaccttagcactaacagccgccatcatgaaagtcttggcccttgttg
 tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
@@ -888,7 +1338,17 @@ tcctcgtcatcgccatcagtggccttgaag------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------------
->GDDO01335937  | 1-61 | Rana catesbeiana TSA blastn consensus
+>GDDO01335937  | 1-61 | Rana catesbeiana TSA blastn
+-----------------------------gccgccatcatgaaagtcttggccctcgtcg
+tcctcgtcatcgccatcagcggcctggaag------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------
+>GDDO01315100  | 1038-978 | Rana catesbeiana TSA blastn
 -----------------------------gccgccatcatgaaagtcttggccctcgtcg
 tcctcgtcatcgccatcagcggcctggaag------------------------------
 ------------------------------------------------------------
