@@ -10,6 +10,12 @@ SAKMRDWFSETFQKVKEKLKIDS
 >XP_018870626.1 apolipoprotein C-I, acidic form [Gorilla gorilla gorilla]
 MRLFLSLPVLVVVLSMVLEGPAPAQGAPEVSNPFDGLEELGKTLEDNTQELINRITQSEL
 PAKMWDWFSETFRKVKEKLKIDS
+>sp|P0CE37.1|APO1A_PANTR RecName: Full=Apolipoprotein C-I, acidic form; Short=Apo-CIA; Short=ApoC-IA; AltName: Full=Apolipoprotein C1A; Contains: RecName: Full=Truncated apolipoprotein C-I, acidic form; Short=Apo-CIA'; Short=ApoC-IA'; Flags: Precursor
+MRLFLSLPVLVVVLSMVLEGPAPAQGAPEVSNPFDGLEELGKTLEDNTREFINRITQSEL
+PAKMWDWFSETFRKVKEKLKIDS
+>sp|P0CE39.1|APO1A_PONAB RecName: Full=Apolipoprotein C-I, acidic form; Short=Apo-CIA; Short=ApoC-IA; AltName: Full=Apolipoprotein C1A; Contains: RecName: Full=Truncated apolipoprotein C-I, acidic form; Short=Apo-CIA'; Short=ApoC-IA'; Flags: Precursor
+MRLFLSLPVLVVVLSMVLEGPAPAQGAPDVSNPFDGLEELGKTLEDNTREFINRITQSEL
+PAKMWDWFSETFRRVKEKLKIDS
 >XP_003779249.1 apolipoprotein C-I [Pongo abelii]
 MRLFLSLPVLVVVLSMVLEGPAPAQGAPDVSSALDKLKEFGNTLEDKAREVINRIKQSEL
 SAKTRDWFSETFRKVKEKLKINS

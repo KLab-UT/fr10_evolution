@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    DESKTOP-P8M0AUR (AVX2, FMA3, 3 GB RAM)
-Command: iqtree2 -s fr10_complete_coding_seqs.fasta -redo -B 1000 -o GEGH01045879
-Seed:    378419 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Jan 17 16:52:22 2024
+Command: iqtree2 -redo -s fr10_complete_coding_seqs.fasta -B 1000 -o GEGH01045879
+Seed:    89764 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jan 19 14:38:53 2024
 Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
@@ -31,7 +31,7 @@ Alignment has 12 sequences with 273 columns, 119 distinct patterns
 ****  TOTAL              0.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
 Perform fast likelihood tree search using GTR+I+G model...
 Estimate model parameters (epsilon = 5.000)
 Perform nearest neighbor interchange...
@@ -42,8 +42,8 @@ Rate parameters:  A-C: 1.95998  A-G: 3.04145  A-T: 1.95704  C-G: 1.01500  C-T: 3
 Base frequencies:  A: 0.293  C: 0.258  G: 0.250  T: 0.199
 Proportion of invariable sites: 0.262
 Gamma shape alpha: 1.142
-Parameters optimization took 1 rounds (0.005 sec)
-Time for fast ML tree search: 0.026 seconds
+Parameters optimization took 1 rounds (0.009 sec)
+Time for fast ML tree search: 0.071 seconds
 
 NOTE: ModelFinder requires 0 MB RAM!
 ModelFinder will test up to 286 DNA models (sample size: 273) ...
@@ -144,9 +144,9 @@ Bayesian Information Criterion:         TIM2e+G4
 Best-fit model: TIM2e+G4 chosen according to BIC
 
 All model information printed to fr10_complete_coding_seqs.fasta.model.gz
-CPU time for ModelFinder: 0.736 seconds (0h:0m:0s)
-Wall-clock time for ModelFinder: 0.808 seconds (0h:0m:0s)
-Generating 1000 samples for ultrafast bootstrap (seed: 378419)...
+CPU time for ModelFinder: 1.308 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.616 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 89764)...
 
 NOTE: 0 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
@@ -158,41 +158,42 @@ Gamma shape alpha: 0.499
 Parameters optimization took 1 rounds (0.002 sec)
 Computing ML distances based on estimated model parameters... 0.002 sec
 Computing BIONJ tree...
-0.000 seconds
+0.004 seconds
 Log-likelihood of BIONJ tree: -1450.100
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 0.062 second
-Computing log-likelihood of 95 initial trees ... 0.071 seconds
+Generating 98 parsimony trees... 0.065 second
+Computing log-likelihood of 95 initial trees ... 0.091 seconds
 Current best score: -1446.839
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
 BETTER TREE FOUND at iteration 1: -1446.839
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 9: -1446.143
-Iteration 10 / LogL: -1448.653 / Time: 0h:0m:0s
-Iteration 20 / LogL: -1447.099 / Time: 0h:0m:0s
+Iteration 10 / LogL: -1448.990 / Time: 0h:0m:0s
+Iteration 20 / LogL: -1449.282 / Time: 0h:0m:0s
 Finish initializing candidate tree set (4)
-Current best tree score: -1446.143 / CPU time: 0.396
+Current best tree score: -1446.839 / CPU time: 0.366
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Iteration 30 / LogL: -1446.168 / Time: 0h:0m:0s (0h:0m:1s left)
-Iteration 40 / LogL: -1446.180 / Time: 0h:0m:0s (0h:0m:1s left)
-Iteration 50 / LogL: -1447.088 / Time: 0h:0m:0s (0h:0m:1s left)
-Log-likelihood cutoff on original alignment: -1467.589
-Iteration 60 / LogL: -1446.207 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 70 / LogL: -1447.104 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 80 / LogL: -1446.166 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 90 / LogL: -1447.118 / Time: 0h:0m:1s (0h:0m:0s left)
-Iteration 100 / LogL: -1448.639 / Time: 0h:0m:1s (0h:0m:0s left)
-Log-likelihood cutoff on original alignment: -1467.589
-NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
-Iteration 110 / LogL: -1446.145 / Time: 0h:0m:1s (0h:0m:1s left)
-TREE SEARCH COMPLETED AFTER 110 ITERATIONS / Time: 0h:0m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -1446.143
+Iteration 30 / LogL: -1446.170 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 40 / LogL: -1448.663 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -1446.148 / Time: 0h:0m:0s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -1485.864
+Iteration 60 / LogL: -1448.659 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 70 / LogL: -1446.150 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 80 / LogL: -1449.238 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -1447.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -1446.147 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1485.864
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -1447.089 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 120 / LogL: -1447.041 / Time: 0h:0m:2s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 126 ITERATIONS / Time: 0h:0m:2s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
@@ -201,24 +202,24 @@ Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
 1. Initial log-likelihood: -1446.143
 Optimal log-likelihood: -1446.140
-Rate parameters:  A-C: 2.38162  A-G: 4.37234  A-T: 2.38162  C-G: 1.00000  C-T: 3.43575  G-T: 1.00000
+Rate parameters:  A-C: 2.38150  A-G: 4.37232  A-T: 2.38150  C-G: 1.00000  C-T: 3.43527  G-T: 1.00000
 Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
 Gamma shape alpha: 0.475
-Parameters optimization took 1 rounds (0.003 sec)
+Parameters optimization took 1 rounds (0.004 sec)
 BEST SCORE FOUND : -1446.140
 Creating bootstrap support values...
 Split supports printed to NEXUS file fr10_complete_coding_seqs.fasta.splits.nex
 Total tree length: 1.152
 
-Total number of iterations: 110
-CPU time used for tree search: 1.582 sec (0h:0m:1s)
-Wall-clock time used for tree search: 1.854 sec (0h:0m:1s)
-Total CPU time used: 1.635 sec (0h:0m:1s)
-Total wall-clock time used: 1.912 sec (0h:0m:1s)
+Total number of iterations: 126
+CPU time used for tree search: 2.316 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.514 sec (0h:0m:2s)
+Total CPU time used: 2.380 sec (0h:0m:2s)
+Total wall-clock time used: 2.584 sec (0h:0m:2s)
 
 Computing bootstrap consensus tree...
 Reading input file fr10_complete_coding_seqs.fasta.splits.nex...
-12 taxa and 93 splits.
+12 taxa and 103 splits.
 Consensus tree written to fr10_complete_coding_seqs.fasta.contree
 Reading input trees file fr10_complete_coding_seqs.fasta.contree
 Log-likelihood of consensus tree: -1446.140
@@ -233,4 +234,4 @@ Ultrafast bootstrap approximation results written to:
   Consensus tree:                fr10_complete_coding_seqs.fasta.contree
   Screen log file:               fr10_complete_coding_seqs.fasta.log
 
-Date and Time: Wed Jan 17 16:52:25 2024
+Date and Time: Fri Jan 19 14:38:58 2024
