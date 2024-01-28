@@ -1,0 +1,71 @@
+# STOCKHOLM 1.0
+
+#=GS BAA28618.1                     DE unnamed protein product drp10 [Xenopus laevis]
+#=GS UniRef90_O73676/1-92           DE [subseq from] Lens specific n=1 Tax=Xenopus laevis TaxID=8355 RepID=O73676_XENLA
+#=GS UniRef90_A0A974CAB9/1-92       DE [subseq from] Apolipoprotein C-I n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974CAB9_XENLA
+#=GS UniRef90_A0A974H6T0/1-66       DE [subseq from] Ubiquitin-fold modifier-conjugating enzyme 1 n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A974H6T0_XENLA
+#=GS UniRef90_A0A6I8RJ02/1-92       DE [subseq from] Uncharacterized protein n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A6I8RJ02_XENTR
+#=GS UniRef90_UPI001ABDBE56/31-117  DE [subseq from] apolipoprotein A-II-like n=1 Tax=Bufo bufo TaxID=8384 RepID=UPI001ABDBE56
+#=GS UniRef90_UPI00235A7A2A/1-93    DE [subseq from] apolipoprotein A-II n=1 Tax=Bombina bombina TaxID=8345 RepID=UPI00235A7A2A
+#=GS UniRef90_A0A1B8XYN1/1-61       DE [subseq from] Uncharacterized protein (Fragment) n=1 Tax=Xenopus tropicalis TaxID=8364 RepID=A0A1B8XYN1_XENTR
+#=GS UniRef90_Q91335/1-80           DE [subseq from] FR10 n=1 Tax=Lithobates sylvaticus TaxID=45438 RepID=Q91335_LITSY
+#=GS UniRef90_A0A9Q1IDC9/30-111     DE [subseq from] Uncharacterized protein n=1 Tax=Synaphobranchus kaupii TaxID=118154 RepID=A0A9Q1IDC9_SYNKA
+#=GS UniRef90_A0A8T3DYI5/1-89       DE [subseq from] Uncharacterized protein n=2 Tax=Albula TaxID=54908 RepID=A0A8T3DYI5_9TELE
+#=GS UniRef90_A0A8T3DYI5/59-116     DE [subseq from] Uncharacterized protein n=2 Tax=Albula TaxID=54908 RepID=A0A8T3DYI5_9TELE
+#=GS UniRef90_A0A9D3M942/9-90       DE [subseq from] Uncharacterized protein n=1 Tax=Anguilla anguilla TaxID=7936 RepID=A0A9D3M942_ANGAN
+#=GS UniRef90_A0A8J6BH52/3-60       DE [subseq from] Apolipoprotein A-II n=1 Tax=Eleutherodactylus coqui TaxID=57060 RepID=A0A8J6BH52_ELECQ
+#=GS UniRef90_UPI00222EDE74/5-82    DE [subseq from] apolipoprotein A-Ib n=1 Tax=Ctenopharyngodon idella TaxID=7959 RepID=UPI00222EDE74
+#=GS UniRef90_UPI00222EDE74/200-254 DE [subseq from] apolipoprotein A-Ib n=1 Tax=Ctenopharyngodon idella TaxID=7959 RepID=UPI00222EDE74
+#=GS UniRef90_A0A9Q1DCV5/52-132     DE [subseq from] Uncharacterized protein n=1 Tax=Conger conger TaxID=82655 RepID=A0A9Q1DCV5_CONCO
+#=GS UniRef90_A0A9D3SVJ2/8-91       DE [subseq from] Uncharacterized protein n=2 Tax=Megalops TaxID=7931 RepID=A0A9D3SVJ2_MEGAT
+#=GS UniRef90_A0A3B3QBF7/6-89       DE [subseq from] Apolipoprotein A2 n=2 Tax=Mormyridae TaxID=31092 RepID=A0A3B3QBF7_9TELE
+#=GS UniRef90_UPI001C09EBCE/10-95   DE [subseq from] type-4 ice-structuring protein LS-12-like n=7 Tax=Alosa TaxID=34772 RepID=UPI001C09EBCE
+#=GS UniRef90_A0A3B3S9S6/7-92       DE [subseq from] Type-4 ice-structuring protein-like n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3S9S6_9TELE
+#=GS UniRef90_A0A5J5DEX3/35-90      DE [subseq from] Uncharacterized protein (Fragment) n=2 Tax=Etheostoma spectabile TaxID=54343 RepID=A0A5J5DEX3_9PERO
+#=GS UniRef90_A0A5J5DEX3/89-150     DE [subseq from] Uncharacterized protein (Fragment) n=2 Tax=Etheostoma spectabile TaxID=54343 RepID=A0A5J5DEX3_9PERO
+#=GS UniRef90_UPI002303B866/1-94    DE [subseq from] apolipoprotein A-II-like n=1 Tax=Hemicordylus capensis TaxID=884348 RepID=UPI002303B866
+#=GS UniRef90_UPI0020B2415A/6-93    DE [subseq from] type-4 ice-structuring protein-like n=1 Tax=Brienomyrus brachyistius TaxID=42636 RepID=UPI0020B2415A
+#=GS UniRef90_A0A671QNC2/6-83       DE [subseq from] Apolipoprotein A-I-1-like n=9 Tax=Sinocyclocheilus TaxID=75365 RepID=A0A671QNC2_9TELE
+#=GS UniRef90_B6DUG7/5-85           DE [subseq from] Apolipoprotein A-I-1 n=1 Tax=Hemibarbus mylodon TaxID=351240 RepID=B6DUG7_9TELE
+#=GS UniRef90_B6DUG7/200-256        DE [subseq from] Apolipoprotein A-I-1 n=1 Tax=Hemibarbus mylodon TaxID=351240 RepID=B6DUG7_9TELE
+#=GS UniRef90_UPI0022224620/4-84    DE [subseq from] apolipoprotein A-I-1-like n=1 Tax=Myxocyprinus asiaticus TaxID=70543 RepID=UPI0022224620
+#=GS UniRef90_UPI0022224620/203-251 DE [subseq from] apolipoprotein A-I-1-like n=1 Tax=Myxocyprinus asiaticus TaxID=70543 RepID=UPI0022224620
+#=GS UniRef90_UPI0020D1352F/5-87    DE [subseq from] antifreeze protein type IV n=2 Tax=Epinephelus TaxID=94231 RepID=UPI0020D1352F
+#=GS UniRef90_UPI0012EE419F/6-60    DE [subseq from] type-4 ice-structuring protein LS-12-like n=1 Tax=Anarrhichthys ocellatus TaxID=433405 RepID=UPI0012EE419F
+#=GS UniRef90_UPI0012EE419F/62-122  DE [subseq from] type-4 ice-structuring protein LS-12-like n=1 Tax=Anarrhichthys ocellatus TaxID=433405 RepID=UPI0012EE419F
+
+BAA28618.1                             MKVLAL-VVLVIAVS-GLEA-G-VVKRE---VP-S-LDELTKI---LSTWADTVKT-QTQEWIDKVQNGEVK--A--QTEEILAQVKSHMEPIQGQFQEIFSQLTNKKA
+UniRef90_O73676/1-92                   MKVLAL-VVLVIAVS-GLEA-G-VVKRE---VP-S-LDELTKI---LSTWADTVKT-QTQEWIDKVQNGEVK--A--QTEEILAQVKSHMEPIQGQFQEIFSQLTNKKA
+UniRef90_A0A974CAB9/1-92               MKVLAL-VVLVIAIS-GMEA-G-VVKRE---VP-N-LDEFTKI---FSSWADTLKT-QTQEWIAKIQNGEVK--A--QTEEIFAQVKTQMEPLQGHFQELFSQFTDKKA
+UniRef90_A0A974H6T0/1-66               MKVLAL-VVLVIAVS-GLEA-G-VVKRE---VP-S-LDELTKI---LSTWADTVKT-QTQEWIDKVQNGEVK--A--QTEPLC--------------------------
+UniRef90_A0A6I8RJ02/1-92               MKVLAL-VVLVIAIS-GMEA-G-VVRRE---VP-S-VEELTKL---IQTWAEYAQT-QAQEWVAKIQNADIN--G--QAGQIMEEAKAKLEPFQTQMLELYTQFTDKKA
+UniRef90_UPI001ABDBE56/31-117          MKVLAL-AVLILAIS-GLEA-G-VVKRE---VP-N-AEQVSEF---FNSWFETLKT-NAEEWAKKIQNGEIQ--A--QAGQVLEQTKTQTEPIKAELEKFFATI-----
+UniRef90_UPI00235A7A2A/1-93            MKVLAL-VVLIIAVS-GLEA-G-LVKREAANIP-N-LDQITQI---FNAWAETIKS-STQDLIEKIKSGEAQ--S--HAEQYLEQTKAQAEPLKAEMEKWISQIVEK--
+UniRef90_A0A1B8XYN1/1-61               MKVLAL-VVLVIAIS-GMEA-G-VVRRE---VP-S-VEELTKL---IQTWAEYAQT-QAQEWVGKIQNADIN--G--Q-------------------------------
+UniRef90_Q91335/1-80                   MKVLAL-VVLVIAIS-GLEA-G-VVKRD---AQ----DPLQQI---TDIFQGISKT-L-Q---EKFANAEIP--S--QTQELGAKIQAHGETISASIQKWIEE------
+UniRef90_A0A9Q1IDC9/30-111             ----LV-VVLALAIG-NESV-S-VVKRE---AP-E-LEQITKY---FQELSATLTR-TTQEMVEKLKAHELA--G--QAQTYFEDGKAQLQPLAEKIQEQLKP------
+UniRef90_A0A8T3DYI5/1-89               MKVSVV-VALVFALALGSEAVS-VVKRE---AP-E-LEKLTQY---FQDLSATLTR-TTQDIVEKLKAHELT--G--QAQAYIEEGKTQLQPLAEKIQEQLKPL-----
+UniRef90_A0A8T3DYI5/59-116             --------------------------------------ELTGQ---AQAYIEEGKT-QLQPLAEKIQE-QLK--P--LSESMQAQIKPLADSVQAQLEELWKQVM----
+UniRef90_A0A9D3M942/9-90               ----LV-VVLALAIG-SESV-S-VVKRE---AP-E-LEQLTQY---FQDLSATLTR-TTQDIMEKLKAHELT--G--QAQAYIEDGRAQLQPLAEKIQEQLKP------
+UniRef90_A0A8J6BH52/3-60               --------------------------------------QVTEL---LTTFFENLKT-GTQDLITKIQNGELQ--S--QAEQFFEQTKTQTEPLKTEVEKFFAKF-----
+UniRef90_UPI00222EDE74/5-82            ---VAL--ALTVLLA-GCQA-R-FLQDE---AP-SHLDHVKSV---LQVYADQLKQ-SAHKSLTHLDDTEFK--D--Y-KEFLGQS---VDNLHGYFEHAFQ-------
+UniRef90_UPI00222EDE74/200-254         --------------------------------------QLDPY---IQEYKDQVEK-GALEFRESVRSGELR--K--KMTELGEQVKPHFEAIFAAVQKSL--------
+UniRef90_A0A9Q1DCV5/52-132             ----LV-VVLALAIG-SESV-S-VVKRE---AP-E-MDKVTEY---LNELSATLTR-TTQDLVEKLNAQELA--G--QAQSMAAKVQEQLKPLATEIEDKLK-------
+UniRef90_A0A9D3SVJ2/8-91               ----ALVVVLALALG-SESV-S-VVKRE---AP-E-VEKLTQY---FQDLSAMLTR-TTQDLVEKLKAHELA--G--QAQAYIEDGKTQLQPLAEKIQEQLKPL-----
+UniRef90_A0A3B3QBF7/6-89               ---IAV-LVVFALAQ-GESL-S-LVKRE---AP-E-IERLTKY---FQDLSDMLSK-TAEDLVEKVKTHELT--G--QAQTYFEDGKAQLQPFADKVQEQLKPL-----
+UniRef90_UPI001C09EBCE/10-95           --TLAL-LMLVISHG-TESA-S-MVKRD---VP-AEIEKITKY---LQDLSSMLTT-TTAELVEKIKAADLT--S--QAEAYLQEGKAQVQPLLEKVQAQLKPL-----
+UniRef90_A0A3B3S9S6/7-92               -----A-IMLLALIH-GSESFT-VAKRD---VSAD-VDKLTKY---VQDLSTIVTS-VTRELVEKVKNHELT--G--KAQTYLEQGKVHLQPLADKLQENLKPLTS---
+UniRef90_A0A5J5DEX3/35-90              ----AF-LVVLAVAH-GTEA-GSVVKRD---AQTD-LEKLTQL---INDMSASITS-ATQDMVEKVKALEV--------------------------------------
+UniRef90_A0A5J5DEX3/89-150             --------------------------------------EVTNT---AQTYIDDSRA-QIQPLVDKVQAEAAKLQE--QVKPYIANIEDHIKPLTDNFQAQVKPLTD---
+UniRef90_UPI002303B866/1-94            MKVFAL-MILLVSVY-CLEG-A-IVKREA-ETP-A-RDELAELGQSVQQFFATVSAYVTREMVPQERIEQLK--A--QAQTYMQQMQAHVDPLATQVREGLTQML----
+UniRef90_UPI0020B2415A/6-93            --ITAV-VVLALIHG-SGSF-T-VAKRD---VSTE-VDKLTKY---VQDLSTVVTR-VTHELVEKVKNHELT--G--KAQTYLEQGKVHLQPLADKLQENLKPLTS---
+UniRef90_A0A671QNC2/6-83               -----V-LALAVLLA-GCQA-R-FLRDE---PP-SQLEHVKSA---LQVYADQLKQ-AAQQALTHLDDTEFK--D--Y-KEFLAQS---VDNLHGYFQDGFQT------
+UniRef90_B6DUG7/5-85                   ---VAL--ALTVLLA-GCQA-R-FLQDE---AP-SQLDHVKSA---LQVYADQLKQ-AAHKALTHLDDTEFK--D--Y-KVFLGQ---SVDNLHGYFQTAFQAIT----
+UniRef90_B6DUG7/200-256                --------------------------------------QLEPY---IQEYKDQMEK-GAMEFRESVRSGELR--K--KMTDLGEQVKPHFEAIFAALQKSFSK------
+UniRef90_UPI0022224620/4-84            ---VAL--ALTVLLA-GCQA-R-FLQDE---AP-SQLDHVKSV---LQVYADNVKQ-AAHKGLDHLDDTEFK--D--Y-KVFLGQ---SIDNIHTYFQHTFQALT----
+UniRef90_UPI0022224620/203-251         ------------------------------------------Y---IQEYKEQIEK-GVQEFRESVKSGELR--K--KMNDLGEQVKPHFEAIIAAIQK----------
+UniRef90_UPI0020D1352F/5-87            --LVAA-VVLVLAVAHGTQA-GSLVKRD---AE-SDMDKITRL---INDMSASITS-ATQDMVEKVKTMEVA--N--QAQTYMEDSRAKIQPLVEKVQA----------
+UniRef90_UPI0012EE419F/6-60            --IAAL-VVLLAVAH-GTEA-GSLVKRD---AQTN-LSQMTKL---IKDMSASITS-ATQDMVDKVKA-----------------------------------------
+UniRef90_UPI0012EE419F/62-122          --------------------------------------EMTNT---AQTYAENGRS-QIQPLVDKVMAEATK--LQDQVKPLVSNIEEQIRPIMENFNTQVKPLT----
+#=GC RF                                xxxxxx.xxxxxxxx.xxxx.x.xxxxx...xx.x.xxxxxxx...xxxxxxxxxx.xxxxxxxxxxxxxxx..x..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
