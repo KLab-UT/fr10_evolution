@@ -1,3 +1,14 @@
+30 January 2024
+from meeting with Reagan
+- Obviously we haven't been great about adding notes to this file, but I blame Reagan's proactivity (conversations always just got past us and we never had time)
+- Over the next week, Reagan will:
+--  Blast all frog genomes using drp10
+--  Re-construct fr10 alignment with inclusion of the drp10 hits that are "complete" (include all exons... if it is actually APOAII [which it probably is])
+--  Replicate results of fr10 apolipoprotein identification with drp10 substituted for fr10
+- Over the next week, Randy will:
+--  Start creating alignment figure
+--  Think more about apolipoprotein figure, and if there is a way to plot it
+
 30 November 2023
 from meeting with Reagan
 - Create phylogeny of apolipoprotein family in frogs (start with Xenopus and Bufo, look at other .gff files to see if they have apolipoprotein annotations)
