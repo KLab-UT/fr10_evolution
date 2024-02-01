@@ -1,0 +1,324 @@
+>JAQSEC010000013  fr10 blastn WGS hit | Lithobates sylvaticus consensus
+--------------AGAACCTCAGCGCTGACAGCCGTCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCATTGCAGCAAATAACTGATATTTTCCAAGGCATTTCCAAGACCCTCCAGGAGAAGT
+TTGCCAATGCAGAGATCCCCTCTCAGACTCAGGAACTGGGTGCCAAGATCCAGGCACACG
+GAGAAACAATATCCGCCAGCATCCAGAAATGGATTGAAGAGATGGTTGCCCTCAGCAAAC
+AAAAACTGAGCTAAACTGGAACCCGTTTTCCTGCGATCCGCGGCACTGCGCTACCCCCCG
+AACCCCATCTCTACCACACCCCTTCATTTTCTGTTACTGTGCGACTGACTGTTCCTTTTA
+TAACATGTTATAATAAAACTTGTATTCTGTGCC----
+>LIAG020987184  fr10 blastn WGS hit | Aquarana catesbeiana consensus
+------------------------------------------------------------
+-------------------------------AGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCACTTCAGCAAATAAGTGATATTTTCCAAGGCATTTCCAAGAGCATCCAGGAGCAGA
+TCGCCAATGCAGAGATCCCGAGTCAAGCTCAGGATCTGGGCACCAAGTTGCAGGAACAAG
+GAGCAACAATATCCGCCAGCATTCAGAAATGGATTGAAGAGCTGGTTGCCCTCAGCAAAC
+AAAAACTGAGCTAAAATGGAACCCGTTTTCCTGCGATCCGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCTACCACACCCCTTTATTTTCTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>CAJIML010011253  fr10 blastn WGS hit | Rana temporaria consensus
+--------------AGAACCTCAGCGCTGACAACCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTCGTGAAGAGAGATGCACCGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCGCCAACGCAGAGATCCCGGCTCAGACTCAGGAACTGGGCGCCAAGATCCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCACCCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCTACCACACCCCTTCATCTATTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>VIAC01347839  fr10 blastn WGS hit | Rana temporaria consensus
+------------------------------------------------------------
+-------------------------------AGCCGGTGTCGTGAAGAGAGATGCACCGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCGCCAATGCAGAGATCCCGACTCAGACTCAGGAACTGGGCGCCAAGATCCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCACCCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCGA
+ACCCCATCTCCACCACACCCCTTCATCTATTGTTACTGTGTGACTGACTGTTCCTTTTAT
+AACATGTTATAATAAAACTTGTATTCTGTGCC-----
+>JARGYO010000011  fr10 blastn WGS hit | Rana muscosa consensus
+--------------AGAACCTCAGCGCTGACAGCTGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCATCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCCATTGCAGCAACTAACTGATATTTTCCAAGGCATTTCCAAGACCCTACAGGAGAAGT
+TCACCAATGCAGAGATCCCAGCTCAGACTCAGGAACTGGGTGCCAAGATTCAGGAACACG
+GAGCAAATTTATCCGCCGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAGCTAAGCTGCAACCCATTTTCCTGCGATCTGCGGCACTGCGCTCCCCCCCC
+AAACCCCCAATCTCTACCACACCCCTTCATCTTCTGTTACTGTGTGGCTGACTGTTCCTT
+TTATAACATGTTATAATAAAACTTATATTCTGTGCC-
+>JAJQKJ010002606  fr10 blastn WGS hit | Rana kukunoris consensus
+--------------AGAACCTCAGCGCTGACAACCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGAGATGCACAGG
+ATCAATTTCAGCAAATAACTGAGCTTTTCCAAGGCTTTTCCAAGACCCTCCAGGAGAAGT
+TCACCAACGCAGAGATCCCGACTCAGACTCAGGAACTGGGCGCCAAGATCAAGGAACACG
+GAGAGAATTTATCTGCTGGCATCCAGAAATGGATTGAAGAGATGATTGCCCTCAGCAAAC
+AAAAACTGAACTAAGCTGCACCCCATTTTCCTGCGATCTGCAGCACTGCGCTCCCCCTGA
+ACCCCATCTCTACCACACCCCCCTTCATCTTCTGTTACTGTGTAACTGACTGTTCCTTTT
+ATAACATGTTATAATAAAACTTGTATTCTGTGCC---
+>BLSH010535194  fr10 blastn WGS hit | Glandirana rugosa consensus
+------------------------------------------------------------
+-------------------------------AGCCGGAGTTGTGAAGAGAGAGGCACAGG
+ATCCATTGCAGCATGTAGCTGATATTTTCCAAGGCCTTGCCAAGACTATCCAGGAGAAGT
+TGGCCAATGCAGAGATCCCGGCTCAAACTCAGGACCTGGGCGCCACATTGCAGCAGCACG
+GAGCAACACTATCCGCCAACTTTCAGAAATGGTGGGATGAGATCATTGCCCTCAGCAAGC
+AAAAACTGAGCTAAGCTGCAACCCATTTTCCTGCAATCTGCGGCACTGCGCTCCCCCCCC
+CCCCCCGAACCCCAATCTCTACCCCCCACCCCTTCATTTTCTGTTACTGTGTGACTGACC
+GTTCCTTTTATAACGTGTTATAATAAAACTTGTATTCTGTGCC
+>LIAG021239457  fr10 blastn WGS hit | Aquarana catesbeiana
+--------------AGAACCTCAGCGCTGACAGCCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>BLSH010011145  fr10 blastn WGS hit | Glandirana rugosa
+--------------AGAACCTCAGCGCTGACAGCCGCCATCATGAAAGTCTTGGCCCTCG
+TCGTCCTCGTCATTGCCATCAGTGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>CATNWA010016741  fr10 blastn WGS hit | Staurois parvus consensus
+--------------AGAACCTCAGCGCTGACAGCCTCCATCATGAAAGTCTTGGCCCTTG
+TCGTCCTCGTCATCGCCATCAGCGGCTTGGAAGCCGGAGTTGTGAAGAGGGATGCAGAGG
+ATCCGTTTCAGCAAATGAGTGACCTTTTCCAGAACTTTGCCAAGACCTTCCAGGAGAAGA
+TCATCACCGCAGGGATCCCGGCCCAG-----GGAACTGGGTGCCAAAATCCAGGAACACG
+GATCATCATTCTCCACCAGTGTTCAGAAATGGTTTGAAGACATGCTTGCCATGGGCAAGG
+AGAAACTGAGCTGAGCTGAACCCCACCTTCCTGCGATCTGCAACACACTGCGCCCCCCCC
+CTGAACCCC---------------------------------------------------
+-------------------------------------
+>PZQJ01000012  fr10 blastn WGS hit | Pyxicephalus adspersus
+--------------AGAACCTTAGCACTAACAGCCGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>DYDO01000683  fr10 blastn WGS hit | TPA_asm: Pyxicephalus
+--------------AGAACCTTAGCACTAACAGCCGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JYOU01101346  fr10 blastn WGS hit | Nanorana parkeri
+--------------AGAACCTCTGCGCTGAAAACCGCCATCATGAAAGTCCTTGCCCTCG
+TAGTCCTCGTCATCGCCATCAGTGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>VIAC01175670  fr10 blastn WGS hit | Rana temporaria
+--------------AGAACCTCAGCGCTGACAATCATGAAAGTCTTGGCCCTCGTCGTCC
+TCGTCATCGCCATCAGTGGCCTGGAAG---------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAEOBE010182360  fr10 blastn WGS hit | Phrynoglossus myanhessei
+----------------------------GACAGCTGCCATCATGAAAGTCTTGGCCCTTG
+TTGTCCTCGTCATCGCCATCAGTGGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JARQOC010000012  fr10 blastn WGS hit | Allobates femoralis
+----------------------------------CGCCATCATGAAAGTCTTGGCCCTGG
+CCGTGCTCATCCTCGCCATCAGCAGCCTAGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>CAJIMM010022611  fr10 blastn WGS hit | Bufo bufo
+----------------------------------------CATGAAAGTCTTGGCTCTGG
+CCGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAKJJM010311780  fr10 blastn WGS hit | Pipa carvalhoi
+--------------------------------------ATCATGAAAGTCCTGGCCCTGG
+CAGTCCTCATTATCGCCATCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAQIHN010000115  fr10 blastn WGS hit | Gastrophryne carolinensis
+----------------------------------------CATGAAGGTCCTGGCCCTTG
+TCGTTCTTGTCCTCGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>ONZH01005954  fr10 blastn WGS hit | Rhinella marina
+----------------------------------------CATGAAAGTCTTGGCTCTTG
+CTGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAQIHO010000097  fr10 blastn WGS hit | Gastrophryne carolinensis
+----------------------------------------CATGAAGGTCCTGGCCCTTG
+TCGTTCTTGTCCTCGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAKVIS010000011  fr10 blastn WGS hit | Bufotes viridis
+----------------------------------------CATGAAAGTCTTGGCTCTGG
+CTGTGCTCATCCTCGCCATCAGCGGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JABAHN010000008  fr10 blastn WGS hit | Xenopus tropicalis
+----------------------------------------CATGAAAGTCCTGGCTCTGG
+TAGTTCTGGTCATTGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>AAMC04000008  fr10 blastn WGS hit | Xenopus tropicalis
+----------------------------------------CATGAAAGTCCTGGCTCTGG
+TAGTTCTGGTCATTGCCATCAGCGGCATGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JARQOD010000001  fr10 blastn WGS hit | Oophaga sylvatica
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTGGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>CAJIMM010020206  fr10 blastn WGS hit | Bufo bufo
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------CTACCACCACCCCTTCTTCTACTGCTACCTGTGCCACTGCCTGTTCCTTT
+T------------------------------------
+>JAEUXP010000007  fr10 blastn WGS hit | Leptobrachium ailaonicum
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>DAJOPU010000013  fr10 blastn WGS hit | TPA_asm: Leptobrachium
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>RXON01000007  fr10 blastn WGS hit | Leptobrachium leishanense
+----------------------------------------CATGAAAGTCCTGGCTTTGG
+TTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAWCTU010000002  fr10 blastn WGS hit | Ranitomeya imitator
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTAGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>CAUEEQ010006196  fr10 blastn WGS hit | Ranitomeya imitator
+---------------------------------------TCATGAAAGTCTTGGCCTTGG
+CCGTGCTCATCCTCGCCATCGGCAGCCTAGA-----------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAVFLC010000018  fr10 blastn WGS hit | Leptodactylus fuscus
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCATCGGCAGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JAVFLB010000013  fr10 blastn WGS hit | Leptodactylus fuscus
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCATCGGCAGCCTTGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>CAMRHE010000551  fr10 blastn WGS hit | Leptodactylus fallax
+----------------------------------------CATGAAAGTCTTGGCTCTGA
+CCATCCTCATCCTCGCCGTTGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JARJJA010000011  fr10 blastn WGS hit | Hyla sarda
+----------------------------------------CATGAAAGTCTTGGCCCTGA
+CTGTGCTCATCCTTGTCATCGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------
+>JARJIZ010000060  fr10 blastn WGS hit | Hyla sarda
+----------------------------------------CATGAAAGTCTTGGCCCTGA
+CTGTGCTCATCCTTGTCATCGGCAGCCTGGAAG---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------------------

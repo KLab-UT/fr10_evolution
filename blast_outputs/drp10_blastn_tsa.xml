@@ -1,0 +1,2480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>WGS_VDB://GAEI01 WGS_VDB://GAEG01 WGS_VDB://GEGJ01 WGS_VDB://GEGI01 WGS_VDB://GEGH01 WGS_VDB://GEGG01 WGS_VDB://GEGF01 WGS_VDB://GEGK01 WGS_VDB://GEGL01 WGS_VDB://GDRL01 WGS_VDB://GBET01 WGS_VDB://HADU01 WGS_VDB://HADV01 WGS_VDB://HADT01 WGS_VDB://HADS01 WGS_VDB://HADQ01 WGS_VDB://HADR01 WGS_VDB://GFBS01 WGS_VDB://GJEE01 WGS_VDB://GECV01 WGS_VDB://GFMT01 WGS_VDB://GFNJ01 WGS_VDB://GENE01 WGS_VDB://GGLB01 WGS_VDB://GGNS01 WGS_VDB://GGTL01 WGS_VDB://GDDO01 WGS_VDB://GHBH01 WGS_VDB://GHBO01 WGS_VDB://GGUQ01 WGS_VDB://GGUR01 WGS_VDB://GGUS01 WGS_VDB://HAML01 WGS_VDB://ICQQ01 WGS_VDB://ICPN01 WGS_VDB://GHCG01 WGS_VDB://GIKS01 WGS_VDB://GICS01 WGS_VDB://GINY01 WGS_VDB://ICLD02 WGS_VDB://GIPO01 WGS_VDB://GISC01 WGS_VDB://GHWT01 WGS_VDB://GIVH01 WGS_VDB://GJVR01 WGS_VDB://GHMZ01 WGS_VDB://GJPU01 WGS_VDB://GKCT01 WGS_VDB://HBXV01 WGS_VDB://HBZV01 WGS_VDB://GJQV01 WGS_VDB://GKLB01 WGS_VDB://GKLC01 WGS_VDB://GJVZ01 WGS_VDB://GKIA01 tsa_nt</BlastOutput_db>
+  <BlastOutput_query-ID>AB014463.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Xenopus laevis lens specific gene, complete cds</BlastOutput_query-def>
+  <BlastOutput_query-len>473</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AB014463.1</Iteration_query-ID>
+  <Iteration_query-def>Xenopus laevis lens specific gene, complete cds</Iteration_query-def>
+  <Iteration_query-len>473</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|GJQV01093856.1|</Hit_id>
+  <Hit_def>TSA: Xenopus laevis contig_96847, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GJQV01093856</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>762.308</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>CTGAATTCTCACAGGTCCCTGAGCTCATTCTATTCCTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGTTCCAAGAAATATTCTCCCAGCTCACTAACAAGAAGGCATAAATGGGCCGTTCCTGAAAACCACGCCCCCAAATCCCACCGACCCCACCCCTTTTTCCTGATTTCATTTGGTTACTGTCCATTCAACTGTTTGTGGTGCAATAAAAACC</Hsp_qseq>
+      <Hsp_hseq>CTGAATTCTCACAGGTCCCTGAGCTCATTCTATTCCTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGTTCCAAGAAATATTCTCCCAGCTCACTAACAAGAAGGCATAAATGGGCCGTTCCTGGAAACCACG-CCCCAAATCCCACCGACCCCACCCCTTTTTCCTGATTTCATTTGGTTACTGTCCATTCAACTGTTTGTGGTGCAATAAAAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|GHWT01096796.1|</Hit_id>
+  <Hit_def>TSA: Scutiger cf. sikimmensis SH-2019 Unigene67092_All, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHWT01096796</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.505</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>5.05355e-120</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGT</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|GIVH01123129.1|</Hit_id>
+  <Hit_def>TSA: Xenopus tropicalis TRINITY_DN15426_c0_g1_i2, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GIVH01123129</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.747</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>1.65347e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>443</Hsp_align-len>
+      <Hsp_qseq>CCTACAGCTCCTG-CTGAATTCTCACAGGTCCCTGAGCTCATTCTATTCCTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTC-TACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGTTCCAAGAAATATTCTCCCAGCTCACTAACAAGAAGGCATAAATGGGCCGTTCCTGAAAACCACGCCCCCAAATCCCACCGACCCCACCCCTTTTTCCTGATTTCATTTGGTTACTGTCCATTCAACTGTTTGTGGTGCAATAAAAAC</Hsp_qseq>
+      <Hsp_hseq>CCCACAGTTCCTGGCTGAACCCTCACAGGTCCCTGAGCTCCACCTATTACTGCAGACATGAAAGTCCTGGCTCTGGTAGTTCTGGTCATTGCCATCAGCGGCATGGAAGCCGGAGTCGTCAGGAGAGAAGTCCCCAGTGTGGAGGAACTGACCAA-ATTGATTCAAACCTGGGCTGAATATGCACAGACACAGGCACAGGAATGGGTGGCCAAGATCCAAAATGCCGATATCAATGGCCAGGCAGGGCAAATCATGGAAGAAGCCAAAGCTAAACTGGAACCATTTCAGACCCAAATGCTAGAACTCTACACCCAGTTCACTGACAAGAAGGCATAAATGAATCGTTCCTGGAAGCC-CCTCCCCAAATCCTACAGACCCCACCCC--CACCCTGATTTTATTTGGTTACGGTCCATTCAACTGTTTGTGGTGCAATAAAAAC</Hsp_hseq>
+      <Hsp_midline>|| |||| ||||| |||||  |||||||||||||||||||   ||||| ||||| ||||||||||||||||| |||| ||||||||||||||| |||| ||  ||||||||||||| |||| ||||||||| |||||| |||| ||||||||||| |||   ||  |||||||| ||   ||   | || ||  ||||||||||| | | |||  |||| || |  ||  | || | |||| ||| | ||||| | | | ||| |||| || |  |||||||| | |||  |||  | | |||| | | | ||||| ||||| |||||||||||||||||   |||||||| || || |  |||||||||| || |||||||||||     |||||||| |||||||||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|GIVH01123128.1|</Hit_id>
+  <Hit_def>TSA: Xenopus tropicalis TRINITY_DN15426_c0_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GIVH01123128</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.429</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.1976e-59</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>442</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>515</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>GGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTA-CCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCCAGTTCCAAGAAATATTCTCCCAGCTCACTAACAAGAAGGCATAAATGGGCCGTTCCTGAAAACCACGCCCCCAAATCCCACCGACCCCACCCCTTTTTCCTGATTTCATTTGGTTACTGTCCATTCAACTGTTTGTGGTGCAATAAAAAC</Hsp_qseq>
+      <Hsp_hseq>GGCAGCCGGAGTCGTCAGGAGAGAAGTCCCCAGTGTGGAGGAACTGACCAA-ATTGATTCAAACCTGGGCTGAATATGCACAGACACAGGCACAGGAATGGGTGGCCAAGATCCAAAATGCCGATATCAATGGCCAGGCAGGGCAAATCATGGAAGAAGCCAAAGCTAAACTGGAACCATTTCAGACCCAAATGCTAGAACTCTACACCCAGTTCACTGACAAGAAGGCATAAATGAATCGTTCCTGGAAGCC-CCTCCCCAAATCCTACAGACCCCACCCC--CACCCTGATTTTATTTGGTTACGGTCCATTCAACTGTTTGTGGTGCAATAAAAAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| |||| ||||||||| |||||| |||| ||||||||||| |||   || | ||||||| ||   ||   | || ||  ||||||||||| | | |||  |||| || |  ||  | || | |||| ||| | ||||| | | | ||| |||| || |  |||||||| | |||  |||  | | |||| | | | ||||| ||||| |||||||||||||||||   |||||||| || || |  |||||||||| || |||||||||||     |||||||| |||||||||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|GKIA01118018.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN6070_c0_g1_i13, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01118018</Hit_accession>
+  <Hit_len>967</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.129</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.42012e-27</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>686</Hsp_hit-from>
+      <Hsp_hit-to>872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCCCCAATCTAGACCAGATCAGCCAACTCTTGCAGTCCTGGGCTGACACCCTAAAGACCAGCACACAGGAATGGGTGGCCAAGCTCCAGAACGGAGAAGTCCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||| || || |||||||| || || || ||| ||||||| |||| ||| ||  |  | | | |  | |||    ||||||| || ||  | || |||   |||||||||||| | | |||  ||||||||||||| ||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|GKIA01118017.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN6070_c0_g1_i12, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01118017</Hit_accession>
+  <Hit_len>907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.129</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.42012e-27</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>812</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCCCCAATCTAGACCAGATCAGCCAACTCTTGCAGTCCTGGGCTGACACCCTAAAGACCAGCACACAGGAATGGGTGGCCAAGCTCCAGAACGGAGAAGTCCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||| || || |||||||| || || || ||| ||||||| |||| ||| ||  |  | | | |  | |||    ||||||| || ||  | || |||   |||||||||||| | | |||  ||||||||||||| ||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|GKIA01227314.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN66616_c0_g1_i5, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01227314</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.62</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.45427e-25</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCAACGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCCCCAATCTAGACCAGATCAGCCAACTCTTGCAGTCCTGGGCTGACACCCTAAAGACCAGCACACAGGAATGGGTGGCCAAGCTCCAGAACGGAGAAGTCCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||  ||||| || || |||||||| || || || ||| ||||||| |||| ||| ||  |  | | | |  | |||    ||||||| || ||  | || |||   |||||||||||| | | |||  ||||||||||||| ||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|GKIA01227315.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN66616_c0_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01227315</Hit_accession>
+  <Hit_len>827</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.77167e-24</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>693</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCAACGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCCCCAATCTAGACCAGATCAGCCAACTCTTGCAGTCCTGGGCTGACACCCTAAAGACCAGCACACAGGAATGGGTGGCCAATCTCCAGAACGGAGAAGTCCAAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||  ||||| || || |||||||| || || || ||| ||||||| |||| ||| ||  |  | | | |  | |||    ||||||| || ||  | || |||   |||||||||||| | | |||  ||||||||||||| ||  |||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.095</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.17747e-22</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGATAGCGGCTTGGAAGATGGTGTTGTGAAGAGAGAAGTCCCCAATCTAGACCATATCAGCCAACTCTTGCAGTCCAGGGCTGACACCCTAAAGACCAGCAAACAGGAATGGGTGGCCAAGCTCAAGAACGGAGAAGTCCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||  || || |||||||  || || || ||||||||||| |||| ||| ||  |  | | | |  | |||    || |||| || ||  | || |||   | |||||||||| | | |||  || |||||||||| ||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|GKIA01227313.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN66616_c0_g1_i4, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01227313</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.112</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.77167e-24</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCAACGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCCCCAATCTAGACCAGATCAGCCAACTCTTGCAGTCCTGGGCTGACACCCTAAAGACCAGCACACAGGAATGGGTGGCCAATCTCCAGAACGGAGAAGTCCAAGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||  ||||| || || |||||||| || || || ||| ||||||| |||| ||| ||  |  | | | |  | |||    ||||||| || ||  | || |||   |||||||||||| | | |||  ||||||||||||| ||  |||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2581</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>8.59552e-16</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAGCTGGTGTTGTGAAGCGAGAAGTCACCAATCTAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||| || || |||||||| || || || ||| |||||||  ||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|GHBO01125990.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i4, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125990</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.05563e-17</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAG-TCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTTGAAGCTGGTGTTGTGAAGAGGGAGGTCCCCAATATAGACCAGATCACTCAGCTGTTCCAGTCCTGGGCTGACTCCCTAAAGTCCAGCACCCAGGATTGGGT-GACCAAGATCCAGAATGGAGAGGTTCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || || ||||| || || || ||||| || || |||| | | ||  |  | ||  || | ||     ||||||| ||  |  | ||  ||   || ||||| ||| | ||| ||| ||||||| ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|GGUR01176784.1|</Hit_id>
+  <Hit_def>TSA: Anaxyrus baxteri strain A 7039_comp134212_c0_seq1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GGUR01176784</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.05563e-17</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCC</Hsp_qseq>
+      <Hsp_hseq>CAGACATGAAAGTCTTGGCTCTGGCTGTGCTCATCCTCGCCATCAGCGGCCTGGAAGCTGGTGTTGTGAAGAGAGAAGTCCCGAGCGCCCAGCAGGTCTCCGAGCTCTTTAATTCTTGGTTTGAGACCCTCAAAACCAACGCACAGGAATGGGCCGACAAGATCCAGAATGGAGAGATCCAGTCTCAGGCCGGGCAAATCTTAGAACAGACCAAAACCCAGACTGAACCAAT-CAAGGCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| |||  || ||  || | ||| |||| ||  ||||||| || || || ||||||||||| || ||     |  |  |  || || | ||   | | |||   || ||  |||||||| |  |||||||||||  ||||||  ||||||| |||||| |  |  | ||| | | | ||||||||| |||   |||| | || |  |||||||| || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|GGUQ01131383.1|</Hit_id>
+  <Hit_def>TSA: Anaxyrus baxteri strain M 7092_comp125223_c0_seq1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GGUQ01131383</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.05563e-17</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCC</Hsp_qseq>
+      <Hsp_hseq>CAGACATGAAAGTCTTGGCTCTGGCTGTGCTCATCCTCGCCATCAGCGGCCTGGAAGCTGGTGTTGTGAAGAGAGAAGTCCCGAGCGCCCAGCAGGTCTCCGAGCTCTTTAATTCTTGGTTTGAGACCCTCAAAACCAACGCACAGGAATGGGCCGACAAGATCCAGAATGGAGAGATCCAGTCTCAGGCCGGGCAAATCTTAGAACAGACCAAAACCCAGACTGAACCAAT-CAAGGCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| |||  || ||  || | ||| |||| ||  ||||||| || || || ||||||||||| || ||     |  |  |  || || | ||   | | |||   || ||  |||||||| |  |||||||||||  ||||||  ||||||| |||||| |  |  | ||| | | | ||||||||| |||   |||| | || |  |||||||| || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|GIVH01030891.1|</Hit_id>
+  <Hit_def>TSA: Xenopus tropicalis TRINITY_DN78753_c0_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GIVH01030891</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>3.00013e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>394</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>CAGGTCCCTGAGCTCATTCTATTCCTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATT</Hsp_qseq>
+      <Hsp_hseq>CAGGTCCCTGAGCTCCACCTATTACTGCAAACATGAAAGTCCTGGCTCTGGTAGTTCTGGTCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||   ||||| ||||||||||||||||||||||| |||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|GKIA01057651.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN66616_c1_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01057651</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5531</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>1.04715e-14</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGG</Hsp_qseq>
+      <Hsp_hseq>CAAAAATGAAGGTCCTGGCTTTGGTCGTTATTGTCATCGCCGTTAGCGGCTTGTAAGCTGGTGTTGTGAAGCGAGACGTCCCCAATCTAGACCAGATCAGCAAACTCTTGCAGTCCTGGGCAGACACCATAAATACCAGCACACAGGAATGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||| |||||||||||||| ||| | ||||| ||||| || || ||| |||| || || || ||| |||| || |||| ||| ||  |  | | |||  | |||    ||||||| || ||  | || |||   ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|GKIA01057650.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN66616_c4_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01057650</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5531</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>1.04715e-14</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAA</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGACCTGGCTTTGGTCGTTCATGACATCGCCGTTAGCGGCTTGGAATCTGGAGTTGTGAAGCGAGAAGTCCCCAAACTAGACCAGATCAGCCAACTCTAGCAGTCCTGGGCTGACAACCTAAAGACCAGCACACAGGAATGTGTGGCCTAGCTCCAGAACGGAGAAGTAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| | |||||||||||| ||||  | ||| ||||| || || |||||| | ||||| || ||| ||||||| ||||  || ||  |  | | | |  | | |    ||||||| || |   | || |||   |||||||||||  | | | |  ||||||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|GHWT01030320.1|</Hit_id>
+  <Hit_def>TSA: Scutiger cf. sikimmensis SH-2019 Unigene607_All, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHWT01030320</Hit_accession>
+  <Hit_len>716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>3.65491e-14</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>447</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAA</Hsp_qseq>
+      <Hsp_hseq>GCAAACATGAAAGTCCTTGCTTTGGTTGTCCTCGTTATTGCCGTCAGCGGCTTGGAAGCTGGCGTAGTGAAGAGGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||| || || || ||||||||||| || |||||||| || || || ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|GHCG01056390.1|</Hit_id>
+  <Hit_def>TSA: Rhinella arenarum DN8882_c0_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHCG01056390</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.848</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>3.65491e-14</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAGGTGAAAGCCCAGACAGAGGAAATCTTAGCACAAGTCAAATCTCACATGGAACCAATACAGGGCC</Hsp_qseq>
+      <Hsp_hseq>CAGACATGAAAGTCTTGGCTCTTGCTGTGCTCATCCTCGCCATCAGCGGCCTGGAAGCTGGCGTTGTGAAGAGAGAAGTCCCGAGTGCCCAGCAGGTCTCAGAGCTCTTTAATTCCTGGTTTGAGACCCTCAAAAGCAACGCACAGGAATGGGCCGACAAGATCCAGAATGGAGAGATCCAGGCTCAGGCCGGGCAATTCTTGGAACAGACCAAAACCCAGACTGAACCAAT-CAAGGCC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| | |  || ||  || | ||| |||| ||  ||||||| || || || ||||||||||| || |||    |  |  |  |  || | ||   | |||||   || ||  |||||| | |  |||||||||||  ||||||  ||||||| |||||| |  | || ||| | | | || |||| | |||   |||| | || |  |||||||| || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|GHBO01125994.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i9, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125994</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.0446</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.27569e-13</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGA--TGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAG-TCCAGAACGGAGAGGTGAAAGCCCA</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTTGAAGCTGGGGTTGGGAAGAAGGAGGTCCCCAAACTACACCAGAAC--ACTCAGCTGTTCCAGGCCTGGGCTGACACCCTAAAGTCCAGCACCCAGGATTGGGT-GACCAAGATCCAGAATGGAGAGGTTCAAGCCCA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || || ||||| || || |  ||||  || || ||||  ||  |   ||||  ||  || | ||     ||||||| || ||  | ||  ||   || ||||| ||| | ||| ||| ||||||| ||||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|GHBO01125992.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i7, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125992</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.55411e-12</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGA</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAGCCGGTGTTGTGTAGAGGGGGGGCCCCAATCTAGA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || ||||||||||| || ||  |||| |  |  |||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|GHBO01125988.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125988</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.55411e-12</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGA</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAGCCGGTGTTGTGTAGAGGGGGGGCCCCAATCTAGA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || ||||||||||| || ||  |||| |  |  |||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|GEGL01032295.1|</Hit_id>
+  <Hit_def>TSA: Megophrys comp102205_c0 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GEGL01032295</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.5362</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>5.42436e-12</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>400</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCC</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTTCTGGCTTTGGTCGTCCTCATTATTGCCGTCAGCGGTTTGGAAGCTGGTGTAGTTAAGAGGGAAGTCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||| || ||||||||||| || ||  | ||||||||||| || |||||||| || || || ||||| ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|GKIA01086543.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN6070_c0_g1_i9, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01086543</Hit_accession>
+  <Hit_len>1110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.5194</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>633</Hsp_hit-from>
+      <Hsp_hit-to>689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAG</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||| || || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|GKIA01030643.1|</Hit_id>
+  <Hit_def>TSA: Spea multiplicata TRINITY_DN6070_c0_g1_i8, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKIA01030643</Hit_accession>
+  <Hit_len>813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.5194</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAG</Hsp_qseq>
+      <Hsp_hseq>CAAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||| ||||| ||||| ||||| || || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|GEGG01042616.1|</Hit_id>
+  <Hit_def>TSA: Rhacophorus dennysi comp216911_c0 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GEGG01042616</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.5194</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>CTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGT</Hsp_qseq>
+      <Hsp_hseq>CTGCCATCATGAAAGTCTTGGCCCTCGTTGTCCTGGTCATCGCCATCAGCGGCTTGGAAGCCGGCGTTGTGAAGAGGGAGGT</Hsp_hseq>
+      <Hsp_midline>|||| | |||||||||| ||||  | || || |||||||| ||| |||| || ||||||||||| || || ||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|GHMZ01002711.1|</Hit_id>
+  <Hit_def>TSA: Zhangixalus omeimontis isolate Amphibian comp2019242_c0, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHMZ01002711</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.6177</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>CTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CTGCCATCATGAAAGTCTTGGCCCTCGTTGTCCTGGTCATCGCCATCAGCGGCTTGGAAGCCGGCGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||| | |||||||||| ||||  | || || |||||||| ||| |||| || ||||||||||| || || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|GGNS01048791.1|</Hit_id>
+  <Hit_def>TSA: Rana temporaria TRINITY_DN125406_c2_g2_i6 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GGNS01048791</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.6177</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAG</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTCGTGAAGAGAGAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  |||||||||| || || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|GEGH01045879.1|</Hit_id>
+  <Hit_def>TSA: Polypedates megacephalus comp50299_c0 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GEGH01045879</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.6177</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.80989e-09</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>CTGCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CTGCCACCATGAAAGTCTTGGCCCTCGTCGTCCTGGTCATCGCCGTCAGCGGCCTGGAAGCCGGCGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||| | |||||||||| ||||  | || || |||||||| |||||||| ||  |||||||||| || || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|GFMT01042596.1|</Hit_id>
+  <Hit_def>TSA: Rhinella marina Rm424880d5161917t1 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GFMT01042596</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.716</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>9.80748e-09</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>CAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAGTGCCCAGTCTGGATGAACTGACCAAGATTTTGTCTACCTGGGCCGATACTGTCAAAACCCAAACACAGGAATGGATCGACAAAGTCCAGAACGGAGAG</Hsp_qseq>
+      <Hsp_hseq>CAGACATGAAAGTCTTGGCTCTTGCTGTGCTCATCCTCGCCATCAGCGGCCTGGAAGCTGGCGTTGTGAAGAGAGAGGTCCCGAGTGCCCAGCAGGTCTCAGAGCTCTTTAATTCCTGGTTTGACACCCTCAAAAGCAACGCACAGGAATGGGCCGACAAGATCCAGAATGGAGAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| | |  || ||  || | ||| |||| ||  ||||||| || || || |||||||| || || |||    |  |  |  |  || | ||   | |||||   || ||  |||||| | |  |||||||||||  ||||||  ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|GHBO01125991.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i6, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125991</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2076</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.1948e-07</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>639</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAG</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGGAG</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|GHBO01125989.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i3, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125989</Hit_accession>
+  <Hit_len>1072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2076</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.1948e-07</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>877</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAG</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTTGGGAG</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1226265434|dbj|LH381261.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig29313, mRNA sequence</Hit_def>
+  <Hit_accession>LH381261</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1226265374|dbj|LH381201.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig29253, mRNA sequence</Hit_def>
+  <Hit_accession>LH381201</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1226253499|dbj|LH380687.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig28739, mRNA sequence</Hit_def>
+  <Hit_accession>LH380687</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1226249114|dbj|LH353456.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01602, mRNA sequence</Hit_def>
+  <Hit_accession>LH353456</Hit_accession>
+  <Hit_len>984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1226249111|dbj|LH353453.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01599, mRNA sequence</Hit_def>
+  <Hit_accession>LH353453</Hit_accession>
+  <Hit_len>1001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1226249110|dbj|LH353452.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01598, mRNA sequence</Hit_def>
+  <Hit_accession>LH353452</Hit_accession>
+  <Hit_len>1003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1226249107|dbj|LH353449.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01595, mRNA sequence</Hit_def>
+  <Hit_accession>LH353449</Hit_accession>
+  <Hit_len>1033</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1226249106|dbj|LH353448.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01594, mRNA sequence</Hit_def>
+  <Hit_accession>LH353448</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1226249105|dbj|LH353447.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01593, mRNA sequence</Hit_def>
+  <Hit_accession>LH353447</Hit_accession>
+  <Hit_len>1048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1226249104|dbj|LH353446.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01592, mRNA sequence</Hit_def>
+  <Hit_accession>LH353446</Hit_accession>
+  <Hit_len>1058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1226249102|dbj|LH353444.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01590, mRNA sequence</Hit_def>
+  <Hit_accession>LH353444</Hit_accession>
+  <Hit_len>1053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1226249101|dbj|LH353443.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01589, mRNA sequence</Hit_def>
+  <Hit_accession>LH353443</Hit_accession>
+  <Hit_len>1110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1226249099|dbj|LH353441.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01587, mRNA sequence</Hit_def>
+  <Hit_accession>LH353441</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1226249094|dbj|LH353436.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01582, mRNA sequence</Hit_def>
+  <Hit_accession>LH353436</Hit_accession>
+  <Hit_len>1338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1226249091|dbj|LH353433.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01579, mRNA sequence</Hit_def>
+  <Hit_accession>LH353433</Hit_accession>
+  <Hit_len>1357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1226249090|dbj|LH353432.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01578, mRNA sequence</Hit_def>
+  <Hit_accession>LH353432</Hit_accession>
+  <Hit_len>1355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1226249086|dbj|LH353428.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01574, mRNA sequence</Hit_def>
+  <Hit_accession>LH353428</Hit_accession>
+  <Hit_len>1387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1226249085|dbj|LH353427.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01573, mRNA sequence</Hit_def>
+  <Hit_accession>LH353427</Hit_accession>
+  <Hit_len>1395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1226249084|dbj|LH353426.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01572, mRNA sequence</Hit_def>
+  <Hit_accession>LH353426</Hit_accession>
+  <Hit_len>1402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1226249083|dbj|LH353425.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01571, mRNA sequence</Hit_def>
+  <Hit_accession>LH353425</Hit_accession>
+  <Hit_len>1412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|1226249081|dbj|LH353423.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01569, mRNA sequence</Hit_def>
+  <Hit_accession>LH353423</Hit_accession>
+  <Hit_len>1407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|1226249080|dbj|LH353422.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01568, mRNA sequence</Hit_def>
+  <Hit_accession>LH353422</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|1226249078|dbj|LH353420.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01566, mRNA sequence</Hit_def>
+  <Hit_accession>LH353420</Hit_accession>
+  <Hit_len>1522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|1226249073|dbj|LH353415.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01561, mRNA sequence</Hit_def>
+  <Hit_accession>LH353415</Hit_accession>
+  <Hit_len>1981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|1226249070|dbj|LH353412.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01558, mRNA sequence</Hit_def>
+  <Hit_accession>LH353412</Hit_accession>
+  <Hit_len>1998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|1226249069|dbj|LH353411.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01557, mRNA sequence</Hit_def>
+  <Hit_accession>LH353411</Hit_accession>
+  <Hit_len>2000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|1226249066|dbj|LH353408.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01554, mRNA sequence</Hit_def>
+  <Hit_accession>LH353408</Hit_accession>
+  <Hit_len>2030</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|1226249065|dbj|LH353407.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01553, mRNA sequence</Hit_def>
+  <Hit_accession>LH353407</Hit_accession>
+  <Hit_len>2038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|1226249064|dbj|LH353406.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01552, mRNA sequence</Hit_def>
+  <Hit_accession>LH353406</Hit_accession>
+  <Hit_len>2045</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|1226249063|dbj|LH353405.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01551, mRNA sequence</Hit_def>
+  <Hit_accession>LH353405</Hit_accession>
+  <Hit_len>2055</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|1226249061|dbj|LH353403.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01549, mRNA sequence</Hit_def>
+  <Hit_accession>LH353403</Hit_accession>
+  <Hit_len>2050</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|1226249060|dbj|LH353402.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01548, mRNA sequence</Hit_def>
+  <Hit_accession>LH353402</Hit_accession>
+  <Hit_len>2107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|1226249058|dbj|LH353400.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig01546, mRNA sequence</Hit_def>
+  <Hit_accession>LH353400</Hit_accession>
+  <Hit_len>2165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|1226210939|dbj|LH246510.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: comp190250_c0_seq1, mRNA sequence</Hit_def>
+  <Hit_accession>LH246510</Hit_accession>
+  <Hit_len>1157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>544</Hsp_hit-from>
+      <Hsp_hit-to>615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|1226165083|dbj|LH376471.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana mRNA, contig: isotig24523, mRNA sequence</Hit_def>
+  <Hit_accession>LH376471</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.42806e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>591</Hsp_hit-from>
+      <Hsp_hit-to>662</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|GKLC01412017.1|</Hit_id>
+  <Hit_def>TSA: Lithobates pipiens 6701790, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GKLC01412017</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|GJEE01021557.1|</Hit_id>
+  <Hit_def>TSA: Amolops wuyiensis TRINITY_DN18536_c2_g11_i5, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GJEE01021557</Hit_accession>
+  <Hit_len>731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTTGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCTGGAGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  ||||||| ||||| || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|GJEE01021554.1|</Hit_id>
+  <Hit_def>TSA: Amolops wuyiensis TRINITY_DN18536_c2_g11_i4, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GJEE01021554</Hit_accession>
+  <Hit_len>678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTTGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCTGGAGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  ||||||| ||||| || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|GJEE01021552.1|</Hit_id>
+  <Hit_def>TSA: Amolops wuyiensis TRINITY_DN18536_c2_g11_i3, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GJEE01021552</Hit_accession>
+  <Hit_len>968</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTTGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCTGGAGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  ||||||| ||||| || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|GGLB01156041.1|</Hit_id>
+  <Hit_def>TSA: Odorrana tormota Unigene67549_All transcribed RNA sequence</Hit_def>
+  <Hit_accession>GGLB01156041</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTTGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  |||||||||| || || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gb|GGLB01055383.1|</Hit_id>
+  <Hit_def>TSA: Odorrana tormota CL16968.Contig1_All transcribed RNA sequence</Hit_def>
+  <Hit_accession>GGLB01055383</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGTGGCCTGGAAGCCGGTGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  |||||||||| || || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gb|GDDO01105572.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-349909 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01105572</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|GDDO01098681.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-197929 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01098681</Hit_accession>
+  <Hit_len>887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|GDDO01098429.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-192478 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01098429</Hit_accession>
+  <Hit_len>965</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>845</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|GDDO01098381.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-191466 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01098381</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|GDDO01098165.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-186622 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01098165</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|GDDO01096559.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-152366 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01096559</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|451215361|gb|GAEG01030218.1|</Hit_id>
+  <Hit_def>TSA: Rana clamitans Lithobates.clamitans_contig_30218 mRNA sequence</Hit_def>
+  <Hit_accession>GAEG01030218</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5025</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|1074238431|emb|HADV01002962.1|</Hit_id>
+  <Hit_def>TSA: Bombina variegata variegata, contig var_c5357, transcribed RNA sequence</Hit_def>
+  <Hit_accession>HADV01002962</Hit_accession>
+  <Hit_len>1677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>902</Hsp_hit-from>
+      <Hsp_hit-to>980</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAG</Hsp_qseq>
+      <Hsp_hseq>GCAGACATGAAGGTCCTTGCACTGGTTGTATTGATCATCGCTGTTAGCGGATTGGAAGCTGGACTTGTGAAGAGGGAAG</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||  |||| ||  || |||| || || || ||||||||||| ||| | || ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|1074213001|emb|HADU01000740.1|</Hit_id>
+  <Hit_def>TSA: Bombina bombina, contig bom_rep_c6614, transcribed RNA sequence</Hit_def>
+  <Hit_accession>HADU01000740</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.45556e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAG</Hsp_qseq>
+      <Hsp_hseq>GCAGACATGAAGGTCCTTGCACTGGTTGTATTGATCATCGCTGTTAGCGGATTGGAAGCTGGACTTGTGAAGAGGGAAG</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||  |||| ||  || |||| || || || ||||||||||| ||| | || ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|GHBO01125995.1|</Hit_id>
+  <Hit_def>TSA: Scaphiopus couchii TRINITY_DN166828_c2_g2_i10, transcribed RNA sequence</Hit_def>
+  <Hit_accession>GHBO01125995</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6992</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.0804e-06</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>AAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATT</Hsp_qseq>
+      <Hsp_hseq>AAACATGAAGGTCCTGGCTTTGGTCGTTCTTGTCATCGCCGTTAGCGGCTT</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||||| ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|1848238972|dbj|ICLD02020573.1|</Hit_id>
+  <Hit_def>TSA: Pyxicephalus adspersus mRNA, AF_unigene_DN22279_c0_g1, mRNA sequence</Hit_def>
+  <Hit_accession>ICLD02020573</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.77323e-05</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTTGTTGTCCTCGTCATCGCCATCAGTGGCCTTGAAGCCGGCGTTGTGAAGAGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||||||  | |||||||| || || ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|GDDO01104399.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-323113 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01104399</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.77323e-05</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGTCTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGGAGCCGGTGTTGTGAAGAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||  | || || || ||||| ||| |||| ||  ||| |||||| || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|1074455994|emb|HADT01013446.1|</Hit_id>
+  <Hit_def>TSA: Bombina orientalis, contig c15968_g1_i1, transcribed RNA sequence</Hit_def>
+  <Hit_accession>HADT01013446</Hit_accession>
+  <Hit_len>804</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.0924</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.18919e-05</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GCAAACATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGAGAAG</Hsp_qseq>
+      <Hsp_hseq>GCAGACATGAAGGTCCTTGCACTGGTTGTATTGATCATCGCTGTTAGCGGATTGGAGGCTGGACTTGTGAAGAGGGAAG</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||  |||| ||  || |||| || || || |||||||| || ||| | || ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|GDDO01091471.1|</Hit_id>
+  <Hit_def>TSA: Rana catesbeiana contig-42682 transcribed RNA sequence</Hit_def>
+  <Hit_accession>GDDO01091471</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.000216024</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CATGAAAGTCCTGGCTTTGGTGGTTCTGGTCATTGCCGTCAGTGGATTGGAAGCCGGAGTGGTCAAGAGA</Hsp_qseq>
+      <Hsp_hseq>CATGAAAGACTTGGCCCTCGTCGTCCTCGTCATCGCCATCAGCGGCCTGGAAGCCGGTGTTGTGAAGAGA</Hsp_hseq>
+      <Hsp_midline>|||||||| | ||||  | || || || ||||| ||| |||| ||  |||||||||| || || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29017843</Statistics_db-num>
+      <Statistics_db-len>1904276356</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
