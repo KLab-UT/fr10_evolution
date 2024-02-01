@@ -149,8 +149,8 @@ VDVDSLRSRLTPYSEEVRVKLVEKLEELKANAGPRAEEYRAQLSQHI-------------
 MKIAAFTLALLFITG--GQARVL-WQEDA-SQPEL-SLWSVLESYLEVLKQ-------EV
 ESLDVSKKYELKVDNGLKKVISYGQQLQEKLSPANKELIQKLIQTTVDVYKKIQADIEEI
 RSQVAPHTKEAFIKLSSHILEYRKNTQPLIEELKESIKNNTQDFQKKMTPYVEGLRDNVR
-SEFQDLRTNLGPLYDVIQKKISSSVEDIW-------------------------------
------------KTVTPVVKELYEKFPPINEDLKTRLMAVWEAINKVYTPQA---------
+SEFQDLRTNLGPLYDVIQKKISSSVEDIWK------------------------------
+------------TVTPVVKELYEKFPPINEDLKTRLMAVWEAINKVYTPQA---------
 ---------
 >XP_004076021.1 PREDICTED: apolipoprotein A-I-like isoform 2 [Oryzias latipes]
 MKF--LALALLLVVG--SQAASL--QADA--PSQLAQIRSAADVYMTQVKQGLIKALDQL
@@ -194,10 +194,17 @@ QAKLLPYAKEFRQRLNESVEDYRQKLVPMAENLKDQAVQNAQDLHEKMTPYANEFRERVK
 TNVDVLQQKLTLYTDTVRETINQRLEEFRQNASPYASDFHEKLVVNM-------------
 -------EEMKQRMNPLAKSIKERLTQLTENLRTKLSSMWESFSQSFN------------
 ---------
->CM053038.1_Lithobates_sylvaticus Hit for: U44831
-MKVLALVVLVIAISG--LEAGVV--KRDA--QDPLQQITDI----FQGISKTLQEKFANA
-EIPSQTQELGAKIQAHGETISASIQKWIEEMVALSK------------------------
----------------------------------------------QKLS-----------
+>GJQV01093856 Xenopus laevis drp10
+MKVLALVVLVIAVSG--LEAGVV--KREV---PSLDELTKILSTWADTVKTQTQEWIDKV
+QNGEVKAQ----------------------------------------------------
+---------------------------------------------------TEEILAQVK
+SHMEPIQGQFQEIFSQLTNKKA--------------------------------------
 ------------------------------------------------------------
+---------
+>JAQSEC010000013 Lithobates sylvaticus fr10
+MKVLALVVLVIAISG--LEAGVV--KRDA--QDPLQQITDIFQGISKTLQE-------KF
+ANAEIPSQ----------------------------------------------------
+---------------------------------------------------TQELGAKIQ
+AHGETISASIQKWIEEMVALSKQKLS----------------------------------
 ------------------------------------------------------------
 ---------

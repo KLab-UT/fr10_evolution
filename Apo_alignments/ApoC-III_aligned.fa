@@ -1,110 +1,115 @@
 >NP_000474.2 apolipoprotein C-II precursor [Homo sapiens]
-MGTRLLP-----ALFLVLLVLGFE------------------------------------
+---------MGTRLLPALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGTQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEK
-TYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGTQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLY
+EKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
 >NP_001230828.1 apolipoprotein C-II precursor [Pan troglodytes]
-MGTRLLP-----ALFLVLLVLGFE------------------------------------
+---------MGTRLLPALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGTQQPQQDETPSPTFLTQVKESLSSYWESAKTAAQNLYEK
-TYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGTQQPQQDETPSPTFLTQVKESLSSYWESAKTAAQNLY
+EKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
 >XP_018870627.1 apolipoprotein C-II [Gorilla gorilla gorilla]
-MGTRLLP-----ALFLVLLVLGFE------------------------------------
+---------MGTRLLPALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGTQQPQQDETPSLTFLTQVKESLSSYWESAKTAAQNLYEK
-TYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGTQQPQQDETPSLTFLTQVKESLSSYWESAKTAAQNLY
+EKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
 >XP_009231041.1 apolipoprotein C-II [Pongo abelii]
-MGTRFLP-----ALFLVLLVLGFE------------------------------------
+---------MGTRFLPALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGAPPPQQDELPSPAFLTQVQESLSSYWESAKAAAQNLYEK
-TYLPAVDEKLRDLYSKSTTAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGAPPPQQDELPSPAFLTQVQESLSSYWESAKAAAQNLY
+EKTYLPAVDEKLRDLYSKSTTAMSTYTGIFTDQVLSVLKGEE----
 >XP_009196973.1 apolipoprotein C-II [Papio anubis]
-MGTRFLL-----ALCLVLLVLGFE------------------------------------
+---------MGTRFLLALCLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGAQLPQQDERPSPALLSQVQESLSSYWESAKAAAQKLYEK
-TYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGAQLPQQDERPSPALLSQVQESLSSYWESAKAAAQKLY
+EKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
 >XP_002801531.1 PREDICTED: apolipoprotein C-II isoform 2 [Macaca mulatta]
-MGTRFLL-----ALCLVLLVLGFE------------------------------------
+---------MGTRFLLALCLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGAQLPQQDELPSPALLSRVQESLSSYWESAKAAAQKLYEK
-TYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
+------LL-----VLGFE--VQGAQLPQQDELPSPALLSRVQESLSSYWESAKAAAQKLY
+EKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE----
 >XP_004015363.1 PREDICTED: apolipoprotein C-II isoform X2 [Ovis aries]
-MGTRYFL-----VGFLILLVLGFE------------------------------------
+---------MGTRYFLVGFLI---------------------------------------
 ------------------------------------------------------------
-------------------AQGAHVPQQDEASSPALLTKMQESLLGYWDTAKAAAHKLYKK
-TYLPTVDEKIRDIYSKSTAAVTTYAGIITDQVFSILSGED----
+------LL-----VLGFE--AQGAHVPQQDEASSPALLTKMQESLLGYWDTAKAAAHKLY
+KKTYLPTVDEKIRDIYSKSTAAVTTYAGIITDQVFSILSGED----
 >XP_005701831.1 PREDICTED: apolipoprotein C-II isoform X2 [Capra hircus]
-MGTRYFL-----VGFLILLVLGFE------------------------------------
+---------MGTRYFLVGFLI---------------------------------------
 ------------------------------------------------------------
-------------------AQGAHVPQQDEASSPALLTKMQKSLLGYWDTAKAAAHKLYKK
-TYLPTVDEKIRDIYSKSTAAVTTYAGIITDQVFSILSGED----
+------LL-----VLGFE--AQGAHVPQQDEASSPALLTKMQKSLLGYWDTAKAAAHKLY
+KKTYLPTVDEKIRDIYSKSTAAVTTYAGIITDQVFSILSGED----
 >NP_001095850.1 apolipoprotein C-II precursor [Bos taurus]
-MGTRYFL-----VGFLILLVLGFE------------------------------------
+---------MGTRYFLVGFLI---------------------------------------
 ------------------------------------------------------------
-------------------VQGAHVPQQDEASSPALLTQVQESLLGYWDTAKAAAQKLYKK
-TYLPAVDEKIRDIYSKSTAAVTTYAGIITDQVFSVLSGKD----
+------LL-----VLGFE--VQGAHVPQQDEASSPALLTQVQESLLGYWDTAKAAAQKLY
+KKTYLPAVDEKIRDIYSKSTAAVTTYAGIITDQVFSVLSGKD----
 >XP_005653336.1 apolipoprotein C-II isoform X1 [Sus scrofa]
-MGARSFL-----ALFLILLLLASE------------------------------------
+---------MGARSFLALFLI---------------------------------------
 ------------------------------------------------------------
-------------------AQGAHVPPQDEPDSPALLTKVQESLYGYWDTAKATAQDLYRK
-TYLPTVDEKIRDMYSKSTAAVTIYAGIFTDQVLSLLTGDH----
+------LL-----LLASE--AQGAHVPPQDEPDSPALLTKVQESLYGYWDTAKATAQDLY
+RKTYLPTVDEKIRDMYSKSTAAVTIYAGIFTDQVLSLLTGDH----
 >XP_001502426.1 apolipoprotein C-II [Equus caballus]
-MGTRYLL-----ALFLVLLALAFE------------------------------------
+---------MGTRYLLALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGTHEPQEDEAASTPLLTKVQESLLSYWDSAKTAAQDLYKK
-TSLTTVDEKIRDMYSKSTAAVSTYAEILTDQFLSLLKGDS----
+------LL-----ALAFE--VQGTHEPQEDEAASTPLLTKVQESLLSYWDSAKTAAQDLY
+KKTSLTTVDEKIRDMYSKSTAAVSTYAEILTDQFLSLLKGDS----
 >NP_001003368.1 apolipoprotein C-II precursor [Canis lupus familiaris]
-MGTRYLL-----VLLLVLLVLGFE------------------------------------
+---------MGTRYLLVLLLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGAHESQQDETTSSALLTQMQESLYSYWGTARSAAEDLYKK
-AYPTTMDEKIRDIYSKSTAAVSTYAGIFTDQLLSMLKGDS----
+------LL-----VLGFE--VQGAHESQQDETTSSALLTQMQESLYSYWGTARSAAEDLY
+KKAYPTTMDEKIRDIYSKSTAAVSTYAGIFTDQLLSMLKGDS----
 >XP_003997697.1 PREDICTED: apolipoprotein C-II [Felis catus]
-MGTRCLL-----VPLLVLLVLRCD------------------------------------
+---------MGTRCLLVPLLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGDDMARQDEATGPTLLSKMQESLYGYWGSAKAAAQDLYKK
-TYLTTVDEKIRDMYSTSTAAVRIYTGILTDQILSMLSGDS----
+------LL-----VLRCD--VQGDDMARQDEATGPTLLSKMQESLYGYWGSAKAAAQDLY
+KKTYLTTVDEKIRDMYSTSTAAVRIYTGILTDQILSMLSGDS----
 >NP_001264873.1 apolipoprotein C-II precursor [Mus musculus]
-MGSRFFL-----ALFLVILMLGNE------------------------------------
+---------MGSRFFLALFLV---------------------------------------
 ------------------------------------------------------------
-------------------VQGN---QEDDSGSLALLGTVQGSLLSYWTSAKEVAKDLYQK
-TYPISMDEKLRDMYSKSSAAMSTYAGIFTDQLLTLLRGE-----
+------IL-----MLGNE--VQGN---QEDDSGSLALLGTVQGSLLSYWTSAKEVAKDLY
+QKTYPISMDEKLRDMYSKSSAAMSTYAGIFTDQLLTLLRGE-----
 >NP_001078821.1 apolipoprotein C-II precursor [Rattus norvegicus]
-MGSRFFL-----ALFLALLVLGNE------------------------------------
+---------MGSRFFLALFLA---------------------------------------
 ------------------------------------------------------------
-------------------VQGT---EEDDPGSSALLDTVQEHLFSYWNSAKAAAGELYQK
-TYLTSVDEKLRDMYSKSSAAMTTYAGIFTDQLLTLLKGE-----
+------LL-----VLGNE--VQGT---EEDDPGSSALLDTVQEHLFSYWNSAKAAAGELY
+QKTYLTSVDEKLRDMYSKSSAAMTTYAGIFTDQLLTLLKGE-----
 >XP_008250476.1 PREDICTED: apolipoprotein C-II [Oryctolagus cuniculus]
-MGPRLLL-----AVCLILLVLGCGE-----------------------------------
+---------MGPRLLLAVCLI---------------------------------------
 ------------------------------------------------------------
------------------LVQGSHLPQNDEPASPALLTKVQESLSSYWDSAKAAAQGLYNN
-TYLTAVDEKIRDMYSKSTAAMTTYASIVTDQLLTLLKGDP----
+------LL-----VLGCGELVQGSHLPQNDEPASPALLTKVQESLSSYWDSAKAAAQGLY
+NNTYLTAVDEKIRDMYSKSTAAMTTYASIVTDQLLTLLKGDP----
 >XP_007491646.1 PREDICTED: apolipoprotein C-II [Monodelphis domestica]
 MVSPRLTCPRGSSILLWVLVLAWATVGHGEDVLDSQHLEEGTEEGWKVSRFFWKAVEPLL
 TKATESWNWIRTPGTVRGYLQTYYEEHVNGLGLRAQNWLYWADEQTHIWGFSSSCHHGCQ
-EPPSPYLLPAAGAAAGLSSPGCQVPDFDGKKSPTMLSKFQSQLYGYWESAKAKAHQIYEK
-VQIPPMDQNIRHAYNKGSEAMTTYTGILTDQIIHLLKGDQ----
+EPPSPYLLPAAGAAAGLS--SPGCQVPDFDGKKSPTMLSKFQSQLYGYWESAKAKAHQIY
+EKVQIPPMDQNIRHAYNKGSEAMTTYTGILTDQIIHLLKGDQ----
 >XP_007659067.1 apolipoprotein C-II isoform X2 [Ornithorhynchus anatinus]
-MGPQ-GI-----SSFLLLLLLSSV------------------------------------
+---------MGPQ-GISSFLL---------------------------------------
 ------------------------------------------------------------
-------------------VQAARLRREE---PQTLLSRVQDTLVGYLGAVSTTARELYEK
-AKNTGLNEKIRDAYSKSTAAMTTYTGILTDQIYHLWAGDQ----
+------LL-----LLSSV--VQAARLRREE---PQTLLSRVQDTLVGYLGAVSTTARELY
+EKAKNTGLNEKIRDAYSKSTAAMTTYTGILTDQIYHLWAGDQ----
 >XP_004920591.1 apolipoprotein C-II [Xenopus tropicalis]
-MKASQVI-----AVSLLLLLLSTG------------------------------------
+---------MKASQVIAVSLL---------------------------------------
 ------------------------------------------------------------
-------------------IESYRIQKRE---SPTYLSQIQEAVSSSWEQVANKAQDWFEA
-VRNHQVEEKAKEIYEKGTNAVKPYYNIFSDQLYHWWYAQ-----
+------LL-----LLSTG--IESYRIQKRE---SPTYLSQIQEAVSSSWEQVANKAQDWF
+EAVRNHQVEEKAKEIYEKGTNAVKPYYNIFSDQLYHWWYAQ-----
 >NP_001027890.1 apolipoprotein C-II precursor [Takifugu rubripes]
-MSKLLAI-----TALLVLLVVG--------------------------------------
+---------MSKLLAITALLV---------------------------------------
 ------------------------------------------------------------
-------------------AESFRVPRETDE-EQGTLSRITDSFRSYYSRAVNTASAYLEG
-IKGLKFEEKAKNLYSDTKTVVRTYAEIVQDQLYHALYAQQ----
+------LL-----VVG----AESFRVPRETDE-EQGTLSRITDSFRSYYSRAVNTASAYL
+EGIKGLKFEEKAKNLYSDTKTVVRTYAEIVQDQLYHALYAQQ----
 >XP_691110.1 PREDICTED: apolipoprotein C-II [Danio rerio]
-MNKILAI-----TVFVAFLALG--------------------------------------
+---------MNKILAITVFVA---------------------------------------
 ------------------------------------------------------------
-------------------AESFRVPRQAED-EKGTIAVVVDTLKSYYDQSVDTASGYVET
-IKGYKLEEKAKTIYSDTVRAVGTYAGIFQDQLYHILYSQDSH--
->CM053038.1_Lithobates_sylvaticus Hit for: U44831
-MK---VL-----ALVVLVIAIS--------------------------------------
+------FL-----ALG----AESFRVPRQAED-EKGTIAVVVDTLKSYYDQSVDTASGYV
+ETIKGYKLEEKAKTIYSDTVRAVGTYAGIFQDQLYHILYSQDSH--
+>GJQV01093856 Xenopus laevis drp10
+---------MK---VLALVVL---------------------------------------
 ------------------------------------------------------------
------------------GLEAGVVKRD----AQDPLQQITDIFQG-------ISKTLQEK
-FANAEIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKQKLS
+------VI----AVSG----LEAGVVKRE----VPS-LDELTKILSTWADTVKTQTQEWI
+DKVQNGEVKAQTEEILAQVKSHMEPIQGQFQEIFSQLTNKKA----
+>JAQSEC010000013 Lithobates sylvaticus fr10
+---------MK---VLALVVL---------------------------------------
+------------------------------------------------------------
+------VI----AISG----LEAGVVKRD----AQDPLQQITDIFQGISKTLQ-------
+EKFANAEIPSQTQELGAKIQAHGETISASIQKWIEEMVALSKQKLS
