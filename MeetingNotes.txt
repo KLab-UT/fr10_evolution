@@ -1,5 +1,9 @@
+1 February 2024
+from meeting with Reagan and Randy
+  To visualized the normalized phylogenetic distance of fr10-Xenopus in the apolipoprotein trees, we will calculate pairwise phylogenetic distance for all tips and then divide the fr10-Xenopus distance by the values for all fr10-other_tips (Xen-other_tips/Xen-fr10). This will give us a series of data that we can plot, and we can identify the genes where the values are highest (showing the highest phylogenetic distance).
+
 30 January 2024
-from meeting with Reagan
+from meeting with Reagan and Randy
 - Obviously we haven't been great about adding notes to this file, but I blame Reagan's proactivity (conversations always just got past us and we never had time)
 - Over the next week, Reagan will:
 --  Blast all frog genomes using drp10
