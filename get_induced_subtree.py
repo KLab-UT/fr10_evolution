@@ -52,8 +52,11 @@ def get_induced_subtree(id_list, induced_json_output, output_treefile):
 
                 # Check if 'newick' key exists before manipulation
                 if tree is not None:
+                    # Remove anything within single quotes from the tree
+                    fixed_tree = re.sub(r"'[^']*'", '', tree)
+
                     # Remove '_ott' from the tree and write to the output file
-                    fixed_tree = re.sub(r'_ott\d+', '', tree)
+                    fixed_tree = re.sub(r'_ott\d+', '', fixed_tree)
                     with open(output_treefile, "w") as output_tree:
                         output_tree.write(fixed_tree)
                 else:
