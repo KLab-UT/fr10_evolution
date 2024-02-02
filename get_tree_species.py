@@ -32,11 +32,15 @@ def update_descriptions(treefile, fastafile, outputfile):
 
     #update descriptions in tree
     for seq_id in sequences_dict:
-        species = "_".join(sequences_dict[seq_id][0].description.split()[-2:])
-        clean_species = species.replace("(","").replace(")","").replace("[","").replace("]","")
-        print(f"description: {sequences_dict[seq_id][0].description}")
-        print(f"species: {species}")
-        print(f"cleaned species: {clean_species}")
+
+        if "APO1A_PANTR" in sequences_dict[seq_id][0].description:
+            clean_species = "Pan_troglodytes"
+        elif "APO1A_PONAB" in sequences_dict[seq_id][0].description:
+            clean_species = "Pongo_abelii"
+        else:
+            species = "_".join(sequences_dict[seq_id][0].description.split()[-2:])
+            clean_species = species.replace("(","").replace(")","").replace("[","").replace("]","")
+
         if seq_id in tree:
             print(f"replacing {seq_id} with {clean_species}")
             tree = tree.replace(seq_id, clean_species)
