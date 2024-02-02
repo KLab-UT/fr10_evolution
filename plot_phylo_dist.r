@@ -1,8 +1,8 @@
 library(ape)
 library(adephylo)
 
-treefile <- as.character(commandArgs(trailingOnly = TRUE)[1]))
-distmatrix_file <- as.character(commandArgs(trailingOnly = TRUE)[2]))
+treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
+distmatrix_file <- as.character(commandArgs(trailingOnly = TRUE)[2])
 
 # load tree
 tree <- read.tree(treefile)
