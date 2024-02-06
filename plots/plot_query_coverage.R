@@ -2,6 +2,7 @@
 library(ggplot2)
 library(tidyr)
 library(ggtree)
+library(dplyr)
 
 # Read the data from the CSV file
 csv_file_path <- "hsp_logs/drp10_hsp_log_combined.csv"
