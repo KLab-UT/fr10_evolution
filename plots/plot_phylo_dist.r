@@ -49,30 +49,33 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     rownames(normalized_gene_distances) <- rownames(q_distances)
     
     # Transpose the dataframe
-    normalized_gene_distances <- as.data.frame(t(normalized_gene_distances))
+    normalized_gene_distances <- t(normalized_gene_distances)
     
-    # Identify missing columns in normalized_gene_distances
-    missing_cols <- setdiff(colnames(distmatrix), colnames(normalized_gene_distances))
+    # Sanitize distances dataframe
+    sanitized_distances <- data.frame(matrix(NA, nrow = 1, ncol = ncol(fout)))
+    colnames(sanitized_distances) <- colnames(fout)
     
-    # Add missing columns to normalized_gene_distances with NA values
-    for (missing_col in missing_cols) {
-      normalized_gene_distances[[missing_col]] <- NA
+    # Loop through species in normalized_gene_distances
+    for (species in colnames(normalized_gene_distances)) {
+      # Check if the species is present in sanitized_distances
+      if (species %in% colnames(sanitized_distances)) {
+        # Update the value in sanitized_distances with the value from normalized_gene_distances
+        sanitized_distances[, species] <- normalized_gene_distances[, species]
+      } else {
+        # Print the species that is not present in sanitized_distances
+        cat("Species not present in sanitized_distances:", species, "\n")
+        print(colnames(normalized_gene_distances))
+      }
     }
     
-    # Identify columns in normalized_gene_distances that are not in fout
-    missing_cols_normalized <- setdiff(colnames(normalized_gene_distances), colnames(fout))
-    
-    # Print missing columns, if any
-    if (length(missing_cols_normalized) > 0) {
-      cat("Columns present in normalized_gene_distances but not in normalized fout:\n")
-      cat(paste(missing_cols_normalized, collapse = ", "), "\n")
-    }
+
+    rownames(sanitized_distances) <- gene_name
     
     # Update row name
     rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
-    fout <- rbind(fout, normalized_gene_distances)
+    fout <- rbind(fout, sanitized_distances)
     
     # Save the updated normalized_distances_fout
     write.csv(fout, normalized_distances_fout, row.names = TRUE)
@@ -90,13 +93,14 @@ treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
 normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
 query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
 
-#treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
-#normalized_distances_fout <- "normalized_distances_fr10.csv"
-#query_species <- "Lithobates_sylvaticus"
-#sister_species <- "Silurana_tropicalis"
+treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
+normalized_distances_fout <- "normalized_distances_fr10.csv"
+query_species <- "Lithobates_sylvaticus"
+
 setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
 normalize_distances(treefile, normalized_distances_fout, query_species)
+
 
 
 
