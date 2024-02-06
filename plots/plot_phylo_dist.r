@@ -56,7 +56,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     
     # Add missing columns to normalized_gene_distances with NA values
     for (missing_col in missing_cols) {
-      normalized_gene_distances$missing_col <- NA
+      normalized_gene_distances$missing_col <- c(NA)
     }
     
     # Identify columns in normalized_gene_distances that are not in fout
