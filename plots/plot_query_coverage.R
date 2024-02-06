@@ -4,7 +4,7 @@ library(tidyr)
 library(ggtree)
 
 # Read the data from the CSV file
-csv_file_path <- "hsp_logs/fr10_hsp_log_combined.csv"
+csv_file_path <- "hsp_logs/drp10_hsp_log_combined.csv"
 data <- read.csv(csv_file_path, header = FALSE, stringsAsFactors = FALSE)
 colnames(data) <- c("ID", "Species", "Start", "End")
 
@@ -22,7 +22,7 @@ range_data$Species <- factor(range_data$Species, levels = tree$tip.label)
 
 # Plot using ggplot
 ggplot(range_data, aes(xmin = Start, xmax = End, ymin = Species, ymax = Species)) +
-  geom_rect(fill = "skyblue", color = "black", size = 1.5) +  # Adjust the size as needed
-  scale_y_discrete(limits = rev(all_species), name = "Species") +
-  labs(x = "Range", title = "Species Ranges") +
+  geom_rect(fill = "skyblue", color = "skyblue", size = 1.5) +  # Adjust the size as needed
+  scale_y_discrete(limits = rev(all_species), name = "Species Searched") +
+  labs(x = "Range", title = expression(italic("drp10")~"query coverage")) +
   theme_minimal()
