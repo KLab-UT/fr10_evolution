@@ -54,6 +54,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     
     # Sanitize distances dataframe
     sanitized_distances <- data.frame(matrix(NA, nrow = 1, ncol = ncol(fout)))
+    print(colnames(fout))
     colnames(sanitized_distances) <- colnames(fout)
     
     # Loop through species in normalized_gene_distances
@@ -71,8 +72,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     
 
     rownames(sanitized_distances) <- gene_name
-    sanitized_distances <- sanitized_distances[, -1, drop=FALSE]
-    sanitized_distances <- sanitized_distances[, -1, drop=FALSE]
+    
     write.csv(sanitized_distances, normalized_gene_fout, row.names = TRUE)
     
     
