@@ -59,11 +59,23 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
       normalized_gene_distances[missing_col, ] <- NA
     }
     
+    # Identify columns in normalized_gene_distances that are not in fout
+    missing_cols_normalized <- setdiff(colnames(normalized_gene_distances), colnames(fout))
+    
+    # Print missing columns, if any
+    if (length(missing_cols_normalized) > 0) {
+      cat("Columns present in normalized_gene_distances but not in fout:\n")
+      cat(paste(missing_cols_normalized, collapse = ", "), "\n")
+    }
+    
     # Update row name
     rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
     fout <- rbind(fout, normalized_gene_distances)
+    
+    # Save the updated normalized_distances_fout
+    write.csv(fout, normalized_distances_fout, row.names = TRUE)
     
   } 
   else {
