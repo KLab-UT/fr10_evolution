@@ -22,7 +22,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
   # Check if Xenopus or Silurana
   if ("Xenopus_tropicalis" %in% colnames(distmatrix)) {
     sister_species <- "Xenopus_tropicalis"
-  } else if ("Silurana_tropicalis") %in% colnames(distmatris)){
+  } else if ("Silurana_tropicalis" %in% colnames(distmatris)){
     sister_species <- "Silurana_tropicalis"
   } else {
     print("Sister species not found in distmatirx")
