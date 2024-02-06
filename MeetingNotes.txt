@@ -1,3 +1,8 @@
+6 February 2024
+from meeting with Reagan and Randy
+  Randy is going to work on alignment figure. The species tree is in the main fr10 directory under searched_species.treefile. The script to create the alignment plot is plots/query_coverage.r
+  Reagan is going to work on the data transposition for the phylogenetic distances to create a normalized_dist.csv. See photo from this day for white board. Email Randy once you have transposed data in csv and together you can work on the dot plot and anova.
+
 1 February 2024
 from meeting with Reagan and Randy
   To visualized the normalized phylogenetic distance of fr10-Xenopus in the apolipoprotein trees, we will calculate pairwise phylogenetic distance for all tips and then divide the fr10-Xenopus distance by the values for all fr10-other_tips (Xen-other_tips/Xen-fr10). This will give us a series of data that we can plot, and we can identify the genes where the values are highest (showing the highest phylogenetic distance).
