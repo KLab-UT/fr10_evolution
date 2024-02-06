@@ -7,6 +7,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
   fout <- read.csv(normalized_distances_fout)
   gene_name <- sub("_aligned.plottree", "", basename(tree_file))
   distmatrix_file <- sub(".treefile", "_distmatrix.csv", tree_file)
+  normalized_gene_fout <- sub("_aligned.plottree", "_normalized.csv", basename(tree_file))
   
   # get pairwise phylogenetic distance
   pairwise_dist <- distTips(tree, tips='all', 'patristic')
@@ -64,21 +65,25 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
       } else {
         # Print the species that is not present in sanitized_distances
         cat("Species not present in sanitized_distances:", species, "\n")
-        print(colnames(normalized_gene_distances))
+        print(colnames(sanitized_distances))
       }
     }
     
 
     rownames(sanitized_distances) <- gene_name
+    sanitized_distances <- sanitized_distances[, -1, drop=FALSE]
+    sanitized_distances <- sanitized_distances[, -1, drop=FALSE]
+    write.csv(sanitized_distances, normalized_gene_fout, row.names = TRUE)
+    
     
     # Update row name
-    rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
+    #rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
-    fout <- rbind(fout, sanitized_distances)
+    #fout <- rbind(fout, sanitized_distances)
     
     # Save the updated normalized_distances_fout
-    write.csv(fout, normalized_distances_fout, row.names = TRUE)
+    #write.csv(fout, normalized_distances_fout, row.names = TRUE)
     
   } 
   else {
@@ -93,9 +98,9 @@ treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
 normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
 query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
 
-treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
-normalized_distances_fout <- "normalized_distances_fr10.csv"
-query_species <- "Lithobates_sylvaticus"
+#treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
+#normalized_distances_fout <- "normalized_distances_fr10.csv"
+#query_species <- "Lithobates_sylvaticus"
 
 setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
