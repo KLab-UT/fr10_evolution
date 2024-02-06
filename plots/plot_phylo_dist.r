@@ -51,20 +51,19 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     # Transpose the dataframe
     normalized_gene_distances <- t(normalized_gene_distances)
     
+    # Identify missing columns in normalized_gene_distances
+    missing_cols <- setdiff(colnames(distmatrix), colnames(normalized_gene_distances))
+    
+    # Add missing columns to normalized_gene_distances with NA values
+    for (missing_col in missing_cols) {
+      normalized_gene_distances[missing_col, ] <- NA
+    }
+    
     # Update row name
     rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
     fout <- rbind(fout, normalized_gene_distances)
-    
-    # Identify columns in fout that are not in normalized_gene_distances
-    missing_cols <- setdiff(colnames(fout), colnames(normalized_gene_distances))
-    
-    # Set values in the normalized row to NA for missing columns
-    fout[nrow(fout), missing_cols] <- NA
-    
-    # Save the updated normalized_distances_fout
-    write.csv(fout, normalized_distances_fout, row.names = TRUE)
     
   } 
   else {
