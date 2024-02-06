@@ -19,6 +19,15 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
   # read distmatrix
   distmatrix <- read.csv(distmatrix_file)
   
+  # Check if Xenopus or Silurana
+  if ("Xenopus_tropicalis" %in% colnames(distmatrix)) {
+    sister_species <- "Xenopus_tropicalis"
+  } else if ("Silurana_tropicalis") %in% colnames(distmatris)){
+    sister_species <- "Silurana_tropicalis"
+  } else {
+    print("Sister species not found in distmatirx")
+  }
+  
   # Check if sister_species is a column in distmatrix
   if (sister_species %in% colnames(distmatrix)) {
     # get distance between query species and sister species 
