@@ -35,7 +35,7 @@ echo $header > normalized_distances_drp10.csv
 # Call R script to calculate and append normalized distances for each treefile and append the distances for that tree to the normalized_distances output"
 for tree_file in "${fr10_tree_files[@]}"; do
   echo "$tree_file"
-  Rscript plot_phylo_dist.r "$tree_file" "$normalized_distances_fr10" Lithobates_sylvaticus Xenopus_tropicalis;
+  Rscript plot_phylo_dist.r "$tree_file" normalized_distances_fr10.csv Lithobates_sylvaticus Xenopus_tropicalis;
 done
 
 
