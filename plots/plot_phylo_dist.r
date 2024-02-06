@@ -1,7 +1,7 @@
 library(ape)
 library(adephylo)
 
-normalize_distances <- function(tree_file, normalized_distances_fout, query_species, sister_species){# load tree
+normalize_distances <- function(tree_file, normalized_distances_fout, query_species){# load tree
   # Load input and set up variables
   tree <- read.tree(tree_file)
   fout <- read.csv(normalized_distances_fout)
@@ -22,7 +22,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
   # Check if Xenopus or Silurana
   if ("Xenopus_tropicalis" %in% colnames(distmatrix)) {
     sister_species <- "Xenopus_tropicalis"
-  } else if ("Silurana_tropicalis" %in% colnames(distmatris)){
+  } else if ("Silurana_tropicalis" %in% colnames(distmatrix)){
     sister_species <- "Silurana_tropicalis"
   } else {
     print("Sister species not found in distmatirx")
@@ -52,7 +52,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     normalized_gene_distances <- t(normalized_gene_distances)
     
     # Update row name
-    rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- query_gene
+    rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
     fout <- rbind(fout, normalized_gene_distances)
@@ -78,7 +78,6 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
 treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
 normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
 query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
-sister_species <- as.character(commandArgs(trailingOnly = TRUE)[4])
 
 #treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
 #normalized_distances_fout <- "normalized_distances_fr10.csv"
@@ -86,7 +85,7 @@ sister_species <- as.character(commandArgs(trailingOnly = TRUE)[4])
 #sister_species <- "Silurana_tropicalis"
 setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
-normalize_distances(treefile, normalized_distances_fout, query_species, sister_species)
+normalize_distances(treefile, normalized_distances_fout, query_species)
 
 
 
