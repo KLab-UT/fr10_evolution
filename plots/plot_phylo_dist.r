@@ -59,7 +59,8 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     
   } 
   else {
-    cat("sister_species is not a column in distmatrix. Skipping the normalization process.\n")
+    cat(paste(sister_species, " is not a column in distmatrix. Skipping the normalization process.\n"))
+    print(colnames(distmatrix))
   }
 }
 
@@ -70,10 +71,10 @@ normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
 query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
 sister_species <- as.character(commandArgs(trailingOnly = TRUE)[4])
 
-#tree_file <- "apo-fr10_alignments/ApoC-II_aligned.plottree"
-#normalized_distances_fout <- "plots/normalized_distances_fr10.csv"
+#treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
+#normalized_distances_fout <- "normalized_distances_fr10.csv"
 #query_species <- "Lithobates_sylvaticus"
-#sister_species <- "Xenopus_tropicalis"
+#sister_species <- "Silurana_tropicalis"
 setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
 normalize_distances(treefile, normalized_distances_fout, query_species, sister_species)
