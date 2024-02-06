@@ -49,7 +49,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     rownames(normalized_gene_distances) <- rownames(q_distances)
     
     # Transpose the dataframe
-    normalized_gene_distances <- t(normalized_gene_distances)
+    normalized_gene_distances <- as.data.frame(t(normalized_gene_distances))
     
     # Identify missing columns in normalized_gene_distances
     missing_cols <- setdiff(colnames(distmatrix), colnames(normalized_gene_distances))
