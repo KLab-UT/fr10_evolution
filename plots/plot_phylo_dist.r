@@ -66,14 +66,17 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Update the value in sanitized_distances with the value from normalized_gene_distances
         sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
-      else if (species == "Ornithorhynchus_anatini") {
-        species <- "Ornithorhynchus_anatinus"
+      else if (species == "Ornithorhynchus_anatinus") {
+        species <- "Ornithorhynchus_anatini"
+        sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
-      else if (species == "Chrysemys_picta") {
-        species <- "picta_bellii"
-      }
-      else if (species == "Equus_caballus") {
-        species <- "Equus_przewalskii"
+      else if (species == "picta_bellii") {
+        species <- "Chrysemys_picta"
+        sanitized_distances[, species] <- normalized_gene_distances[, species]
+      } 
+      else if (species == "Equus_przewalskii") {
+        species <- "Equus_caballus"
+        sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
       
       
@@ -81,7 +84,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Print the species that is not present in sanitized_distances
         cat("Species not present in sanitized_distances:", species, "\n")
         
-        cat("Species in gene normalized output:", "\n")
+        cat("Species in sanitized_distances:", "\n")
         print(colnames(sanitized_distances))
       }
     }
