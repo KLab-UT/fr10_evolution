@@ -66,8 +66,8 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Update the value in sanitized_distances with the value from normalized_gene_distances
         sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
-      else if (species == "Ornithorhynchus_anatini") {
-        sanitized_species <- "Ornithorhynchus_anatinus"
+      else if (species == "Ornithorhynchus_anatinus") {
+        sanitized_species <- "Ornithorhynchus_anatini"
         sanitized_distances[, sanitized_species] <- normalized_gene_distances[, species]
       }
       else if (species == "picta_bellii") {
@@ -84,25 +84,22 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Print the species that is not present in sanitized_distances
         cat("Species not present in sanitized_distances:", species, "\n")
         
-        cat("Species in sanitized_distances:", "\n")
-        print(colnames(sanitized_distances))
       }
     }
     
+    cat("Species in sanitized_distances:", "\n")
+    print(colnames(sanitized_distances))
+    sanitized_distances$Gene <- gene_name
+    
+    write.csv(sanitized_distances, normalized_gene_fout, row.names = FALSE)
+    
 
-    rownames(sanitized_distances) <- gene_name
-    
-    write.csv(sanitized_distances, normalized_gene_fout, row.names = TRUE)
-    
-    
-    # Update row name
-    #rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
-    #fout <- rbind(fout, sanitized_distances)
+    fout <- rbind(fout, sanitized_distances)
     
     # Save the updated normalized_distances_fout
-    #write.csv(fout, normalized_distances_fout, row.names = TRUE)
+    write.csv(fout, normalized_distances_fout, row.names = FALSE)
     
   } 
   else {
@@ -113,18 +110,34 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
 
 
 
-treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
-normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
-query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
+#treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
+#normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
+#query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
 
-#treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
-#normalized_distances_fout <- "normalized_distances_fr10.csv"
-#query_species <- "Lithobates_sylvaticus"
-
-setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
+#setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
 normalize_distances(treefile, normalized_distances_fout, query_species)
 
+# Declare paths to treefiles. fr10 or drp10
+tree_files <- c(
+  "../apo-drp10_alignments/ApoA-II_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-V_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-IV_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-IV_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-III_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-I_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-I_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-II_aligned.plottree",
+  "../apo-drp10_alignments/АроЕ_aligned.plottree"
+)
+
+normalized_distances_fout <- "normalized_distances_drp10.csv"
+query_species <- "Xenopus_laevis"
+sister_species <- "Xenopus_tropicalis"
+
+for (tree_file in tree_files) {
+  normalize_distances(tree_file, normalized_distances_fout, query_species)
+}
 
 
 
