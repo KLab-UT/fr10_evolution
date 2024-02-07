@@ -74,7 +74,7 @@ sister_species <- as.character(commandArgs(trailingOnly = TRUE)[4])
 #normalized_distances_fout <- "plots/normalized_distances_fr10.csv"
 #query_species <- "Lithobates_sylvaticus"
 #sister_species <- "Xenopus_tropicalis"
-setwd("/home/reagan/bioinformatics/fr10_evolution/plots")
+setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
 normalize_distances(treefile, normalized_distances_fout, query_species, sister_species)
 
