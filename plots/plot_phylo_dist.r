@@ -55,7 +55,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     # Sanitize distances dataframe
     sanitized_distances <- data.frame(matrix(NA, nrow = 1, ncol = ncol(fout)))
     
-    cat("Species names in normalized distances output:")
+    cat("Species names in normalized distances output:", "\n")
     print(colnames(fout))
     colnames(sanitized_distances) <- colnames(fout)
     
@@ -65,11 +65,14 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
       if (species %in% colnames(sanitized_distances)) {
         # Update the value in sanitized_distances with the value from normalized_gene_distances
         sanitized_distances[, species] <- normalized_gene_distances[, species]
-      } else {
+      }
+      
+      
+      else {
         # Print the species that is not present in sanitized_distances
         cat("Species not present in sanitized_distances:", species, "\n")
         
-        cat("Species in gene normalized output:")
+        cat("Species in gene normalized output:", "\n")
         print(colnames(sanitized_distances))
       }
     }
