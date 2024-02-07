@@ -66,6 +66,15 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Update the value in sanitized_distances with the value from normalized_gene_distances
         sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
+      else if (species == "Ornithorhynchus_anatini") {
+        species <- "Ornithorhynchus_anatinus"
+      }
+      else if (species == "Chrysemys_picta") {
+        species <- "picta_bellii"
+      }
+      else if (species == "Equus_caballus") {
+        species <- "Equus_przewalskii"
+      }
       
       
       else {
