@@ -44,7 +44,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     q_distances <- q_distances[, -1, drop=FALSE]
     
     ## Normalize q_distances
-    normalized_gene_distances <- q_distances / qs_dist 
+    normalized_gene_distances <- qs_dist / q_distances 
     
     # Set row names for the normalized_distances dataframe
     rownames(normalized_gene_distances) <- rownames(q_distances)
@@ -119,6 +119,27 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
 normalize_distances(treefile, normalized_distances_fout, query_species)
 
 # Declare paths to treefiles. fr10 or drp10
+
+tree_files <- c(
+  "../apo-fr10_alignments/ApoA-II_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-V_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-IV_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-IV_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-III_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-I_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-I_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-II_aligned.plottree",
+  "../apo-fr10_alignments/АроЕ_aligned.plottree"
+)
+normalized_distances_fout <- "normalized_distances_fr10.csv"
+query_species <- "Lithobates_sylvaticus"
+sister_species <- "Xenopus_tropicalis"
+
+for (tree_file in tree_files) {
+  normalize_distances(tree_file, normalized_distances_fout, query_species)
+}
+
+
 tree_files <- c(
   "../apo-drp10_alignments/ApoA-II_aligned.plottree",
   "../apo-drp10_alignments/ApoA-V_aligned.plottree",
@@ -138,6 +159,30 @@ sister_species <- "Xenopus_tropicalis"
 for (tree_file in tree_files) {
   normalize_distances(tree_file, normalized_distances_fout, query_species)
 }
+
+data1 <- read.csv("normalized_distances_fr10.csv", header = TRUE)
+data2 <- read.csv("normalized_distances_drp10.csv", header = TRUE)
+
+# Add a column indicating the dataset
+data1$Dataset <- "FR10"
+data2$Dataset <- "DRP10"
+
+# Combine the datasets
+combined_data <- rbind(data1, data2)
+
+# Reshape the data
+reshaped_data <- combined_data %>%
+  pivot_longer(cols = -c(Gene, Dataset), names_to = "Species", values_to = "Value")
+
+# Create a boxplot with color distinction for datasets
+ggplot(reshaped_data, aes(x = Gene, y = Value, fill = Dataset, color = Dataset)) +
+  geom_boxplot() +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  scale_color_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  guides(fill = guide_legend(title = "Dataset"))
 
 
 
