@@ -42,4 +42,5 @@ ggplot(range_data, aes(xmin = Start, xmax = End, ymin = Species, ymax = Species,
   labs(x = "Query Range", title = "Query Coverage") +
   theme_minimal() +
   scale_fill_manual(values = c("drp10" = "brown1", "fr10" = "deepskyblue", "overlap" = "darkorchid")) +
-  scale_color_manual(values = c("drp10" = "brown1", "fr10" = "deepskyblue", "overlap" = "darkorchid"))
+  scale_color_manual(values = c("drp10" = "brown1", "fr10" = "deepskyblue", "overlap" = "darkorchid")) + 
+  theme(text = element_text(size = 20))
