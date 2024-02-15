@@ -184,5 +184,35 @@ ggplot(reshaped_data, aes(x = Gene, y = Value, fill = Dataset, color = Dataset))
   scale_color_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
   guides(fill = guide_legend(title = "Dataset"))
 
+# Create boxplots for individual datasets
+
+ggplot(data1, aes(x = Gene, y = Value, fill = Dataset, color = Dataset)) +
+  geom_boxplot() +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  scale_color_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  guides(fill = guide_legend(title = "Dataset"))
+
+dat_fr10 <- subset(reshaped_data, Dataset == "FR10")
+dat_drp10 <- subset(reshaped_data, Dataset == "DRP10")
+
+plot_fr10 <- ggplot(dat_fr10, aes(x = Gene, y = Value)) +
+  geom_boxplot(fill='#00BFFF', color="black") +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+plot_drp10 <- ggplot(dat_drp10, aes(x = Gene, y = Value)) +
+  geom_boxplot(fill='#FF4040', color="black") +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+library(gridExtra)
+grid.arrange(plot_fr10, plot_drp10, ncol = 2)
 
 
