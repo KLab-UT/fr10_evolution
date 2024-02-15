@@ -14,7 +14,7 @@ class BlastHit:
     """
     Manage blast hits from ET element
     """
-    def __init__(self, hit_element, blast_type):
+    def __init__(self, hit_element, blast_type, hsp_log):
         self.accession = hit_element.find("Hit_accession").text
         self.definition = hit_element.find("Hit_def").text
         self.length = int(hit_element.find("Hit_len").text)
@@ -37,7 +37,7 @@ class BlastHit:
                 hsp = self.create_tblastx_hsp_object(hsp_element)
             else:
                 raise ValueError(f"Unsupported blast type: {blast_type}")
-            self.log_hsp(hsp)
+            self.log_hsp(hsp, hsp_log)
             self.hsps.append(hsp)
 
     def create_blastn_hsp_object(self, hsp_element):
@@ -121,12 +121,16 @@ class BlastHit:
         )
     
     
-    def log_hsp(self, hsp_object):
+    def log_hsp(self, hsp_object, log_file):
         '''
         log start and stop of where query is hit for hsp object in csv format
         '''
-        with open("hit_coverage.csv", "a") as fout:
-            formatted_species = self.species.replace(" ","_")
+        with open(log_file, "a") as fout:
+            if "TSA" in self.species:
+                formatted_species = "_".join(self.species.split()[-2:])
+            else:
+                formatted_species = self.species.replace(" ","_")
+            print(f"formatted species: {formatted_species}")
             fout.write(f"{self.accession},{formatted_species},{hsp_object.query_start},{hsp_object.query_end}\n")
 
 
@@ -306,6 +310,7 @@ def get_hit_consensus(hits_fasta, query_fasta, blast_type, db):
     '''
     Create a consensus sequence with positions that agree in hits_fasta alignment, positions that disagree are used from the query provided that the nucleotide is found in at least one of the hit seqs at that position
     '''
+    query_name = query_fasta.split(".")[0]
     query_record = SeqIO.read(query_fasta, "fasta")
     hit_records = list(SeqIO.parse(hits_fasta, "fasta"))
 
@@ -317,9 +322,9 @@ def get_hit_consensus(hits_fasta, query_fasta, blast_type, db):
     hit_species=" ".join(hit_records[0].description.split()[-2:])
 
     if len(hit_seqs) <= 1:
-        hit_description=f" | {hit_ranges} | {hit_species} {blast_type} {db}"
+        hit_description=f" {query_name} {db} {blast_type} hit | {hit_species}"
     if len(hit_seqs) > 1:
-        hit_description = f" | {hit_ranges} | {hit_species} {blast_type} {db} consensus"
+        hit_description = f" {query_name} {db} {blast_type} hit | {hit_species} consensus"
     print(f"num of seqs: {len(hit_seqs)} hit description: {hit_description}")
     hit_consensus = ""
     for i in range(len(hit_seqs[0])):
@@ -347,19 +352,12 @@ def get_species_by_assembly_ids(assembly_ids):
     with open("assemblies_searched.txt", "a") as output_file:
         # Iterate through each assembly ID in the list
         for assembly_id in assembly_ids:
-            # Use the efetch utility to retrieve information about the assembly
-            print(assembly_id)
-
-
             try:
                 handle = Entrez.efetch(db="nucleotide", id=assembly_id, retmode="xml")
             except:
                 assembly_id += "0"
                 handle = Entrez.efetch(db="nucleotide", id=assembly_id, retmode="xml")
-            
-
             record = handle.read()
-            print(record)
 
             # Parse the XML response
             tree = ET.fromstring(record)
@@ -368,8 +366,7 @@ def get_species_by_assembly_ids(assembly_ids):
             species_element = tree.find(".//GBSeq_organism")
             species = species_element.text if species_element is not None else 'Species information not available'
 
-
-            # Write the assembly ID and species to the file
+                # Write the assembly ID and species to the file
             output_file.write(f"{assembly_id}, {species}\n")
             print(f"Assembly ID {assembly_id}: {species}")
         output_file.write(f"\n")
@@ -387,7 +384,6 @@ def extract_assembly_ids_from_string(BlastOutput_db):
         id = assembly_id[:-2]
         id+="00000000"
         ids.append(id)
-
     return ids
 
 def parse_blast(tree_root, query_fasta):
@@ -408,12 +404,13 @@ def parse_blast(tree_root, query_fasta):
     get_species_by_assembly_ids(assembly_ids)
 
     output_alignment = f"{query_fasta.rsplit('.')[0]}_{blast_type}_{db}.fasta"
+    hsp_log = f"{output_alignment.split('.')[0]}_hsp_log.csv"
     print(f"output alignment: {output_alignment}")
 
     #Process blast hits
     blast_hits = []
     for hit_element in tree_root.findall(".//Hit"):
-        blast_hit = BlastHit(hit_element, blast_type)
+        blast_hit = BlastHit(hit_element, blast_type, hsp_log)
         blast_hits.append(blast_hit)
 
     # Write FASTA sequences to the output alignment file
@@ -435,11 +432,8 @@ def main(xml_file, query_fasta):
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
-
     # Process blast hits
     parse_blast(root, query_fasta)
-
-
 
 
 if __name__ == "__main__":

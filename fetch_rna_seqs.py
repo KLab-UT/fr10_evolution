@@ -19,8 +19,8 @@ def fetch_rna_sequences(term, taxid, email, output_dir, retmax=500):
     Entrez.email = email
 
     # Step 1: Search for RNA sequences using the specified term and taxid
-    search_query=f'txid{taxid}[Organism] AND {term}[All Fields] AND biomol_mrna[PROP]'
-    search_handle = Entrez.esearch(db="nucleotide", term=search_query, retmax=retmax)
+    search_query=f'txid{taxid}[Organism] AND {term}[All Fields]'
+    search_handle = Entrez.esearch(db="gene", term=search_query, retmax=retmax)
     search_results = Entrez.read(search_handle)
     id_list = search_results["IdList"]
 
