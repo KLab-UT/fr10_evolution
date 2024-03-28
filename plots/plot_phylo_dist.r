@@ -44,7 +44,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     q_distances <- q_distances[, -1, drop=FALSE]
     
     ## Normalize q_distances
-    normalized_gene_distances <- q_distances / qs_dist 
+    normalized_gene_distances <- qs_dist / q_distances 
     
     # Set row names for the normalized_distances dataframe
     rownames(normalized_gene_distances) <- rownames(q_distances)
@@ -66,14 +66,17 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Update the value in sanitized_distances with the value from normalized_gene_distances
         sanitized_distances[, species] <- normalized_gene_distances[, species]
       }
-      else if (species == "Ornithorhynchus_anatini") {
-        species <- "Ornithorhynchus_anatinus"
+      else if (species == "Ornithorhynchus_anatinus") {
+        sanitized_species <- "Ornithorhynchus_anatini"
+        sanitized_distances[, sanitized_species] <- normalized_gene_distances[, species]
       }
-      else if (species == "Chrysemys_picta") {
-        species <- "picta_bellii"
-      }
-      else if (species == "Equus_caballus") {
-        species <- "Equus_przewalskii"
+      else if (species == "picta_bellii") {
+        sanitized_species <- "Chrysemys_picta"
+        sanitized_distances[, sanitized_species] <- normalized_gene_distances[, species]
+      } 
+      else if (species == "Equus_przewalskii") {
+        sanitized_species <- "Equus_caballus"
+        sanitized_distances[, sanitized_species] <- normalized_gene_distances[, species]
       }
       
       
@@ -81,25 +84,22 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
         # Print the species that is not present in sanitized_distances
         cat("Species not present in sanitized_distances:", species, "\n")
         
-        cat("Species in gene normalized output:", "\n")
-        print(colnames(sanitized_distances))
       }
     }
     
+    cat("Species in sanitized_distances:", "\n")
+    print(colnames(sanitized_distances))
+    sanitized_distances$Gene <- gene_name
+    
+    write.csv(sanitized_distances, normalized_gene_fout, row.names = FALSE)
+    
 
-    rownames(sanitized_distances) <- gene_name
-    
-    write.csv(sanitized_distances, normalized_gene_fout, row.names = TRUE)
-    
-    
-    # Update row name
-    #rownames(normalized_gene_distances)[rownames(normalized_gene_distances) == query_species] <- gene_name
     
     # Append normalized row to fout
-    #fout <- rbind(fout, sanitized_distances)
+    fout <- rbind(fout, sanitized_distances)
     
     # Save the updated normalized_distances_fout
-    #write.csv(fout, normalized_distances_fout, row.names = TRUE)
+    write.csv(fout, normalized_distances_fout, row.names = FALSE)
     
   } 
   else {
@@ -110,18 +110,109 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
 
 
 
-treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
-normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
-query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
+#treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
+#normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
+#query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
 
-#treefile <- "../apo-fr10_alignments/ApoA-II_aligned.plottree"
-#normalized_distances_fout <- "normalized_distances_fr10.csv"
-#query_species <- "Lithobates_sylvaticus"
-
-setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
+#setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
 
 normalize_distances(treefile, normalized_distances_fout, query_species)
 
+# Declare paths to treefiles. fr10 or drp10
 
+tree_files <- c(
+  "../apo-fr10_alignments/ApoA-II_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-V_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-IV_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-IV_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-III_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-I_aligned.plottree",
+  "../apo-fr10_alignments/ApoA-I_aligned.plottree",
+  "../apo-fr10_alignments/ApoC-II_aligned.plottree",
+  "../apo-fr10_alignments/АроЕ_aligned.plottree"
+)
+normalized_distances_fout <- "normalized_distances_fr10.csv"
+query_species <- "Lithobates_sylvaticus"
+sister_species <- "Xenopus_tropicalis"
+
+for (tree_file in tree_files) {
+  normalize_distances(tree_file, normalized_distances_fout, query_species)
+}
+
+
+tree_files <- c(
+  "../apo-drp10_alignments/ApoA-II_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-V_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-IV_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-IV_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-III_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-I_aligned.plottree",
+  "../apo-drp10_alignments/ApoA-I_aligned.plottree",
+  "../apo-drp10_alignments/ApoC-II_aligned.plottree",
+  "../apo-drp10_alignments/АроЕ_aligned.plottree"
+)
+
+normalized_distances_fout <- "normalized_distances_drp10.csv"
+query_species <- "Xenopus_laevis"
+sister_species <- "Xenopus_tropicalis"
+
+for (tree_file in tree_files) {
+  normalize_distances(tree_file, normalized_distances_fout, query_species)
+}
+
+data1 <- read.csv("normalized_distances_fr10.csv", header = TRUE)
+data2 <- read.csv("normalized_distances_drp10.csv", header = TRUE)
+
+# Add a column indicating the dataset
+data1$Dataset <- "FR10"
+data2$Dataset <- "DRP10"
+
+# Combine the datasets
+combined_data <- rbind(data1, data2)
+
+# Reshape the data
+reshaped_data <- combined_data %>%
+  pivot_longer(cols = -c(Gene, Dataset), names_to = "Species", values_to = "Value")
+
+# Create a boxplot with color distinction for datasets
+ggplot(reshaped_data, aes(x = Gene, y = Value, fill = Dataset, color = Dataset)) +
+  geom_boxplot() +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  scale_color_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  guides(fill = guide_legend(title = "Dataset"))
+
+# Create boxplots for individual datasets
+
+ggplot(data1, aes(x = Gene, y = Value, fill = Dataset, color = Dataset)) +
+  geom_boxplot() +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  scale_color_manual(values = c("FR10" = "blue", "DRP10" = "red")) +
+  guides(fill = guide_legend(title = "Dataset"))
+
+dat_fr10 <- subset(reshaped_data, Dataset == "FR10")
+dat_drp10 <- subset(reshaped_data, Dataset == "DRP10")
+
+plot_fr10 <- ggplot(dat_fr10, aes(x = Gene, y = Value)) +
+  geom_boxplot(fill='#00BFFF', color="black") +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+plot_drp10 <- ggplot(dat_drp10, aes(x = Gene, y = Value)) +
+  geom_boxplot(fill='#FF4040', color="black") +
+  labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
+  ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+library(gridExtra)
+grid.arrange(plot_fr10, plot_drp10, ncol = 2)
 
 
