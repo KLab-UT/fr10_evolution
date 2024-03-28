@@ -1,0 +1,37 @@
+# STOCKHOLM 1.0
+
+#=GS AAC27986.1               DE antifreeze protein precursor [Myoxocephalus octodecemspinosus]
+#=GS MGYP001034601897/12-135  DE [subseq from] FL=0
+#=GS MGYP001048535978/23-145  DE [subseq from] FL=0
+#=GS MGYP000747748427/48-101  DE [subseq from] FL=0
+#=GS MGYP000747748427/103-155 DE [subseq from] FL=0
+#=GS MGYP000747748427/172-226 DE [subseq from] FL=0
+#=GS MGYP000747748427/224-271 DE [subseq from] FL=0
+#=GS MGYP002477483765/10-71   DE [subseq from] FL=0
+#=GS MGYP002477483765/53-144  DE [subseq from] FL=0
+#=GS MGYP002477483765/147-236 DE [subseq from] FL=0
+#=GS MGYP001126215767/221-258 DE [subseq from] FL=0
+#=GS MGYP001126215767/593-630 DE [subseq from] FL=0
+#=GS MGYP001919028882/1-59    DE [subseq from] FL=1
+#=GS MGYP002636025449/4-60    DE [subseq from] FL=0
+#=GS MGYP002636025449/55-115  DE [subseq from] FL=0
+#=GS MGYP002636025449/98-169  DE [subseq from] FL=0
+
+AAC27986.1                       MKFSLVATIVLLALAQGSFAQGAADLESLGQYFEEMKTKLIQDMTEIIRS-----QDLANQAQAFVEDKKTQLQPLVAQIQEQ---MK-TVATNVEE---QIRPLTANVQAHLQPQIDNFQKQMEAIIKKLTDQTMAIEN
+MGYP001034601897/12-135          MKFSLIVAVVVLALAQGSFAQEAFNLDNLSQYFEDLRNRMPQDLGEIIRN-----PDLVNQARTFLEERKAQLEPLATQVQEQ---LR-AASTNVEE---QLKPLAT----QLQPMFENLQRQVEAMVQKMREQAAAISN
+MGYP001048535978/23-145          MKFSLIVAVVVLALAQGSFAQEAFNLDNLSQYFEDLRNRMPQDLGEIIN------PDLVNQARTFLEERKAQLEPLATQVQEQ---LR-AASTNVEE---QLKPLAT----QLQPMFENLQRQVEAMVQKMREQAAAISN
+MGYP000747748427/48-101          -----------------------------------------------------------------------QVRSVICNFLEQ---VR-SVICNFLE---QIMSVICNVLAQVRSVICHFLAQIRSVICNFL--------
+MGYP000747748427/103-155         -----------------------------------------------------------------------QIRSVICNFLKR---IR-SVICNFLE---QIRSVICNVRAQIRSVICNFLAQIRSVICNF---------
+MGYP000747748427/172-226         --------------------------------------------------------------------------FVICNFRAQ---IR-SVICNCLA---QIRFVICNFRAQIRSVICNFLAQIRSVICNFLEQVR----
+MGYP000747748427/224-271         -----------------------------------------------------------------------QVRSVICNFLAQ---IR-SVICNFLE---QIRSVICNFLAQIRSAICNFLEQIRS--------------
+MGYP002477483765/10-71           -------------------------------------------------------QDKLGEVNTYTEDLQKKLVPFATELHER---LT-KDSEKLKE---EIRRELEELRARLLPHATEVSQKI----------------
+MGYP002477483765/53-144          --------------------------------LEELRARLLPHATEVSQKIGDNVRELQQRLGPFTEELRTQVNTQVQQLQRQ---LK-PYAERMES---VLRQNIRNLEASVAPYADEFKAKIDQNVEEL---------
+MGYP002477483765/147-236         ---------------------------SLTPYAEELKAKIDQNVEELRRS-------LAPYAQDVQEKLNHQLEGLAFQMKKQAEELKAKISANADELRQKLVPVAENVHGHLKGNTEGLQKSL----------------
+MGYP001126215767/221-258         ----------------------------------------------------------------------SQAQPLVKNLMDE---LE-AAGKNVEF---AIHPVAGRMPGHMNV-------------------------
+MGYP001126215767/593-630         ----------------------------------------------------------------------SQAQPLVKNLMDE---LE-AAGKNVEF---AIHPVAGRMPGHMNV-------------------------
+MGYP001919028882/1-59            ------------------------------------------------------------------------MQPLLEKVKEQ---LK-PLATNFEE---QFKPLSESILAQLKPLAQSVETQLEDLLETVMAQTKAL--
+MGYP002636025449/4-60            ----------------------------------------------------------------VVENVEESVESVVENVEES---VE-SVVENVEE---SVESVVENVEESVEAVVENVEESVEAVV------------
+MGYP002636025449/55-115          ------------------------------------------------------------SVEAVVENAEEKAEAVVENAEEK---VE-AVVENAEE---KVEAVVDNAEEKAEAVVENAEEKVEAVV------------
+MGYP002636025449/98-169          -----------------------------------------------------------EKAEAVVENAEEKVEAVVENAEEK---AE-AVAENAEE---KAEAVAENAEEKAEAVVENAEEKAEAVVENAEEKAEAV--
+#=GC RF                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxx...xx.xxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
