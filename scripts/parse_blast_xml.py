@@ -9,6 +9,8 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from collections import Counter
+import re
+import csv
 
 class BlastHit:
     """
@@ -27,6 +29,9 @@ class BlastHit:
         print(f"species for {self.accession}: {self.species}")
         self.hsps = []
 
+        self.hit_annotations = {}
+        annotations_log = "blastp_hits_annotations.csv"
+
         # Iterate over Hsp elements and create Hsp objects
         for hsp_element in hit_element.findall("Hit_hsps/Hsp"):
             if blast_type == "blastn":
@@ -35,6 +40,10 @@ class BlastHit:
                 hsp = self.create_tblastn_hsp_object(hsp_element)
             elif blast_type == "tblastx":
                 hsp = self.create_tblastx_hsp_object(hsp_element)
+            elif blast_type == "blastp":
+                hsp = self.create_tblastx_hsp_object(hsp_element)
+                self.log_blastp_annotation(annotations_log)
+
             else:
                 raise ValueError(f"Unsupported blast type: {blast_type}")
             self.log_hsp(hsp, hsp_log)
@@ -70,6 +79,9 @@ class BlastHit:
         )
 
     def create_tblastn_hsp_object(self, hsp_element):
+        """
+        Like the hsp object for blastn but query positions are multiplied by three b/c query is AA seq
+        """
         hit_start=int(hsp_element.find("Hsp_hit-from").text)
         hit_end=int(hsp_element.find("Hsp_hit-to").text)
         query_start=3*int(hsp_element.find("Hsp_query-from").text)
@@ -120,6 +132,52 @@ class BlastHit:
             midline=hsp_element.find("Hsp_midline").text,
         )
     
+    def create_blastp_hsp_object(self, hsp_element, seq_type):
+        """
+        make hsp objects for pblast hits. If seq_type = cDNA Positions are multiplied by three and cDNA seqs are fetched instead of AA seqs
+        """
+        if seq_type == "cDNA":
+            hit_start=int(hsp_element.find("Hsp_hit-from").text)
+            hit_end=int(hsp_element.find("Hsp_hit-to").text)
+            query_start=3*int(hsp_element.find("Hsp_query-from").text)
+            query_end=3*int(hsp_element.find("Hsp_query-to").text)
+            hseq = None
+            #hseq = fetch_encoding_mrna(self.accession, hit_start, hit_end)
+
+
+        return Hsp(
+            bit_score=float(hsp_element.find("Hsp_bit-score").text),
+            score=int(hsp_element.find("Hsp_score").text),
+            evalue=float(hsp_element.find("Hsp_evalue").text),
+            query_start=query_start,
+            query_end=query_end,
+            hit_start=hit_start,
+            hit_end=hit_end,
+            query_frame=int(hsp_element.find("Hsp_query-frame").text),
+            hit_frame=int(hsp_element.find("Hsp_hit-frame").text),
+            identity=int(hsp_element.find("Hsp_identity").text),
+            positive=int(hsp_element.find("Hsp_positive").text),
+            gaps=int(hsp_element.find("Hsp_gaps").text),
+            align_len=int(hsp_element.find("Hsp_align-len").text),
+            qseq=hsp_element.find("Hsp_qseq").text,
+            hseq=hseq,
+            midline=hsp_element.find("Hsp_midline").text,
+        )
+
+
+
+    def log_blastp_annotation(self, annotations_log):
+        
+        annotation = re.sub(r'\[.*?\]', '', self.definition)
+
+        with open(annotations_log, 'a', newline='') as csv_file:
+            csv_writer = csv.writer(csv_file)
+            row = (self.accession, annotation)
+            csv_writer.writerow(row)
+
+
+
+
     
     def log_hsp(self, hsp_object, log_file):
         '''
@@ -224,6 +282,46 @@ def get_sequence_length(query_fasta):
     sequence = "".join(lines[1:])
 
     return len(sequence)
+
+def fetch_encoding_mrna(protein_accession, coding_start, coding_end):
+
+    # Fetch the protein record using the protein accession ID
+    try:
+        handle = Entrez.efetch(db="protein", id=protein_accession, rettype="gb", retmode="text")
+        protein_record = SeqIO.read(handle, "genbank")
+    except Exception as e:
+        print(f"Error fetching protein record: {e}")
+        return None
+
+    # Get accession ID encoding sequence associated with protein accession
+    for feature in protein_record.features:
+        #print(f"protein feature: {feature}\nfeature type: {feature.type}\nfeature qualifiers: {feature.qualifiers}")
+        if feature.type == "CDS" and "coded_by" in feature.qualifiers:
+            coding_accession = feature.qualifiers['coded_by'][0].split(":")[0]
+            print(f"coding accesion: {coding_accession}")
+
+            #fetch the encoding sequence
+            try:
+                coding_handle = Entrez.efetch(db="nuccore", id=coding_accession, rettype="fasta", retmode="text")
+                coding_record = SeqIO.read(coding_handle, "fasta")
+                coding_handle.close()
+
+                nucleotides = {"A", "T", "G", "C"}
+                sequence = str(coding_record.seq)
+
+                # Replace characters not in nucleotides or '-' with '-'
+                sanitized_sequence = ''.join(c if c in nucleotides or c == '-' else '-' for c in sequence)
+
+                return sanitized_sequence
+
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                return None
+        else:
+            print(f"ERROR FETCHING ENCODING SEQUENCE ({coding_handle}) for {protein_accession}")
+            return None
+        
+
 
 def fetch_sequence(accession_number, start, end):
     """

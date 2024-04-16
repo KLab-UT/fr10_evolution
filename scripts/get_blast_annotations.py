@@ -57,7 +57,7 @@ def log_annotations(blast_hits, annotations_csv):
         id = hit.accession
         avg_identity = hit.avg_identity
 
-        # Clean annotations 
+        # Clean annotations
         annotation = re.sub(r'\[.*?\]', '', hit.definition) # remove species
         annotation = re.sub(r'>.*', '', annotation)  # Remove anything following ">"
         annotation = re.sub(r'isoform.*', '', annotation)  # Remove anything following "isoform"
@@ -86,10 +86,10 @@ def log_annotations(blast_hits, annotations_csv):
 
         if "hypothetical protein" in annotation or "uncharacterized protein" in annotation or "unnamed protein" in annotation:
             annotation = "hypothetical protein/uncharacterized protein"
-        
+
         if "uveal autoantigen" in annotation:
-            annotation = "uveal autoantigen" 
-        
+            annotation = "uveal autoantigen"
+
         if "zinc finger protein 853" in annotation:
             annotation = "zinc finger protein 853"
 
@@ -104,10 +104,10 @@ def log_annotations(blast_hits, annotations_csv):
 
 
         # GROUP ALL APOS TOGETHER
-        # if "apo" in annotation:
-        #     annotation = "Apo A-I/A-II/A-IV/C-I/E"
+        if "apo" in annotation:
+            annotation = "Apo A-I/A-II/A-IV/C-I/E & LS-12"
 
-        
+
 
         #print(f"Annotation for {id}\n{annotation}")
         id_ann = (id, annotation, avg_identity)
