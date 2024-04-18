@@ -12,8 +12,13 @@ for alignment in "$alignments_dir"/*aligned.fa; do
     echo "Distmatrix file: $distmatrix_file"
 
     # Format tree descriptions to only contain the species name for each sequence
-    python3 get_tree_species.py "${alignment}.contree" "$alignment" "$plottree_file"
+    python3 scripts/get_tree_species.py "${alignment}.contree" "$alignment" "$plottree_file"
 
     # Call R script to get distance matrix
     #Rscript plot_phylo_dist.r $plottree_file $distmatrix_file
 done
+
+
+##### USAGE FOR REGENERATING apo-fr10 and apo-drp10 plot trees
+# bash scripts/make_plots.sh alignments/apo-drp10_alignments Xenopus_laevis
+# bash scripts/make_plots.sh alignments/apo-fr10_alignments Lithobates_sylvaticus
