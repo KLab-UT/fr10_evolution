@@ -15,5 +15,5 @@ for alignment in "$alignments_dir"/*aligned.fa; do
     python3 get_tree_species.py "${alignment}.contree" "$alignment" "$plottree_file"
 
     # Call R script to get distance matrix
-    Rscript plot_phylo_dist.r $plottree_file $distmatrix_file
+    #Rscript plot_phylo_dist.r $plottree_file $distmatrix_file
 done
