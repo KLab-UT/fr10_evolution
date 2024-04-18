@@ -1,12 +1,15 @@
 library(ape)
 library(adephylo)
+library(tidyverse)
+
+#setwd("//wsl.localhost/Ubuntu/home/reagan/bioinformatics/fr10_evolution/")
 
 normalize_distances <- function(tree_file, normalized_distances_fout, query_species){# load tree
   # Load input and set up variables
   tree <- read.tree(tree_file)
   fout <- read.csv(normalized_distances_fout)
   gene_name <- sub("_aligned.plottree", "", basename(tree_file))
-  distmatrix_file <- sub(".treefile", "_distmatrix.csv", tree_file)
+  distmatrix_file <- sub("_aligned.plottree", "_distmatrix.csv", tree_file)
   normalized_gene_fout <- sub("_aligned.plottree", "_normalized.csv", basename(tree_file))
   
   # get pairwise phylogenetic distance
@@ -44,7 +47,7 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     q_distances <- q_distances[, -1, drop=FALSE]
     
     ## Normalize q_distances
-    normalized_gene_distances <- qs_dist / q_distances 
+    normalized_gene_distances <- q_distances / qs_dist
     
     # Set row names for the normalized_distances dataframe
     rownames(normalized_gene_distances) <- rownames(q_distances)
@@ -108,54 +111,56 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
   }
 }
 
-
-
 #treefile <- as.character(commandArgs(trailingOnly = TRUE)[1])
 #normalized_distances_fout <- as.character(commandArgs(trailingOnly = TRUE)[2])
 #query_species <- as.character(commandArgs(trailingOnly = TRUE)[3])
-
 #setwd("/uufs/chpc.utah.edu/common/home/u6052680/fr10_evolution/plots")
+#normalize_distances(treefile, normalized_distances_fout, query_species)
 
-normalize_distances(treefile, normalized_distances_fout, query_species)
 
-# Declare paths to treefiles. fr10 or drp10
+
+# Declare paths to apo-fr10 treefiles
 
 tree_files <- c(
-  "../apo-fr10_alignments/ApoA-II_aligned.plottree",
-  "../apo-fr10_alignments/ApoA-V_aligned.plottree",
-  "../apo-fr10_alignments/ApoC-IV_aligned.plottree",
-  "../apo-fr10_alignments/ApoA-IV_aligned.plottree",
-  "../apo-fr10_alignments/ApoC-III_aligned.plottree",
-  "../apo-fr10_alignments/ApoC-I_aligned.plottree",
-  "../apo-fr10_alignments/ApoA-I_aligned.plottree",
-  "../apo-fr10_alignments/ApoC-II_aligned.plottree",
-  "../apo-fr10_alignments/АроЕ_aligned.plottree"
+  "alignments/apo-fr10_alignments/ApoA-II_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoA-V_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoC-IV_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoA-IV_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoC-III_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoC-I_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoA-I_aligned.plottree",
+  "alignments/apo-fr10_alignments/ApoC-II_aligned.plottree",
+  "alignments/apo-fr10_alignments/АроЕ_aligned.plottree"
 )
 normalized_distances_fout <- "normalized_distances_fr10.csv"
 query_species <- "Lithobates_sylvaticus"
 sister_species <- "Xenopus_tropicalis"
 
+# Normalize distances in apo-fr10 trees
 for (tree_file in tree_files) {
   normalize_distances(tree_file, normalized_distances_fout, query_species)
 }
 
 
+# Declare paths to apo-drp10 treefiles
+
 tree_files <- c(
-  "../apo-drp10_alignments/ApoA-II_aligned.plottree",
-  "../apo-drp10_alignments/ApoA-V_aligned.plottree",
-  "../apo-drp10_alignments/ApoC-IV_aligned.plottree",
-  "../apo-drp10_alignments/ApoA-IV_aligned.plottree",
-  "../apo-drp10_alignments/ApoC-III_aligned.plottree",
-  "../apo-drp10_alignments/ApoC-I_aligned.plottree",
-  "../apo-drp10_alignments/ApoA-I_aligned.plottree",
-  "../apo-drp10_alignments/ApoC-II_aligned.plottree",
-  "../apo-drp10_alignments/АроЕ_aligned.plottree"
+  "alignments/apo-drp10_alignments/ApoA-II_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoA-V_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoC-IV_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoA-IV_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoC-III_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoC-I_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoA-I_aligned.plottree",
+  "alignments/apo-drp10_alignments/ApoC-II_aligned.plottree",
+  "alignments/apo-drp10_alignments/АроЕ_aligned.plottree"
 )
 
 normalized_distances_fout <- "normalized_distances_drp10.csv"
 query_species <- "Xenopus_laevis"
 sister_species <- "Xenopus_tropicalis"
 
+# Normalize distances in apo-drp10 trees
 for (tree_file in tree_files) {
   normalize_distances(tree_file, normalized_distances_fout, query_species)
 }
@@ -198,14 +203,14 @@ ggplot(data1, aes(x = Gene, y = Value, fill = Dataset, color = Dataset)) +
 dat_fr10 <- subset(reshaped_data, Dataset == "FR10")
 dat_drp10 <- subset(reshaped_data, Dataset == "DRP10")
 
-plot_fr10 <- ggplot(dat_fr10, aes(x = Gene, y = Value)) +
+ggplot(dat_fr10, aes(x = Gene, y = Value)) +
   geom_boxplot(fill='#00BFFF', color="black") +
   labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
   ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-plot_drp10 <- ggplot(dat_drp10, aes(x = Gene, y = Value)) +
+ggplot(dat_drp10, aes(x = Gene, y = Value)) +
   geom_boxplot(fill='#FF4040', color="black") +
   labs(x = "Apolipoproteins", y = "Normalized Phylogenetic Distance") +
   ggtitle("Pairwise Distance Between rp10 and Apo Proteins") +
