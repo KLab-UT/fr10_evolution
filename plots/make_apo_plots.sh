@@ -2,27 +2,27 @@
 git checkout HEAD -- ../apo-fr10_alignments/
 
 fr10_tree_files=(
-  "../apo-fr10_alignments/ApoA-II_aligned.plottree"
-  "../apo-fr10_alignments/ApoA-V_aligned.plottree"
-  "../apo-fr10_alignments/ApoC-IV_aligned.plottree"
-  "../apo-fr10_alignments/ApoA-IV_aligned.plottree"
-  "../apo-fr10_alignments/ApoC-III_aligned.plottree"
-  "../apo-fr10_alignments/ApoC-I_aligned.plottree"
-  "../apo-fr10_alignments/ApoA-I_aligned.plottree"
-  "../apo-fr10_alignments/ApoC-II_aligned.plottree"
-  "../apo-fr10_alignments/АроЕ_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoA-II_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoA-V_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoC-IV_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoA-IV_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoC-III_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoC-I_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoA-I_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoC-II_aligned.plottree"
+  "../alignments/apo-fr10_alignments/АроЕ_aligned.plottree"
 )
 
 drp10_tree_files=(
-"../apo-drp10_alignments/ApoA-II_aligned.plottree"
-"../apo-drp10_alignments/ApoA-V_aligned.plottree"
-"../apo-drp10_alignments/ApoC-IV_aligned.plottree"
-"../apo-drp10_alignments/ApoA-IV_aligned.plottree"
-"../apo-drp10_alignments/ApoC-III_aligned.plottree"
-"../apo-drp10_alignments/ApoC-I_aligned.plottree"
-"../apo-drp10_alignments/ApoA-I_aligned.plottree"
-"../apo-drp10_alignments/ApoC-II_aligned.plottree"
-"../apo-drp10_alignments/АроЕ_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoA-II_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoA-V_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoC-IV_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoA-IV_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoC-III_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoC-I_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoA-I_aligned.plottree"
+"../alignments/apo-drp10_alignments/ApoC-II_aligned.plottree"
+"../alignments/apo-drp10_alignments/АроЕ_aligned.plottree"
 )
 
 

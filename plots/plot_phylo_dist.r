@@ -2,7 +2,7 @@ library(ape)
 library(adephylo)
 library(tidyverse)
 
-#setwd("//wsl.localhost/Ubuntu/home/reagan/bioinformatics/fr10_evolution/")
+setwd("/Users/r_klabacka/OneDrive - Utah Tech University/KLab/Research/fr10_evolution/plots")
 
 normalize_distances <- function(tree_file, normalized_distances_fout, query_species){# load tree
   # Load input and set up variables
@@ -58,8 +58,8 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
     # Sanitize distances dataframe
     sanitized_distances <- data.frame(matrix(NA, nrow = 1, ncol = ncol(fout)))
     
-    cat("Species names in normalized distances output:", "\n")
-    print(colnames(fout))
+    #cat("Species names in normalized distances output:", "\n")
+    #print(colnames(fout))
     colnames(sanitized_distances) <- colnames(fout)
     
     # Loop through species in normalized_gene_distances
@@ -90,8 +90,8 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
       }
     }
     
-    cat("Species in sanitized_distances:", "\n")
-    print(colnames(sanitized_distances))
+    #cat("Species in sanitized_distances:", "\n")
+    #print(colnames(sanitized_distances))
     sanitized_distances$Gene <- gene_name
     
     write.csv(sanitized_distances, normalized_gene_fout, row.names = FALSE)
@@ -122,15 +122,15 @@ normalize_distances <- function(tree_file, normalized_distances_fout, query_spec
 # Declare paths to apo-fr10 treefiles
 
 tree_files <- c(
-  "alignments/apo-fr10_alignments/ApoA-II_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoA-V_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoC-IV_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoA-IV_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoC-III_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoC-I_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoA-I_aligned.plottree",
-  "alignments/apo-fr10_alignments/ApoC-II_aligned.plottree",
-  "alignments/apo-fr10_alignments/АроЕ_aligned.plottree"
+  "../alignments/apo-fr10_alignments/ApoA-II_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoA-V_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoC-IV_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoA-IV_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoC-III_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoC-I_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoA-I_aligned.plottree",
+  "../alignments/apo-fr10_alignments/ApoC-II_aligned.plottree",
+  "../alignments/apo-fr10_alignments/АроЕ_aligned.plottree"
 )
 normalized_distances_fout <- "normalized_distances_fr10.csv"
 query_species <- "Lithobates_sylvaticus"
@@ -145,15 +145,15 @@ for (tree_file in tree_files) {
 # Declare paths to apo-drp10 treefiles
 
 tree_files <- c(
-  "alignments/apo-drp10_alignments/ApoA-II_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoA-V_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoC-IV_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoA-IV_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoC-III_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoC-I_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoA-I_aligned.plottree",
-  "alignments/apo-drp10_alignments/ApoC-II_aligned.plottree",
-  "alignments/apo-drp10_alignments/АроЕ_aligned.plottree"
+  "../alignments/apo-drp10_alignments/ApoA-II_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoA-V_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoC-IV_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoA-IV_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoC-III_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoC-I_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoA-I_aligned.plottree",
+  "../alignments/apo-drp10_alignments/ApoC-II_aligned.plottree",
+  "../alignments/apo-drp10_alignments/АроЕ_aligned.plottree"
 )
 
 normalized_distances_fout <- "normalized_distances_drp10.csv"
