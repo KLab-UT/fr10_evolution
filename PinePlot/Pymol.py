@@ -1,9 +1,11 @@
+# Importing molecular structure from pymol
 from pymol import cmd
-
+# Comparing pbd files to get RMSD values
 def compare_rmsd(selection1, selection2):
     """
     Calculate RMSD between two selections.
     """
+    # Align the two selections and return the RMSD value
     rmsd = cmd.align(selection1, selection2)[0]
     return rmsd
 
@@ -18,18 +20,7 @@ pdb_files = [
     "apoC-II_x_trop (1).pdb",
     "apoE_x_trop (1).pdb",
     "drp10_x_laev (1).pdb",
-    "fr10_a_wuy.pdb",
-    "fr10_l_clam.pdb",
-    "fr10_l_pip.pdb",
-    "fr10_o_tor.pdb",
-    "fr10_p_ads.pdb",
-    "fr10_p_mega.pdb",
-    "fr10_r_cat.pdb",
-    "fr10_r_kuk.pdb",
-    "fr10_r_mus.pdb",
     "fr10_r_syl.pdb",
-    "fr10_r_temp.pdb",
-    "ls12_m_oct.pdb"
 ]
 
 # Function to compare each file to each other
@@ -45,9 +36,3 @@ def compare_all_rmsd():
 
 # Execute comparison
 compare_all_rmsd()
-
-compare_rmsd(selection1, selection2)
-
-
-
-#New Code 
