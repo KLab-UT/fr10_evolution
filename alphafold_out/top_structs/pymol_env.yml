@@ -1,0 +1,4 @@
+name: pymol_env
+dependencies:
+  - python=3.11.7
+  - pymol-open-source
