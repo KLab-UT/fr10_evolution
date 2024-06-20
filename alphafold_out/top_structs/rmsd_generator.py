@@ -29,7 +29,7 @@ outfile.write("comparison,rmsd\n")
 def compare_all_rmsd():
     for i, file1 in enumerate(pdb_files):
         for j, file2 in enumerate(pdb_files):
-            if i < j:
+            if i <= j:
                 cmd.reinitialize()
                 cmd.load(file1, "prot1")
                 cmd.load(file2, "prot2")
