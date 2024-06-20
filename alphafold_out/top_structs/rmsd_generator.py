@@ -34,7 +34,7 @@ def compare_all_rmsd():
                 cmd.load(file1, "prot1")
                 cmd.load(file2, "prot2")
                 rmsd = compare_rmsd("prot1", "prot2")
-                outfile.write("({})_({}),{:.3f}\n".format(file1, file2, rmsd))
+                outfile.write("({}),({}),{:.3f}\n".format(file1, file2, rmsd))
 
 # Execute comparison
 compare_all_rmsd()
