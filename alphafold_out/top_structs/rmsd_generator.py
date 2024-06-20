@@ -23,7 +23,7 @@ pdb_files = [
 ]
 
 outfile = open('rmsd_values.csv', 'w')
-outfile.write("comparison,rmsd\n")
+outfile.write("P1,P2,rmsd\n")
 
 # Function to compare each file to each other
 def compare_all_rmsd():
