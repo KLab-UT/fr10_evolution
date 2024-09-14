@@ -19,7 +19,7 @@ melted_data <- melt(heatmap)
 # Create heat map using ggplot2
 ggplot(data = heatmap, aes(x = P1, y = P2, fill = rmsd)) +
   geom_tile() +
-  scale_fill_gradient(low = "Blue", high = "red") +
+  scale_fill_gradient(low = "orange", high = "lightyellow") +
   theme_minimal() +
   labs(x = "Rows", y = "Columns", fill = "Value")
 
